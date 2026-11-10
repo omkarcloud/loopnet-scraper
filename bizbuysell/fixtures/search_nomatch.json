@@ -1,0 +1,1520 @@
+{
+ "bbsBfsSearchResult": {
+  "status": 1,
+  "count": 0,
+  "total": 0,
+  "timeMs": 337,
+  "canonicalUrl": "/businesses-for-sale/",
+  "displayUrl": "/businesses-for-sale/",
+  "queryString": "q=az16enFxeHh5eXp6dnY=",
+  "value": [],
+  "autoExpandedGeography": null,
+  "relatedBusinessListings": [
+   {
+    "listNumber": 2489313,
+    "pListNumber": "scblpdsy",
+    "originSubSiteId": null,
+    "absenteeOwner": true,
+    "account": 3293,
+    "addressConfidential": true,
+    "adLevelId": 3,
+    "adLine": null,
+    "advertiserId": 399,
+    "areaUnitTypeId": null,
+    "askingPrice": 50000.0,
+    "askingPricePerSquareFoot": null,
+    "bbsLenderStatusTypeId": null,
+    "bizQuestPrimaryCategoryId": 10,
+    "bizQuestPrimarySubcategoryId": 224,
+    "bizQuestSecondaryCategoryId": null,
+    "bizQuestSecondarySubCategoryId": null,
+    "brandName": null,
+    "brokerCompany": "Amped Business Acquisitions (Formerly WCI Business Brokers)",
+    "brokerCompanyPhotoFName": "/shared/brokerdirectory/images/3293/ABA_Logo_Cropped.jpg",
+    "brokerPersonalPhotoFName": "/shared/brokerdirectory/images/3293/Matt.png",
+    "brokerProfileId": 1172,
+    "brokerProfileTypeId": 2,
+    "brokerProfileUrl": "/business-broker/matt-uhler/amped-business-acquisitions-formerly-wci-business-brokers/1172/",
+    "buildingSquareFeet": null,
+    "buildingStatusId": null,
+    "businessName": null,
+    "businessRelationshipId": null,
+    "businessRelationshipOtherText": null,
+    "cashflow": 6229.0,
+    "city": null,
+    "cityConfidential": true,
+    "coBrandingId": null,
+    "coBrokeringEnabled": false,
+    "commissionExpectedDescription": null,
+    "commissionExpectedPercentage": null,
+    "competition": "",
+    "contactAccount": 3293,
+    "contactBpPhotoName": "/shared/brokerdirectory/images/3293/Matt.png",
+    "contactFirstName": "Matt",
+    "contactFullName": "Matt Uhler",
+    "contactInfoId": 5610681,
+    "contactLastName": "Uhler",
+    "contactInfoPersonId": 6879,
+    "contractor": 0,
+    "country": "US",
+    "country3": null,
+    "countryId": 1,
+    "county": "Pima County",
+    "countyConfidential": false,
+    "countyId": 181,
+    "cultureCode": null,
+    "currencyCode": null,
+    "currentAndPriorUse": null,
+    "currentLenderTypeId": null,
+    "currentPropertyExpenses": null,
+    "ebitda": null,
+    "employees": null,
+    "employeeNotes": null,
+    "enterpriseContactId": null,
+    "enterpriseCountyId": 103,
+    "enterprisePropertyId": null,
+    "enterprisePropertyTypeId": null,
+    "enterpriseSubMarketId": null,
+    "expensesPerSquareFoot": null,
+    "expirationTypeId": 0,
+    "facilities": "",
+    "feesAndPayments": null,
+    "ffe": 50000.0,
+    "financingOptions": "",
+    "financingTypeId": 0,
+    "firstName": "Matt",
+    "franchiseBrandConfidential": true,
+    "fullName": "Matt Uhler",
+    "fullTime": 1,
+    "grossIncome": 269539.0,
+    "growth": "",
+    "heading": "Superfood Cafe Featuring Acai Bowls & Smoothies",
+    "homeBased": false,
+    "hotProperty": false,
+    "indirectTaxTypeId": null,
+    "indirectTaxStatusTypeId": null,
+    "initialCapital": null,
+    "initialFee": null,
+    "inventory": 8000.0,
+    "inventoryIncludedInAskingPrice": true,
+    "isFdResale": false,
+    "isFranchise": true,
+    "lastName": "Uhler",
+    "latitude": null,
+    "leaseExpirationDate": null,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": null,
+    "leaseTerms": null,
+    "lenderExpiration": null,
+    "lengthUnitTypeId": null,
+    "listingAttachments": [
+     {
+      "listingAttachmentId": "4aae05c3-d610-44c7-be2d-f606649f66a9",
+      "listingAttachmentTypeId": 10,
+      "listingAttachmentStatusId": 10,
+      "extension": "webp",
+      "sortOrder": 0,
+      "externalSourceId": 0,
+      "externalId": "",
+      "description": "",
+      "fileName": "pexels-veronique-nijs-345260486-14167805.webp",
+      "urlOriginalSize": "/shared/listings/248/2489313/4aae05c3-d610-44c7-be2d-f606649f66a9.webp"
+     }
+    ],
+    "listingPriceReduced": true,
+    "listingStatusId": 1,
+    "listingTypeId": 40,
+    "listingVisibilityId": 1,
+    "locationDescription": null,
+    "longitude": null,
+    "maxAvailableSpace": null,
+    "minAvailableSpace": null,
+    "metroAreaIds": null,
+    "multipleEbitda": null,
+    "multipleSde": 8.03,
+    "netOperatingIncome": null,
+    "nonCashExpenses": null,
+    "numberOfEstablishments": null,
+    "numberOfOpportunities": null,
+    "ownersComp": null,
+    "ownersExpenses": null,
+    "partTime": 4,
+    "personDesignations": [
+     {
+      "personId": 6879,
+      "designationId": 12
+     }
+    ],
+    "personId": 6879,
+    "personOriginSiteId": 0,
+    "preTaxNetIncome": null,
+    "primaryBizTypeId": 174,
+    "pCountryId": null,
+    "pRegionId": null,
+    "pRegion": null,
+    "pCountyId": null,
+    "pCityId": null,
+    "realEstate": null,
+    "realEstateIncludedInAskingPrice": false,
+    "realEstatePropertyTypeId": 30,
+    "realEstateTypeId": null,
+    "reasonsForSelling": "prioritizing ventures",
+    "recentlyAdded": false,
+    "recentlyUpdated": false,
+    "region": "AZ",
+    "regionConfidential": false,
+    "regionId": 17,
+    "relationshipTypeId": 10,
+    "relocatable": false,
+    "requestContactAvailableFunds": false,
+    "requestContactTimeFrame": false,
+    "requestContactZip": false,
+    "requireConfidentialityAgreement": false,
+    "requireContactName": false,
+    "requireContactTelephone": false,
+    "secondaryBizTypeId": 0,
+    "shareOfCommission": null,
+    "specialInternationalRegionId": null,
+    "streetAddress": null,
+    "summary": "Founded in 2011, this established franchise is a fast-casual superfood café offering a diverse menu of bowls, smoothies, juices, wraps, toasts, paninis, and grain bowls. The concept is centered around nutrient-dense “superfoods,” with a focus on ingredients rich in antioxidants and vitamins. All items are made-to-order, allowing for a high degree of customization to accommodate a wide range of dietary preferences and restrictions.\nThe business is currently operated on an absentee basis; however, it offers substantial growth potential for an engaged owner-operator who can enhance sales and optimize day-to-day performance. Financial information is based on their January through December 2025 P&L, with Owner’s Cash Flow of $6,229 and an average monthly Owner’s Cash Flow of $519, adding back manager’s wages, assuming an owner operator.",
+    "support": "15 days familiarization included in asking price",
+    "syndicators": [
+     {
+      "syndicatorId": 12,
+      "coBrandId": 51,
+      "syndicatedBizopsStatusId": 10,
+      "personId": 6879,
+      "syndicatedPersonStatusId": 10
+     }
+    ],
+    "telephone": "(928) 445-1144",
+    "phoneCountryCode": null,
+    "thumbnailImageUrl": null,
+    "tpnPhone": "9287568171",
+    "tpnPhoneExt": "",
+    "tripleNetLeased": false,
+    "type": null,
+    "url": "",
+    "userTypeId": 40,
+    "version": "2026-06-05T20:29:25Z",
+    "visibilityStatusChangedDate": null,
+    "websiteConfidential": false,
+    "yearEstablished": 2024,
+    "yearOfConstruction": null,
+    "zip": null,
+    "urlStub": "/business-opportunity/superfood-cafe-featuring-acai-bowls-and-smoothies/2489313/",
+    "locationDetail": "Pima County, AZ",
+    "locationDetailCrumbs": null,
+    "searchOffset": 0,
+    "auctionDetail": null,
+    "profileViews": 118
+   },
+   {
+    "listNumber": 2527509,
+    "pListNumber": "xjb0kbzl",
+    "originSubSiteId": null,
+    "absenteeOwner": false,
+    "account": 46848,
+    "addressConfidential": true,
+    "adLevelId": 4,
+    "adLine": "Great Opportunity! ",
+    "advertiserId": 0,
+    "areaUnitTypeId": null,
+    "askingPrice": 194000.0,
+    "askingPricePerSquareFoot": null,
+    "bbsLenderStatusTypeId": null,
+    "bizQuestPrimaryCategoryId": 13,
+    "bizQuestPrimarySubcategoryId": 233,
+    "bizQuestSecondaryCategoryId": null,
+    "bizQuestSecondarySubCategoryId": null,
+    "brandName": null,
+    "brokerCompany": "Transworld Phoenix",
+    "brokerCompanyPhotoFName": "/shared/brokerdirectory/images/46848/TRANSWORLD_Stacked_2Color_Services_Tagline_VF2_01.png",
+    "brokerPersonalPhotoFName": "/shared/brokerdirectory/images/46848/2.png",
+    "brokerProfileId": 38724,
+    "brokerProfileTypeId": 4,
+    "brokerProfileUrl": "/business-broker/brent-bengtson/transworld-phoenix/38724/",
+    "buildingSquareFeet": null,
+    "buildingStatusId": null,
+    "businessName": null,
+    "businessRelationshipId": null,
+    "businessRelationshipOtherText": null,
+    "cashflow": null,
+    "city": null,
+    "cityConfidential": true,
+    "coBrandingId": null,
+    "coBrokeringEnabled": false,
+    "commissionExpectedDescription": null,
+    "commissionExpectedPercentage": null,
+    "competition": "",
+    "contactAccount": 51352,
+    "contactBpPhotoName": "/shared/brokerdirectory/images/51352/Brent_B_Outside.jpg",
+    "contactFirstName": "Brent",
+    "contactFullName": "Brent Bengtson",
+    "contactInfoId": 5791604,
+    "contactLastName": "Bengtson",
+    "contactInfoPersonId": 1765314,
+    "contractor": null,
+    "country": "US",
+    "country3": null,
+    "countryId": 1,
+    "county": "Maricopa County",
+    "countyConfidential": false,
+    "countyId": 178,
+    "cultureCode": null,
+    "currencyCode": null,
+    "currentAndPriorUse": null,
+    "currentLenderTypeId": null,
+    "currentPropertyExpenses": null,
+    "ebitda": null,
+    "employees": null,
+    "employeeNotes": "3",
+    "enterpriseContactId": null,
+    "enterpriseCountyId": 93,
+    "enterprisePropertyId": 0,
+    "enterprisePropertyTypeId": 0,
+    "enterpriseSubMarketId": 0,
+    "expensesPerSquareFoot": null,
+    "expirationTypeId": 0,
+    "facilities": "",
+    "feesAndPayments": null,
+    "ffe": 192450.0,
+    "financingOptions": "",
+    "financingTypeId": 0,
+    "firstName": "Ryan",
+    "franchiseBrandConfidential": false,
+    "fullName": "Ryan Armstrong, CBI",
+    "fullTime": null,
+    "grossIncome": 237000.0,
+    "growth": "",
+    "heading": "Established Medical Aesthetics Practice|$192K+ Premium Equipment",
+    "homeBased": false,
+    "hotProperty": false,
+    "indirectTaxTypeId": null,
+    "indirectTaxStatusTypeId": null,
+    "initialCapital": null,
+    "initialFee": null,
+    "inventory": 40000.0,
+    "inventoryIncludedInAskingPrice": true,
+    "isFdResale": false,
+    "isFranchise": false,
+    "lastName": "Armstrong, CBI",
+    "latitude": 0.0,
+    "leaseExpirationDate": null,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": 3443.0,
+    "leaseTerms": null,
+    "lenderExpiration": null,
+    "lengthUnitTypeId": null,
+    "listingAttachments": [
+     {
+      "listingAttachmentId": "ef3973d0-f026-42e1-9508-df8350e07db8",
+      "listingAttachmentTypeId": 10,
+      "listingAttachmentStatusId": 10,
+      "extension": "webp",
+      "sortOrder": 0,
+      "externalSourceId": 0,
+      "externalId": "",
+      "description": "",
+      "fileName": "014073bd308248dcf5d4c52ee478e4d73073bb2a3cb55de3d17bccb7480fafb3.webp",
+      "urlOriginalSize": "/shared/listings/252/2527509/ef3973d0-f026-42e1-9508-df8350e07db8.webp"
+     }
+    ],
+    "listingPriceReduced": false,
+    "listingStatusId": 1,
+    "listingTypeId": 40,
+    "listingVisibilityId": 1,
+    "locationDescription": null,
+    "longitude": 0.0,
+    "maxAvailableSpace": null,
+    "minAvailableSpace": null,
+    "metroAreaIds": [
+     162
+    ],
+    "multipleEbitda": null,
+    "multipleSde": null,
+    "netOperatingIncome": null,
+    "nonCashExpenses": null,
+    "numberOfEstablishments": null,
+    "numberOfOpportunities": null,
+    "ownersComp": null,
+    "ownersExpenses": null,
+    "partTime": null,
+    "personDesignations": [
+     {
+      "personId": 1277697,
+      "designationId": 12
+     }
+    ],
+    "personId": 1277697,
+    "personOriginSiteId": 0,
+    "preTaxNetIncome": null,
+    "primaryBizTypeId": 144,
+    "pCountryId": null,
+    "pRegionId": null,
+    "pRegion": null,
+    "pCountyId": null,
+    "pCityId": null,
+    "realEstate": null,
+    "realEstateIncludedInAskingPrice": false,
+    "realEstatePropertyTypeId": 20,
+    "realEstateTypeId": null,
+    "reasonsForSelling": "New Venture",
+    "recentlyAdded": false,
+    "recentlyUpdated": true,
+    "region": "AZ",
+    "regionConfidential": false,
+    "regionId": 17,
+    "relationshipTypeId": 10,
+    "relocatable": false,
+    "requestContactAvailableFunds": false,
+    "requestContactTimeFrame": false,
+    "requestContactZip": false,
+    "requireConfidentialityAgreement": false,
+    "requireContactName": false,
+    "requireContactTelephone": false,
+    "secondaryBizTypeId": 0,
+    "shareOfCommission": null,
+    "specialInternationalRegionId": null,
+    "streetAddress": null,
+    "summary": "This established medical aesthetics and wellness practice offers a turnkey opportunity with a loyal client base, diversified revenue streams, and approximately $192,450 in FF&E and inventory included in the sale. The practice features advanced aesthetic and wellness technology, including Exion, Emsculpt Neo, Emsella, and DiamondGlow systems, providing a significant platform for continued growth without the need for substantial upfront equipment investment.\n\nA compelling opportunity exists for a sales- and marketing-focused owner to increase utilization of the existing technology, grow memberships, expand the client base, and introduce additional providers and services. With the infrastructure, equipment, and operating foundation already in place, the business offers significant upside for an owner focused on business development and growth.\n\nInvestment Highlights\n\n\tApproximately $192,450 in FF&E and inventory\n\tAdvanced Exion, Emsculpt Neo, Emsella & DiamondGlow technology\n\tEstablished practice with loyal and recurring clientele\n\tMultiple aesthetic and wellness revenue streams\n\tSignificant unused equipment and treatment capacity\n\tStrong opportunity for a sales- and marketing-driven owner\n\tGrowth potential through memberships, providers & increased utilization\n\tSeller training and transition support\n\nContact Brent Bengtson at 602-448-1522. Transworld Business Advisors Phoenix for additional information and to learn more about this opportunity.",
+    "support": "30 weeks",
+    "syndicators": [
+     {
+      "syndicatorId": 12,
+      "coBrandId": 51,
+      "syndicatedBizopsStatusId": 10,
+      "personId": 1277697,
+      "syndicatedPersonStatusId": 10
+     }
+    ],
+    "telephone": "(602) 448-1522",
+    "phoneCountryCode": null,
+    "thumbnailImageUrl": null,
+    "tpnPhone": "4806133459",
+    "tpnPhoneExt": "",
+    "tripleNetLeased": false,
+    "type": null,
+    "url": "",
+    "userTypeId": 40,
+    "version": "2026-10-28T15:17:49Z",
+    "visibilityStatusChangedDate": "2026-07-09T10:26:38",
+    "websiteConfidential": false,
+    "yearEstablished": 2018,
+    "yearOfConstruction": null,
+    "zip": null,
+    "urlStub": "/business-opportunity/established-medical-aesthetics-practice-192k-premium-equipment/2527509/",
+    "locationDetail": "Maricopa County, AZ",
+    "locationDetailCrumbs": null,
+    "searchOffset": 1,
+    "auctionDetail": null,
+    "profileViews": 205
+   },
+   {
+    "listNumber": 2499376,
+    "pListNumber": "q23fl3qa",
+    "originSubSiteId": null,
+    "absenteeOwner": true,
+    "account": null,
+    "addressConfidential": true,
+    "adLevelId": 3,
+    "adLine": null,
+    "advertiserId": 0,
+    "areaUnitTypeId": null,
+    "askingPrice": 60000.0,
+    "askingPricePerSquareFoot": null,
+    "bbsLenderStatusTypeId": null,
+    "bizQuestPrimaryCategoryId": 10,
+    "bizQuestPrimarySubcategoryId": 225,
+    "bizQuestSecondaryCategoryId": null,
+    "bizQuestSecondarySubCategoryId": null,
+    "brandName": null,
+    "brokerCompany": null,
+    "brokerCompanyPhotoFName": null,
+    "brokerPersonalPhotoFName": null,
+    "brokerProfileId": null,
+    "brokerProfileTypeId": null,
+    "brokerProfileUrl": null,
+    "buildingSquareFeet": 2000.0,
+    "buildingStatusId": null,
+    "businessName": null,
+    "businessRelationshipId": 10,
+    "businessRelationshipOtherText": null,
+    "cashflow": null,
+    "city": "Denver",
+    "cityConfidential": false,
+    "coBrandingId": null,
+    "coBrokeringEnabled": false,
+    "commissionExpectedDescription": null,
+    "commissionExpectedPercentage": null,
+    "competition": "The health-focused café segment continues to grow, and consumer demand for clean, ingredient-forward food in accessible neighborhood settings is as strong as it's ever been in Denver. This brand sits squarely in that trend — with a menu built around smoothies, acai bowls, loaded toasts, and specialty coffee that appeals to health-conscious regulars and curious new visitors alike.\n\nNW Denver's neighborhoods are among the city's most active and community-oriented, with strong spending power and a customer base that actively supports local independent businesses. This brand already belongs there. It just needs an owner who does too.",
+    "contactAccount": null,
+    "contactBpPhotoName": null,
+    "contactFirstName": "James",
+    "contactFullName": "James Samara",
+    "contactInfoId": 5640861,
+    "contactLastName": "Samara",
+    "contactInfoPersonId": 1935632,
+    "contractor": null,
+    "country": "US",
+    "country3": null,
+    "countryId": 1,
+    "county": "Denver County",
+    "countyConfidential": false,
+    "countyId": 260,
+    "cultureCode": null,
+    "currencyCode": null,
+    "currentAndPriorUse": null,
+    "currentLenderTypeId": null,
+    "currentPropertyExpenses": null,
+    "ebitda": null,
+    "employees": null,
+    "employeeNotes": "Ownership has not been heavily involved. We currently have a lead manager at eac",
+    "enterpriseContactId": null,
+    "enterpriseCountyId": 241,
+    "enterprisePropertyId": null,
+    "enterprisePropertyTypeId": null,
+    "enterpriseSubMarketId": null,
+    "expensesPerSquareFoot": null,
+    "expirationTypeId": 0,
+    "facilities": "Great Branding, PR, marketing, all IP and website goes with the sale. This is truly a turn-key business with 2 locations. 2 of the hottest locations is Denver. Walkable, high-income, young clientele. We've spent the last 4 years building the systems to dramatically grow this bussiness. Motivated landlord is happy to re-write a new affordable lease. Plenty of outdoor space and a strong online/grab & go/Dine-in model. Very loyal long-term customer base.",
+    "feesAndPayments": null,
+    "ffe": 72000.0,
+    "financingOptions": "Negotiable for qualified buyer",
+    "financingTypeId": 1,
+    "firstName": "James",
+    "franchiseBrandConfidential": false,
+    "fullName": "James Samara",
+    "fullTime": null,
+    "grossIncome": 654000.0,
+    "growth": "Endless opportunities with an engaged owner. Extending hours and offerings would immediately drive profitability.",
+    "heading": "2 Locations - Smoothies, Toasts, Acai Bowls & Coffee Shop",
+    "homeBased": false,
+    "hotProperty": true,
+    "indirectTaxTypeId": null,
+    "indirectTaxStatusTypeId": null,
+    "initialCapital": null,
+    "initialFee": null,
+    "inventory": 500.0,
+    "inventoryIncludedInAskingPrice": false,
+    "isFdResale": false,
+    "isFranchise": false,
+    "lastName": "Samara",
+    "latitude": null,
+    "leaseExpirationDate": null,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": 7500.0,
+    "leaseTerms": null,
+    "lenderExpiration": null,
+    "lengthUnitTypeId": null,
+    "listingAttachments": [
+     {
+      "listingAttachmentId": "346f0738-1e61-408d-b6f6-114ed8ff19c1",
+      "listingAttachmentTypeId": 10,
+      "listingAttachmentStatusId": 10,
+      "extension": "webp",
+      "sortOrder": 0,
+      "externalSourceId": 0,
+      "externalId": "",
+      "description": "Stock Photo",
+      "fileName": "Stock Photo for BBS.webp",
+      "urlOriginalSize": "/shared/listings/249/2499376/346f0738-1e61-408d-b6f6-114ed8ff19c1.webp"
+     }
+    ],
+    "listingPriceReduced": true,
+    "listingStatusId": 1,
+    "listingTypeId": 40,
+    "listingVisibilityId": 1,
+    "locationDescription": null,
+    "longitude": null,
+    "maxAvailableSpace": null,
+    "minAvailableSpace": null,
+    "metroAreaIds": [
+     79
+    ],
+    "multipleEbitda": null,
+    "multipleSde": null,
+    "netOperatingIncome": null,
+    "nonCashExpenses": null,
+    "numberOfEstablishments": null,
+    "numberOfOpportunities": null,
+    "ownersComp": null,
+    "ownersExpenses": null,
+    "partTime": 9,
+    "personDesignations": null,
+    "personId": 1935632,
+    "personOriginSiteId": 0,
+    "preTaxNetIncome": null,
+    "primaryBizTypeId": 214,
+    "pCountryId": null,
+    "pRegionId": null,
+    "pRegion": null,
+    "pCountyId": null,
+    "pCityId": null,
+    "realEstate": null,
+    "realEstateIncludedInAskingPrice": false,
+    "realEstatePropertyTypeId": 20,
+    "realEstateTypeId": null,
+    "reasonsForSelling": "Owners are too busy to focus on the bussiness",
+    "recentlyAdded": false,
+    "recentlyUpdated": false,
+    "region": "CO",
+    "regionConfidential": false,
+    "regionId": 19,
+    "relationshipTypeId": 10,
+    "relocatable": false,
+    "requestContactAvailableFunds": false,
+    "requestContactTimeFrame": false,
+    "requestContactZip": false,
+    "requireConfidentialityAgreement": false,
+    "requireContactName": false,
+    "requireContactTelephone": false,
+    "secondaryBizTypeId": 0,
+    "shareOfCommission": null,
+    "specialInternationalRegionId": null,
+    "streetAddress": null,
+    "summary": "This health-focused café brand operates two turn-key locations in desirable Northwest Denver neighborhoods, generating $654,000 in annual revenue. Established in 2022, the business has built a loyal customer base through its carefully crafted menu of smoothies, acai bowls, loaded toasts, and specialty coffee that appeals to health-conscious consumers.\n\nBUSINESS HIGHLIGHTS:\n• Two prime locations in high-foot-traffic NW Denver neighborhoods with captive audiences\n• Proven operational model with established systems and turn-key staff in place\n• Strong positioning in the growing health-focused café segment\n• Menu built around trending items: smoothies, acai bowls, loaded toasts, specialty coffee\n• Refined brand identity with completed menu R&D, interior design, and operational systems\n\nFINANCIALS:\n• Annual Revenue: $654,000\n• Asking Price: $110,000\n• FF&E Value: $72,000\n• Inventory Value: $500\n• Monthly Lease: $7,500 for 2,000 sq ft\n• Seller financing available for qualified buyers\n\nOPERATIONS:\n• Currently absentee-owned with managers and staff operating independently\n• Located in community-oriented neighborhoods with strong spending power\n• Customer base actively supports local independent businesses\n• All foundational work completed: concept development, neighborhood reputation established\n\nGROWTH POTENTIAL:\n• Immediate profitability opportunities through extended hours and expanded offerings\n• Strong consumer demand for clean, ingredient-forward food in accessible settings\n• Engaged ownership could significantly enhance performance\n• Established brand ready for optimization\n\nThe owners are selling due to other business commitments preventing proper focus. This represents an opportunity to acquire a fully developed concept in Denver's thriving health food market, positioned for growth under dedicated ownership.",
+    "support": "As needed. Managers and staff are turn-key. A more involved owner would be a huge asset to the business.",
+    "syndicators": null,
+    "telephone": "(512) 773-3645",
+    "phoneCountryCode": null,
+    "thumbnailImageUrl": null,
+    "tpnPhone": null,
+    "tpnPhoneExt": null,
+    "tripleNetLeased": false,
+    "type": null,
+    "url": null,
+    "userTypeId": null,
+    "version": "2026-10-21T16:46:43Z",
+    "visibilityStatusChangedDate": null,
+    "websiteConfidential": true,
+    "yearEstablished": 2022,
+    "yearOfConstruction": null,
+    "zip": "80204",
+    "urlStub": "/business-opportunity/2-locations-smoothies-toasts-acai-bowls-and-coffee-shop/2499376/",
+    "locationDetail": "Denver, CO",
+    "locationDetailCrumbs": null,
+    "searchOffset": 2,
+    "auctionDetail": null,
+    "profileViews": 792
+   }
+  ],
+  "relatedBusinessListingsHeader": "Businesses For Sale",
+  "relatedDiamondListings": null,
+  "relatedAuctions": null,
+  "relatedFranchises": null,
+  "franchiseOpportunitiesUrl": "/fd/SearchResultsMulti.aspx?f_seo=true",
+  "relatedBrokerProfiles": null,
+  "relatedSearches": [
+   {
+    "relatedSearchText": "View More Businesses For Sale in Popular Categories",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Agriculture",
+      "titleShort": "Agriculture",
+      "metaTitle": "Agriculture Businesses For Sale",
+      "link": "/agriculture-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Automotive & Boat",
+      "titleShort": "Automotive & Boat",
+      "metaTitle": "Automotive and Boat Businesses For Sale",
+      "link": "/automotive-and-boat-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Beauty & Personal Care",
+      "titleShort": "Beauty & Personal Care",
+      "metaTitle": "Beauty and Personal Care Businesses For Sale",
+      "link": "/beauty-and-personal-care-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Building & Construction",
+      "titleShort": "Building & Construction",
+      "metaTitle": "Building and Construction Businesses For Sale",
+      "link": "/building-and-construction-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Communication & Media",
+      "titleShort": "Communication & Media",
+      "metaTitle": "Communication and Media Businesses For Sale",
+      "link": "/communication-and-media-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Education & Children",
+      "titleShort": "Education & Children",
+      "metaTitle": "Education and Child Related Businesses For Sale",
+      "link": "/education-and-child-related-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Entertainment & Recreation",
+      "titleShort": "Entertainment & Recreation",
+      "metaTitle": "Entertainment and Recreation Businesses For Sale",
+      "link": "/entertainment-and-recreation-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Financial Services",
+      "titleShort": "Financial Services",
+      "metaTitle": "Financial Services Businesses For Sale",
+      "link": "/financial-services-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Health Care & Fitness",
+      "titleShort": "Health Care & Fitness",
+      "metaTitle": "Health Care and Fitness Businesses For Sale",
+      "link": "/health-care-and-fitness-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Manufacturing",
+      "titleShort": "Manufacturing",
+      "metaTitle": "Manufacturing Businesses For Sale",
+      "link": "/manufacturing-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Non-Classifiable Establishments",
+      "titleShort": "Non-Classifiable Establishments",
+      "metaTitle": "All Non-Classifiable Establishments Businesses For Sale",
+      "link": "/all-non-classifiable-establishments-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Online & Technology",
+      "titleShort": "Online & Technology",
+      "metaTitle": "Online and Technology Businesses For Sale",
+      "link": "/online-and-technology-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pet Services",
+      "titleShort": "Pet Services",
+      "metaTitle": "Pet Service Businesses For Sale",
+      "link": "/pet-service-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Restaurants & Food",
+      "titleShort": "Restaurants & Food",
+      "metaTitle": "Restaurants and Food Businesses For Sale",
+      "link": "/restaurants-and-food-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Retail",
+      "titleShort": "Retail",
+      "metaTitle": "Retail Businesses For Sale",
+      "link": "/retail-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Service Businesses",
+      "titleShort": "Service Businesses",
+      "metaTitle": "Service Businesses For Sale",
+      "link": "/service-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Transportation & Storage",
+      "titleShort": "Transportation & Storage",
+      "metaTitle": "Transportation and Storage Businesses For Sale",
+      "link": "/transportation-and-storage-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Travel",
+      "titleShort": "Travel",
+      "metaTitle": "Travel Businesses For Sale",
+      "link": "/travel-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wholesale & Distributors",
+      "titleShort": "Wholesale & Distributors",
+      "metaTitle": "Wholesale and Distribution Businesses For Sale",
+      "link": "/wholesale-and-distribution-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "Businesses For Sale in Popular Markets",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Arizona",
+      "titleShort": "Arizona",
+      "metaTitle": "Businesses For Sale in Arizona",
+      "link": "/arizona-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "Businesses For Sale in California",
+      "link": "/california-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Florida",
+      "titleShort": "Florida",
+      "metaTitle": "Businesses For Sale in Florida",
+      "link": "/florida-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Georgia",
+      "titleShort": "Georgia",
+      "metaTitle": "Businesses For Sale in Georgia",
+      "link": "/georgia-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Jersey",
+      "titleShort": "New Jersey",
+      "metaTitle": "Businesses For Sale in New Jersey",
+      "link": "/new-jersey-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "New York",
+      "titleShort": "New York",
+      "metaTitle": "Businesses For Sale in New York",
+      "link": "/new-york-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pennsylvania",
+      "titleShort": "Pennsylvania",
+      "metaTitle": "Businesses For Sale in Pennsylvania",
+      "link": "/pennsylvania-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Texas",
+      "titleShort": "Texas",
+      "metaTitle": "Businesses For Sale in Texas",
+      "link": "/texas-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "View Franchises in United States",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Alabama",
+      "titleShort": "Alabama",
+      "metaTitle": "Alabama Franchises For Sale",
+      "link": "/franchise-for-sale/alabama/",
+      "linkCount": 0
+     },
+     {
+      "title": "Alaska",
+      "titleShort": "Alaska",
+      "metaTitle": "Alaska Franchises For Sale",
+      "link": "/franchise-for-sale/alaska/",
+      "linkCount": 0
+     },
+     {
+      "title": "Arizona",
+      "titleShort": "Arizona",
+      "metaTitle": "Arizona Franchises For Sale",
+      "link": "/franchise-for-sale/arizona/",
+      "linkCount": 0
+     },
+     {
+      "title": "Arkansas",
+      "titleShort": "Arkansas",
+      "metaTitle": "Arkansas Franchises For Sale",
+      "link": "/franchise-for-sale/arkansas/",
+      "linkCount": 0
+     },
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "California Franchises For Sale",
+      "link": "/franchise-for-sale/california/",
+      "linkCount": 0
+     },
+     {
+      "title": "Colorado",
+      "titleShort": "Colorado",
+      "metaTitle": "Colorado Franchises For Sale",
+      "link": "/franchise-for-sale/colorado/",
+      "linkCount": 0
+     },
+     {
+      "title": "Connecticut",
+      "titleShort": "Connecticut",
+      "metaTitle": "Connecticut Franchises For Sale",
+      "link": "/franchise-for-sale/connecticut/",
+      "linkCount": 0
+     },
+     {
+      "title": "Delaware",
+      "titleShort": "Delaware",
+      "metaTitle": "Delaware Franchises For Sale",
+      "link": "/franchise-for-sale/delaware/",
+      "linkCount": 0
+     },
+     {
+      "title": "District of Columbia",
+      "titleShort": "District of Columbia",
+      "metaTitle": "District of Columbia Franchises For Sale",
+      "link": "/franchise-for-sale/district-of-columbia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Florida",
+      "titleShort": "Florida",
+      "metaTitle": "Florida Franchises For Sale",
+      "link": "/franchise-for-sale/florida/",
+      "linkCount": 0
+     },
+     {
+      "title": "Georgia",
+      "titleShort": "Georgia",
+      "metaTitle": "Georgia Franchises For Sale",
+      "link": "/franchise-for-sale/georgia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Hawaii",
+      "titleShort": "Hawaii",
+      "metaTitle": "Hawaii Franchises For Sale",
+      "link": "/franchise-for-sale/hawaii/",
+      "linkCount": 0
+     },
+     {
+      "title": "Idaho",
+      "titleShort": "Idaho",
+      "metaTitle": "Idaho Franchises For Sale",
+      "link": "/franchise-for-sale/idaho/",
+      "linkCount": 0
+     },
+     {
+      "title": "Illinois",
+      "titleShort": "Illinois",
+      "metaTitle": "Illinois Franchises For Sale",
+      "link": "/franchise-for-sale/illinois/",
+      "linkCount": 0
+     },
+     {
+      "title": "Indiana",
+      "titleShort": "Indiana",
+      "metaTitle": "Indiana Franchises For Sale",
+      "link": "/franchise-for-sale/indiana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Iowa",
+      "titleShort": "Iowa",
+      "metaTitle": "Iowa Franchises For Sale",
+      "link": "/franchise-for-sale/iowa/",
+      "linkCount": 0
+     },
+     {
+      "title": "Kansas",
+      "titleShort": "Kansas",
+      "metaTitle": "Kansas Franchises For Sale",
+      "link": "/franchise-for-sale/kansas/",
+      "linkCount": 0
+     },
+     {
+      "title": "Kentucky",
+      "titleShort": "Kentucky",
+      "metaTitle": "Kentucky Franchises For Sale",
+      "link": "/franchise-for-sale/kentucky/",
+      "linkCount": 0
+     },
+     {
+      "title": "Louisiana",
+      "titleShort": "Louisiana",
+      "metaTitle": "Louisiana Franchises For Sale",
+      "link": "/franchise-for-sale/louisiana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Maine",
+      "titleShort": "Maine",
+      "metaTitle": "Maine Franchises For Sale",
+      "link": "/franchise-for-sale/maine/",
+      "linkCount": 0
+     },
+     {
+      "title": "Maryland",
+      "titleShort": "Maryland",
+      "metaTitle": "Maryland Franchises For Sale",
+      "link": "/franchise-for-sale/maryland/",
+      "linkCount": 0
+     },
+     {
+      "title": "Massachusetts",
+      "titleShort": "Massachusetts",
+      "metaTitle": "Massachusetts Franchises For Sale",
+      "link": "/franchise-for-sale/massachusetts/",
+      "linkCount": 0
+     },
+     {
+      "title": "Michigan",
+      "titleShort": "Michigan",
+      "metaTitle": "Michigan Franchises For Sale",
+      "link": "/franchise-for-sale/michigan/",
+      "linkCount": 0
+     },
+     {
+      "title": "Minnesota",
+      "titleShort": "Minnesota",
+      "metaTitle": "Minnesota Franchises For Sale",
+      "link": "/franchise-for-sale/minnesota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Mississippi",
+      "titleShort": "Mississippi",
+      "metaTitle": "Mississippi Franchises For Sale",
+      "link": "/franchise-for-sale/mississippi/",
+      "linkCount": 0
+     },
+     {
+      "title": "Missouri",
+      "titleShort": "Missouri",
+      "metaTitle": "Missouri Franchises For Sale",
+      "link": "/franchise-for-sale/missouri/",
+      "linkCount": 0
+     },
+     {
+      "title": "Montana",
+      "titleShort": "Montana",
+      "metaTitle": "Montana Franchises For Sale",
+      "link": "/franchise-for-sale/montana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Nebraska",
+      "titleShort": "Nebraska",
+      "metaTitle": "Nebraska Franchises For Sale",
+      "link": "/franchise-for-sale/nebraska/",
+      "linkCount": 0
+     },
+     {
+      "title": "Nevada",
+      "titleShort": "Nevada",
+      "metaTitle": "Nevada Franchises For Sale",
+      "link": "/franchise-for-sale/nevada/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Hampshire",
+      "titleShort": "New Hampshire",
+      "metaTitle": "New Hampshire Franchises For Sale",
+      "link": "/franchise-for-sale/new-hampshire/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Jersey",
+      "titleShort": "New Jersey",
+      "metaTitle": "New Jersey Franchises For Sale",
+      "link": "/franchise-for-sale/new-jersey/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Mexico",
+      "titleShort": "New Mexico",
+      "metaTitle": "New Mexico Franchises For Sale",
+      "link": "/franchise-for-sale/new-mexico/",
+      "linkCount": 0
+     },
+     {
+      "title": "New York",
+      "titleShort": "New York",
+      "metaTitle": "New York Franchises For Sale",
+      "link": "/franchise-for-sale/new-york/",
+      "linkCount": 0
+     },
+     {
+      "title": "North Carolina",
+      "titleShort": "North Carolina",
+      "metaTitle": "North Carolina Franchises For Sale",
+      "link": "/franchise-for-sale/north-carolina/",
+      "linkCount": 0
+     },
+     {
+      "title": "North Dakota",
+      "titleShort": "North Dakota",
+      "metaTitle": "North Dakota Franchises For Sale",
+      "link": "/franchise-for-sale/north-dakota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Ohio",
+      "titleShort": "Ohio",
+      "metaTitle": "Ohio Franchises For Sale",
+      "link": "/franchise-for-sale/ohio/",
+      "linkCount": 0
+     },
+     {
+      "title": "Oklahoma",
+      "titleShort": "Oklahoma",
+      "metaTitle": "Oklahoma Franchises For Sale",
+      "link": "/franchise-for-sale/oklahoma/",
+      "linkCount": 0
+     },
+     {
+      "title": "Oregon",
+      "titleShort": "Oregon",
+      "metaTitle": "Oregon Franchises For Sale",
+      "link": "/franchise-for-sale/oregon/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pennsylvania",
+      "titleShort": "Pennsylvania",
+      "metaTitle": "Pennsylvania Franchises For Sale",
+      "link": "/franchise-for-sale/pennsylvania/",
+      "linkCount": 0
+     },
+     {
+      "title": "Rhode Island",
+      "titleShort": "Rhode Island",
+      "metaTitle": "Rhode Island Franchises For Sale",
+      "link": "/franchise-for-sale/rhode-island/",
+      "linkCount": 0
+     },
+     {
+      "title": "South Carolina",
+      "titleShort": "South Carolina",
+      "metaTitle": "South Carolina Franchises For Sale",
+      "link": "/franchise-for-sale/south-carolina/",
+      "linkCount": 0
+     },
+     {
+      "title": "South Dakota",
+      "titleShort": "South Dakota",
+      "metaTitle": "South Dakota Franchises For Sale",
+      "link": "/franchise-for-sale/south-dakota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Tennessee",
+      "titleShort": "Tennessee",
+      "metaTitle": "Tennessee Franchises For Sale",
+      "link": "/franchise-for-sale/tennessee/",
+      "linkCount": 0
+     },
+     {
+      "title": "Texas",
+      "titleShort": "Texas",
+      "metaTitle": "Texas Franchises For Sale",
+      "link": "/franchise-for-sale/texas/",
+      "linkCount": 0
+     },
+     {
+      "title": "Utah",
+      "titleShort": "Utah",
+      "metaTitle": "Utah Franchises For Sale",
+      "link": "/franchise-for-sale/utah/",
+      "linkCount": 0
+     },
+     {
+      "title": "Vermont",
+      "titleShort": "Vermont",
+      "metaTitle": "Vermont Franchises For Sale",
+      "link": "/franchise-for-sale/vermont/",
+      "linkCount": 0
+     },
+     {
+      "title": "Virginia",
+      "titleShort": "Virginia",
+      "metaTitle": "Virginia Franchises For Sale",
+      "link": "/franchise-for-sale/virginia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Washington",
+      "titleShort": "Washington",
+      "metaTitle": "Washington Franchises For Sale",
+      "link": "/franchise-for-sale/washington/",
+      "linkCount": 0
+     },
+     {
+      "title": "West Virginia",
+      "titleShort": "West Virginia",
+      "metaTitle": "West Virginia Franchises For Sale",
+      "link": "/franchise-for-sale/west-virginia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wisconsin",
+      "titleShort": "Wisconsin",
+      "metaTitle": "Wisconsin Franchises For Sale",
+      "link": "/franchise-for-sale/wisconsin/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wyoming",
+      "titleShort": "Wyoming",
+      "metaTitle": "Wyoming Franchises For Sale",
+      "link": "/franchise-for-sale/wyoming/",
+      "linkCount": 0
+     },
+     {
+      "title": "-",
+      "titleShort": "-",
+      "metaTitle": "Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "All US States",
+      "titleShort": "All US States",
+      "metaTitle": "United States Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "Canada",
+      "titleShort": "Canada",
+      "metaTitle": "Canada Franchises For Sale",
+      "link": "/franchise-for-sale/canada/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "View Franchise For Sale Categories",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "All Categories",
+      "titleShort": "All Categories",
+      "metaTitle": "United States Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "Automotive",
+      "titleShort": "Automotive",
+      "metaTitle": "Auto Franchises For Sale",
+      "link": "/franchise-for-sale/automotive-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Beauty and Fitness",
+      "titleShort": "Beauty and Fitness",
+      "metaTitle": "Health, Beauty & Fitness Franchises For Sale",
+      "link": "/franchise-for-sale/beauty-and-fitness-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Business Opportunities",
+      "titleShort": "Business Opportunities",
+      "metaTitle": "Business Franchises For Sale",
+      "link": "/franchise-for-sale/business-opportunities-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Business Services",
+      "titleShort": "Business Services",
+      "metaTitle": "Business Services Franchises For Sale",
+      "link": "/franchise-for-sale/business-services-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Child Related",
+      "titleShort": "Child Related",
+      "metaTitle": "Child & Kid Franchises For Sale",
+      "link": "/franchise-for-sale/child-related-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Cleaning and Maintenance",
+      "titleShort": "Cleaning and Maintenance",
+      "metaTitle": "Cleaning & Maintenance Franchises For Sale",
+      "link": "/franchise-for-sale/cleaning-and-maintenance-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Computer and Internet",
+      "titleShort": "Computer and Internet",
+      "metaTitle": "Computer & Internet Franchises For Sale",
+      "link": "/franchise-for-sale/computer-and-internet-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Education",
+      "titleShort": "Education",
+      "metaTitle": "Education Franchises For Sale",
+      "link": "/franchise-for-sale/education-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Green",
+      "titleShort": "Green",
+      "metaTitle": "Green Franchises For Sale",
+      "link": "/franchise-for-sale/green-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Health and Senior Care",
+      "titleShort": "Health and Senior Care",
+      "metaTitle": "Health and Senior Care Franchises For Sale",
+      "link": "/franchise-for-sale/health-and-senior-care-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "High Capital Franchises",
+      "titleShort": "High Capital Franchises",
+      "metaTitle": "High Capital Franchises For Sale",
+      "link": "/franchise-for-sale/high-capital-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Home Based Businesses",
+      "titleShort": "Home Based Businesses",
+      "metaTitle": "Home Based Franchises For Sale",
+      "link": "/franchise-for-sale/home-based-businesses-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Home Services",
+      "titleShort": "Home Services",
+      "metaTitle": "Home Services Franchises For Sale",
+      "link": "/franchise-for-sale/home-services-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Hot Franchises",
+      "titleShort": "Hot Franchises",
+      "metaTitle": "Hot Franchises For Sale",
+      "link": "/franchise-for-sale/hot-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Low Cost Franchises",
+      "titleShort": "Low Cost Franchises",
+      "metaTitle": "Low Cost Franchises For Sale",
+      "link": "/franchise-for-sale/low-cost-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Master Franchise",
+      "titleShort": "Master Franchise",
+      "metaTitle": "Master Franchises For Sale",
+      "link": "/franchise-for-sale/master-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Mobile",
+      "titleShort": "Mobile",
+      "metaTitle": "Mobile Franchises For Sale",
+      "link": "/franchise-for-sale/mobile-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Multi-Unit",
+      "titleShort": "Multi-Unit",
+      "metaTitle": "Multi Unit For Sale",
+      "link": "/franchise-for-sale/multi-unit-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pet",
+      "titleShort": "Pet",
+      "metaTitle": "Pet Franchises For Sale",
+      "link": "/franchise-for-sale/pet-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Restaurant and Food",
+      "titleShort": "Restaurant and Food",
+      "metaTitle": "Restaurant & Food Franchises For Sale",
+      "link": "/franchise-for-sale/food-and-restaurant-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Retail Franchises",
+      "titleShort": "Retail Franchises",
+      "metaTitle": "Retail Franchises For Sale",
+      "link": "/franchise-for-sale/retail-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "SBA Approved",
+      "titleShort": "SBA Approved",
+      "metaTitle": "SBA Approved Franchises For Sale",
+      "link": "/franchise-for-sale/sba-approved-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Sports and Recreation",
+      "titleShort": "Sports and Recreation",
+      "metaTitle": "Sports & Recreation Franchises For Sale",
+      "link": "/franchise-for-sale/sports-and-recreation-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Travel and Lodging",
+      "titleShort": "Travel and Lodging",
+      "metaTitle": "Travel & Lodging Franchises For Sale",
+      "link": "/franchise-for-sale/travel-and-lodging-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Veteran's Franchises",
+      "titleShort": "Veteran's Franchises",
+      "metaTitle": "Veteran's Franchises For Sale",
+      "link": "/franchise-for-sale/veterans-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Franchise Directory (A-Z)",
+      "titleShort": "Franchise Directory (A-Z)",
+      "metaTitle": "Franchise Directory (A-Z)",
+      "link": "/franchise-directory/a/",
+      "linkCount": 0
+     }
+    ]
+   }
+  ],
+  "relatedFranchiseSearches": null,
+  "widerSearches": [
+   {
+    "relatedSearchText": "See more results when you broaden your search from the selected region to ",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "Businesses For Sale in California",
+      "link": "/california-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   }
+  ],
+  "breadCrumbs": [
+   {
+    "title": "Businesses For Sale",
+    "titleShort": "Businesses For Sale",
+    "metaTitle": "Businesses For Sale",
+    "link": "/businesses-for-sale/",
+    "linkCount": 0
+   },
+   {
+    "title": "0 results",
+    "titleShort": "0 results",
+    "metaTitle": "0 results"
+   }
+  ],
+  "breadCrumbSchemaStructures": [
+   {
+    "schemaCommonProp": {
+     "@type": "BreadcrumbList",
+     "position": 1
+    },
+    "id": "/businesses-for-sale/",
+    "name": "Businesses For Sale"
+   },
+   {
+    "schemaCommonProp": {
+     "@type": "BreadcrumbList",
+     "position": 2
+    },
+    "id": "",
+    "name": "0 results"
+   }
+  ],
+  "h1Header": "Businesses For Sale",
+  "metaImageUrl": null,
+  "metaTitle": "Businesses For Sale - BizBuySell",
+  "metaDescription": "Browse  businesses available for sale on BizBuySell - the Internet's largest Business For Sale Marketplace. View opportunities from small home based businesses to established high cash flow businesses for sale.",
+  "criteria": {
+   "pageNumber": 1,
+   "keywordPhrases": [
+    "zzqqxxyyzzvv"
+   ],
+   "listingVisibilityTypeIds": [
+    1,
+    3,
+    5,
+    2
+   ],
+   "askingPriceMin": 0.0,
+   "askingPriceMax": 0.0,
+   "cashFlowMin": 0.0,
+   "cashFlowMax": 0.0,
+   "grossIncomeMin": 0.0,
+   "grossIncomeMax": 0.0,
+   "realEstateMin": 0.0,
+   "realEstateMax": 0.0,
+   "searchMethod": 0,
+   "listingOwnerPersonId": 0,
+   "daysListedAgo": 0,
+   "daysModifiedAgo": 0,
+   "establishedAfterYear": 0,
+   "listingsWithNoAskingPrice": 0,
+   "homeBasedListings": 0,
+   "listingsWithSellerFinancing": 0,
+   "realEstateIncluded": 0,
+   "inventoryIncludedInAsking": 0,
+   "franchiseResales": 0,
+   "relatedFranchises": 0,
+   "relatedAuctions": 0,
+   "relatedBrokerProfiles": 0,
+   "relatedDiamondListings": 0,
+   "relatedListings": 0,
+   "brokerListings": 0,
+   "listingsWithoutImage": 0,
+   "coBrokering": 0,
+   "includeRealEstateForLease": 0,
+   "absenteeOwnerListings": 0,
+   "showRelocatableListings": false,
+   "includeSbaEligible": 0,
+   "includeSbaApproved": 0,
+   "coBrandsIncluded": 0,
+   "shouldAskingPriceMin": 0.0,
+   "shouldAskingPriceMax": 0.0,
+   "excludeMultipleOver": null,
+   "listingsWithPriceReduced": 0,
+   "listingsRecentlyUpdated": 0,
+   "franchiseBrandConfidential": 0,
+   "regionConfidential": 0,
+   "siteId": 20,
+   "languageId": 10,
+   "keyword": "zzqqxxyyzzvv",
+   "offset": 0,
+   "howMany": 5,
+   "excludeList": null,
+   "sortList": null
+  },
+  "message": "",
+  "dfpAdvertiserParams": {
+   "stateCode": null,
+   "zipCode": null,
+   "bizType": null
+  },
+  "marketStatsData": null
+ },
+ "schemaElements": {
+  "listProductItemSchema": null,
+  "listPersonItemSchema": null
+ },
+ "message": "unexpected error using BbsSearchListingsLive ex=System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at BizBuySell.Api.BusinessLogic.Implementations.SearchBl.<BbsSearchListingsLive>d__10.MoveNext() in G:\\azdo-default-2\\_work\\1280\\s\\BizBuySell\\Maint\\BizBuySell.Api\\BusinessLogic\\Implementations\\SearchBl.cs:line 0",
+ "status": 3
+}

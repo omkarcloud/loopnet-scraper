@@ -1,0 +1,2373 @@
+{
+ "status": 1,
+ "timeMs": 34,
+ "value": {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI3ZGFiYzljNi1kYmNhLTQ3MGMtOTcwNC00M2UzNzdiZGU0ZGIiLCJqdGkiOiI0ZWI4NGQwZi0zNTkyLTQ4Y2QtOWY3Zi1jNzYzNjM5ZDM4MWEiLCJlbnMiOiIyMCIsInN1aWQiOiIiLCJiZnNyIjoiMCIsImRpZCI6IjEwIiwidWFpZCI6IjEwODY0NzMzIiwidWlwIjoiNDUuNzkuMTcxLjEwIiwiaXR0IjoiMSIsImV4cCI6MTc5MzQ3NjAzMCwiaXNzIjoiaHR0cHM6Ly9hcGkuYml6YnV5c2VsbC5jb20iLCJhdWQiOiJiaXpidXlzZWxsIn0.KiqLfZdP5KMvAE6PRFgiAaTyEp_UHwLY7P5k02lMwEs",
+  "canonicalUrl": "/business-brokers/directory/",
+  "displayUrl": "/business-brokers/directory/",
+  "queryString": null,
+  "h1Header": "Business Brokers",
+  "criteria": {
+   "pageNumber": 1,
+   "locations": null,
+   "physicalLocations": null,
+   "autoExpandedLocations": null,
+   "countryIds": null,
+   "regionIds": null,
+   "countyIds": null,
+   "keywordPhrases": null,
+   "brokerKeywordSearchTypeIds": [
+    20
+   ],
+   "brokerProfileTypes": [
+    1,
+    2,
+    4
+   ],
+   "accountStatus": 0,
+   "accountStatuses": [
+    10
+   ],
+   "designationIds": null,
+   "expertiseIdentifiers": null,
+   "expertiseCategoryIds": null,
+   "expertiseServiceIds": null,
+   "expertiseLanguageIds": null,
+   "hasBrokerLicense": 0,
+   "certifiedBroker": 0,
+   "memberOfBrokerAssociation": 0,
+   "account": 0,
+   "accounts": [
+    21978
+   ],
+   "personIds": null,
+   "parentAccounts": null,
+   "corporatePartnerIds": null,
+   "isCompanyOverviewRequired": false,
+   "hasPersonalPhoto": 0,
+   "preferPersonalPhoto": false,
+   "useBoostedBrokerProfileTypes": false,
+   "optedOutOfBrokerDirectory": 10,
+   "seoName": null,
+   "queryString": null,
+   "accountContactEmail": null,
+   "retrieveSoldListings": null,
+   "includeSellerPreferences": false,
+   "employeeCountInterval": null,
+   "realEstateFilterOption": null,
+   "minimumCashFlow": null,
+   "minimumGrossRevenue": null,
+   "timeFrameInterval": null,
+   "yearsInBusinessInterval": null,
+   "bizTypeIds": null,
+   "enrolledInSellerMatch": false,
+   "siteId": 20,
+   "languageId": 10,
+   "keyword": null,
+   "offset": 0,
+   "howMany": 100,
+   "excludeList": null,
+   "sortList": [
+    {
+     "sortField": 160,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 170,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 460,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 130,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 470,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 480,
+     "sortDirection": 20,
+     "salt": null
+    },
+    {
+     "sortField": 100,
+     "sortDirection": 20,
+     "salt": "10/31/2026 9:00:00 AM"
+    }
+   ]
+  },
+  "searchedRegions": null,
+  "brokerSearchResult": {
+   "status": 1,
+   "value": [
+    {
+     "account": 21978,
+     "parentAccount": 0,
+     "personId": 253435,
+     "brokerProfileTypeId": 4,
+     "accountStatusId": 10,
+     "accountTypeId": 10,
+     "firstName": "Prabhjot",
+     "lastName": "Randhawa",
+     "corporatePartnerId": null,
+     "countryCode": "US",
+     "countryId": 1,
+     "regionCode": "CA",
+     "regionId": 18,
+     "countyId": 186,
+     "city": "Dublin",
+     "addr1": null,
+     "addr2": null,
+     "zip": "94568",
+     "locationDescription": "Dublin, California",
+     "locationDescriptionShort": "Dublin, CA",
+     "telephone": "+12098153842",
+     "phoneCountryCode": null,
+     "fax": "(925) 361 - 5431",
+     "licenseNumber": "01355674",
+     "personalPhotoFName": "/shared/brokerdirectory/images/21978/pic1.jpg",
+     "brokerProfileId": 15309,
+     "listingTier": 2,
+     "url": "/business-broker/prabhjot-randhawa/liberty-business-advisors-of-s-f-inc/15309/",
+     "companyName": "Liberty Business Advisors of S. F Inc",
+     "companyUrl": "",
+     "companyPhotoFName": null,
+     "companyOverview": null,
+     "introduction": "I'm a Business Broker/Consultant at Liberty Business Advisors of San Francisco, Inc. I have over 20 years of experience in all phases of entrepreneurship. During the past 15 years my concentration has been in business selling and purchasing. I have owned and operated over 10 businesses. Over the years, I have worked with hundreds of business owners and buyers. Solving the puzzle of your BUSINESS needs, I’m committed to providing you with admirable and professional service. With impeccable knowledge and immaculate service, I can put together the best business deal for you in the entire California. Let me assist you in getting the highest possible price for your current Business or Purchasing your Dream Business in an area of your choice, and in the price range that fits your budget. It’s my promise to value your needs and provide you with perfect results. Call me now to discuss BUSINESS OPPORTUNITIES!!!\r\n(209) 815 - 3842",
+     "affiliations": null,
+     "services": "During the past 20 years my concentration has been in business selling and purchasing. I can help you sell your Business for top price and fast.  If you are in market to purchase a business then call me to get the information regarding that particular industry.   It’s my promise to value your needs and provide you with perfect results. Call me now to discuss BUSINESS OPPORTUNITIES!!!  (209) 815 - 3842",
+     "tagline": null,
+     "completeness": 60,
+     "type": "broker-profile",
+     "excludeFromDirectory": false,
+     "hideSoldListings": false,
+     "hideAgents": false,
+     "excludeAgentListingsFromProfileListings": false,
+     "roleId": 10,
+     "forwardAgentListingLeadsToParent": false,
+     "ndaFileName": "/shared/brokerdirectory/documents/21978/DisclosureandConfidentiality.pdf",
+     "areasServed": [
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 186,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 1,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 192,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 2,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 228,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 3,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 224,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 4,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 219,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 5,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 235,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 6,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 233,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 7,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 234,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 8,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 223,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 9,
+       "isSellerLeadPreference": false,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      },
+      {
+       "brokerProfileAreaServedId": 0,
+       "country": "US",
+       "countryId": 1,
+       "region": "CA",
+       "regionId": 18,
+       "regionAbbreviation": null,
+       "countyId": 226,
+       "brokerLicense": "01355674",
+       "isRegionLicensed": true,
+       "isPublicallySearchable": true,
+       "seqIndex": 10,
+       "isSellerLeadPreference": true,
+       "brokerLicenseVerificationStatusId": 0,
+       "brokerProfileId": null
+      }
+     ],
+     "personDesignations": null,
+     "profileLinks": null,
+     "profileLinksOld": null,
+     "criteriaLocationsServed": [
+      {
+       "geoType": 40,
+       "countryCode": "US",
+       "stateCode": "CA",
+       "regionName": "Alameda County",
+       "regionNameSeo": "alameda-county",
+       "displayName": "Alameda County, CA",
+       "iCountryId": 0,
+       "stateId": 0,
+       "countyId": 193,
+       "zipId": 0,
+       "legacyRegionId": 186,
+       "countryId": "US",
+       "regionId": "193",
+       "geoPinCriteria": null
+      }
+     ],
+     "vmSoldListings": null,
+     "vmActiveListings": null,
+     "activeListingsCount": 6,
+     "sbaEligibleListingsCount": 0,
+     "verifiedCompsCount": 0,
+     "soldListingsCount": 5,
+     "soldListingsInLastSixMonthsCount": 1,
+     "forSaleListingsCount": 6,
+     "unreadMessageCount": null,
+     "sellerPreferences": null,
+     "sellerPreferencesBizTypes": null,
+     "expertiseCategories": [
+      {
+       "isOther": false,
+       "popularity": 1,
+       "categoryId": 52,
+       "parentCategoryId": null,
+       "siteCategoryId": 17,
+       "name": "Restaurants & Food",
+       "urlStub": "restaurants-and-food-businesses",
+       "seoPlural": "Restaurants and Food Businesses",
+       "seoSingular": "Restaurant and Food Business",
+       "seoDescription": "Restaurants and food service businesses listed for sale on BizBuySell feature a broad mix of business types, including full service and fast casual restaurants, cafés, bakeries, bars and taprooms, franchise restaurant units, specialty food shops, catering operations, and packaged or artisanal food businesses, with some listings bundled with liquor licenses or owned real estate. These are primarily location based hospitality and food retail, generating revenue through on premise dining, takeout and delivery, alcohol sales, catering, and event services, alongside franchise models that emphasize standardized menus and systems, and specialty or branded food businesses that monetize through repeat local customers or wholesale and retail distribution.",
+       "seoValuationPageUrl": "https://www.bizbuysell.com/learning-center/valuation-benchmarks/restaurants/",
+       "fbrSeoPageDescription": null,
+       "driversOfGrossProfit": null,
+       "driversOfPreTaxNetProfit": null,
+       "driversOfCogsAndOpex": null,
+       "driversOfOperatingExpenses": null,
+       "profitabilityAndEfficiencySectionContent": null,
+       "naicsCodes": null,
+       "isDisplayable": true,
+       "priority": 0
+      },
+      {
+       "isOther": false,
+       "popularity": 2,
+       "categoryId": 51,
+       "parentCategoryId": null,
+       "siteCategoryId": 1,
+       "name": "Retail",
+       "urlStub": "retail-businesses",
+       "seoPlural": "Retail Businesses",
+       "seoSingular": "Retail Business",
+       "seoDescription": "Retail businesses listed on BizBuySell include a broad selection of consumer facing retail operations, including specialty boutiques, apparel and gift shops, convenience stores, liquor and smoke shops, hardware and outdoor retailers, florists, sign and graphics shops, and hybrid brick and mortar businesses that also sell online through e commerce channels. The primary business models are location based retail, driven by in store product sales and local foot traffic, often complemented by repeat customers, niche positioning, and curated assortments, with some listings incorporating online direct to consumer sales, wholesale accounts, or multiple locations to expand reach.",
+       "seoValuationPageUrl": "https://www.bizbuysell.com/learning-center/valuation-benchmarks/retail-business/",
+       "fbrSeoPageDescription": null,
+       "driversOfGrossProfit": null,
+       "driversOfPreTaxNetProfit": null,
+       "driversOfCogsAndOpex": null,
+       "driversOfOperatingExpenses": null,
+       "profitabilityAndEfficiencySectionContent": null,
+       "naicsCodes": null,
+       "isDisplayable": true,
+       "priority": 0
+      },
+      {
+       "isOther": false,
+       "popularity": 3,
+       "categoryId": 53,
+       "parentCategoryId": null,
+       "siteCategoryId": 20,
+       "name": "Service Businesses",
+       "urlStub": "service-businesses",
+       "seoPlural": "Service Businesses",
+       "seoSingular": "Service Business",
+       "seoDescription": "Service businesses are some of the most commonly listed for sale on BizBuySell, and include a wide range of people  and process driven companies that sell expertise or labor rather than physical products. Common businesses are home and commercial services (cleaning, inspections, renovation, HVAC, automotive services), business services (marketing, signage, printing, brokerage, coworking), route based and asset light operations (parking management, entertainment routes), and franchised service brands. These businesses typically operate on contract , project , or recurring service models, generating revenue through service fees, ongoing maintenance agreements, route accounts, memberships, or territory based franchises, often with relatively low inventory requirements and scalable staffing.",
+       "seoValuationPageUrl": "https://www.bizbuysell.com/learning-center/valuation-benchmarks/service-business/",
+       "fbrSeoPageDescription": null,
+       "driversOfGrossProfit": null,
+       "driversOfPreTaxNetProfit": null,
+       "driversOfCogsAndOpex": null,
+       "driversOfOperatingExpenses": null,
+       "profitabilityAndEfficiencySectionContent": null,
+       "naicsCodes": null,
+       "isDisplayable": true,
+       "priority": 0
+      }
+     ],
+     "expertiseServices": [
+      {
+       "expertiseId": 1,
+       "description": "Real Estate Sales",
+       "expertiseType": 10,
+       "sortOrder": 0
+      },
+      {
+       "expertiseId": 3,
+       "description": "Sales of Family or Partner Owned Businesses",
+       "expertiseType": 10,
+       "sortOrder": 0
+      },
+      {
+       "expertiseId": 8,
+       "description": "Valuation Services",
+       "expertiseType": 10,
+       "sortOrder": 0
+      }
+     ],
+     "personLanguages": [
+      {
+       "languageId": 41,
+       "name": "English",
+       "iso2": "en"
+      }
+     ],
+     "personLanguagesDescription": "English",
+     "geoPinTypeId": null,
+     "geoPin": null,
+     "bwProductId": null,
+     "enrolledInSellerMatch": 0,
+     "messageResponseScore": 100,
+     "openLinkInNewTab": false
+    }
+   ],
+   "count": 1,
+   "total": 1,
+   "timeMs": 90,
+   "pagination": {
+    "searchScrollLifetime": null,
+    "searchScrollToken": null
+   },
+   "message": ""
+  },
+  "noResultsSearchResponse": null,
+  "searchFilters": {
+   "expertise": [
+    {
+     "identifier": "0_62",
+     "expertiseName": "Agriculture",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_68",
+     "expertiseName": "Automotive & Boat",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_69",
+     "expertiseName": "Beauty & Personal Care",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_60",
+     "expertiseName": "Building & Construction",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_12",
+     "expertiseName": "Business Advising Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_63",
+     "expertiseName": "Communication & Media",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_55",
+     "expertiseName": "Education & Children",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_54",
+     "expertiseName": "Entertainment & Recreation",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_9",
+     "expertiseName": "Exit Planning Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_67",
+     "expertiseName": "Financial Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_57",
+     "expertiseName": "Health Care & Fitness",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_58",
+     "expertiseName": "Manufacturing",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_64",
+     "expertiseName": "Non-Classifiable Establishments",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_2",
+     "expertiseName": "Non-Operating or Distressed Businesses",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_66",
+     "expertiseName": "Online & Technology",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_70",
+     "expertiseName": "Pet Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_1",
+     "expertiseName": "Real Estate Sales",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_52",
+     "expertiseName": "Restaurants & Food",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_51",
+     "expertiseName": "Retail",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_3",
+     "expertiseName": "Sales of Family or Partner Owned Businesses",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_53",
+     "expertiseName": "Service Businesses",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_15",
+     "expertiseName": "Stock Sales",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_10",
+     "expertiseName": "Tax Planning Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_56",
+     "expertiseName": "Transportation & Storage",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_71",
+     "expertiseName": "Travel",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_8",
+     "expertiseName": "Valuation Services",
+     "isSelected": false
+    },
+    {
+     "identifier": "10_5",
+     "expertiseName": "Virtual Consultation",
+     "isSelected": false
+    },
+    {
+     "identifier": "0_59",
+     "expertiseName": "Wholesale & Distributors",
+     "isSelected": false
+    }
+   ],
+   "personLanguages": [
+    {
+     "isSelected": false,
+     "languageId": 1,
+     "name": "Abkhazian",
+     "iso2": "ab"
+    },
+    {
+     "isSelected": false,
+     "languageId": 2,
+     "name": "Afar",
+     "iso2": "aa"
+    },
+    {
+     "isSelected": false,
+     "languageId": 3,
+     "name": "Afrikaans",
+     "iso2": "af"
+    },
+    {
+     "isSelected": false,
+     "languageId": 4,
+     "name": "Akan",
+     "iso2": "ak"
+    },
+    {
+     "isSelected": false,
+     "languageId": 5,
+     "name": "Albanian",
+     "iso2": "sq"
+    },
+    {
+     "isSelected": false,
+     "languageId": 6,
+     "name": "Amharic",
+     "iso2": "am"
+    },
+    {
+     "isSelected": false,
+     "languageId": 7,
+     "name": "Arabic",
+     "iso2": "ar"
+    },
+    {
+     "isSelected": false,
+     "languageId": 8,
+     "name": "Aragonese",
+     "iso2": "an"
+    },
+    {
+     "isSelected": false,
+     "languageId": 9,
+     "name": "Armenian",
+     "iso2": "hy"
+    },
+    {
+     "isSelected": false,
+     "languageId": 10,
+     "name": "Assamese",
+     "iso2": "as"
+    },
+    {
+     "isSelected": false,
+     "languageId": 11,
+     "name": "Avaric",
+     "iso2": "av"
+    },
+    {
+     "isSelected": false,
+     "languageId": 12,
+     "name": "Avestan",
+     "iso2": "ae"
+    },
+    {
+     "isSelected": false,
+     "languageId": 13,
+     "name": "Aymara",
+     "iso2": "ay"
+    },
+    {
+     "isSelected": false,
+     "languageId": 14,
+     "name": "Azerbaijani",
+     "iso2": "az"
+    },
+    {
+     "isSelected": false,
+     "languageId": 15,
+     "name": "Bambara",
+     "iso2": "bm"
+    },
+    {
+     "isSelected": false,
+     "languageId": 16,
+     "name": "Bashkir",
+     "iso2": "ba"
+    },
+    {
+     "isSelected": false,
+     "languageId": 17,
+     "name": "Basque",
+     "iso2": "eu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 18,
+     "name": "Belarusian",
+     "iso2": "be"
+    },
+    {
+     "isSelected": false,
+     "languageId": 19,
+     "name": "Bengali",
+     "iso2": "bn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 20,
+     "name": "Bislama",
+     "iso2": "bi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 21,
+     "name": "Bosnian",
+     "iso2": "bs"
+    },
+    {
+     "isSelected": false,
+     "languageId": 22,
+     "name": "Breton",
+     "iso2": "br"
+    },
+    {
+     "isSelected": false,
+     "languageId": 23,
+     "name": "Bulgarian",
+     "iso2": "bg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 24,
+     "name": "Burmese",
+     "iso2": "my"
+    },
+    {
+     "isSelected": false,
+     "languageId": 185,
+     "name": "Cantonese",
+     "iso2": ""
+    },
+    {
+     "isSelected": false,
+     "languageId": 25,
+     "name": "Catalan",
+     "iso2": "ca"
+    },
+    {
+     "isSelected": false,
+     "languageId": 83,
+     "name": "Central Khmer",
+     "iso2": "km"
+    },
+    {
+     "isSelected": false,
+     "languageId": 26,
+     "name": "Chamorro",
+     "iso2": "ch"
+    },
+    {
+     "isSelected": false,
+     "languageId": 27,
+     "name": "Chechen",
+     "iso2": "ce"
+    },
+    {
+     "isSelected": false,
+     "languageId": 28,
+     "name": "Chichewa",
+     "iso2": "ny"
+    },
+    {
+     "isSelected": false,
+     "languageId": 29,
+     "name": "Chinese",
+     "iso2": "zh"
+    },
+    {
+     "isSelected": false,
+     "languageId": 30,
+     "name": "Church Slavic",
+     "iso2": "cu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 31,
+     "name": "Chuvash",
+     "iso2": "cv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 32,
+     "name": "Cornish",
+     "iso2": "kw"
+    },
+    {
+     "isSelected": false,
+     "languageId": 33,
+     "name": "Corsican",
+     "iso2": "co"
+    },
+    {
+     "isSelected": false,
+     "languageId": 34,
+     "name": "Cree",
+     "iso2": "cr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 35,
+     "name": "Croatian",
+     "iso2": "hr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 36,
+     "name": "Czech",
+     "iso2": "cs"
+    },
+    {
+     "isSelected": false,
+     "languageId": 37,
+     "name": "Danish",
+     "iso2": "da"
+    },
+    {
+     "isSelected": false,
+     "languageId": 38,
+     "name": "Divehi",
+     "iso2": "dv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 39,
+     "name": "Dutch",
+     "iso2": "nl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 40,
+     "name": "Dzongkha",
+     "iso2": "dz"
+    },
+    {
+     "isSelected": false,
+     "languageId": 41,
+     "name": "English",
+     "iso2": "en"
+    },
+    {
+     "isSelected": false,
+     "languageId": 42,
+     "name": "Esperanto",
+     "iso2": "eo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 43,
+     "name": "Estonian",
+     "iso2": "et"
+    },
+    {
+     "isSelected": false,
+     "languageId": 44,
+     "name": "Ewe",
+     "iso2": "ee"
+    },
+    {
+     "isSelected": false,
+     "languageId": 45,
+     "name": "Faroese",
+     "iso2": "fo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 46,
+     "name": "Fijian",
+     "iso2": "fj"
+    },
+    {
+     "isSelected": false,
+     "languageId": 47,
+     "name": "Finnish",
+     "iso2": "fi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 48,
+     "name": "French",
+     "iso2": "fr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 50,
+     "name": "Fulah",
+     "iso2": "ff"
+    },
+    {
+     "isSelected": false,
+     "languageId": 51,
+     "name": "Gaelic",
+     "iso2": "gd"
+    },
+    {
+     "isSelected": false,
+     "languageId": 52,
+     "name": "Galician",
+     "iso2": "gl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 53,
+     "name": "Ganda",
+     "iso2": "lg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 54,
+     "name": "Georgian",
+     "iso2": "ka"
+    },
+    {
+     "isSelected": false,
+     "languageId": 55,
+     "name": "German",
+     "iso2": "de"
+    },
+    {
+     "isSelected": false,
+     "languageId": 56,
+     "name": "Greek",
+     "iso2": "el"
+    },
+    {
+     "isSelected": false,
+     "languageId": 58,
+     "name": "Guarani",
+     "iso2": "gn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 59,
+     "name": "Gujarati",
+     "iso2": "gu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 60,
+     "name": "Haitian",
+     "iso2": "ht"
+    },
+    {
+     "isSelected": false,
+     "languageId": 61,
+     "name": "Hausa",
+     "iso2": "ha"
+    },
+    {
+     "isSelected": false,
+     "languageId": 62,
+     "name": "Hebrew",
+     "iso2": "he"
+    },
+    {
+     "isSelected": false,
+     "languageId": 63,
+     "name": "Herero",
+     "iso2": "hz"
+    },
+    {
+     "isSelected": false,
+     "languageId": 64,
+     "name": "Hindi",
+     "iso2": "hi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 65,
+     "name": "Hiri Motu",
+     "iso2": "ho"
+    },
+    {
+     "isSelected": false,
+     "languageId": 66,
+     "name": "Hungarian",
+     "iso2": "hu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 67,
+     "name": "Icelandic",
+     "iso2": "is"
+    },
+    {
+     "isSelected": false,
+     "languageId": 68,
+     "name": "Ido",
+     "iso2": "io"
+    },
+    {
+     "isSelected": false,
+     "languageId": 69,
+     "name": "Igbo",
+     "iso2": "ig"
+    },
+    {
+     "isSelected": false,
+     "languageId": 70,
+     "name": "Indonesian",
+     "iso2": "id"
+    },
+    {
+     "isSelected": false,
+     "languageId": 71,
+     "name": "Interlingua",
+     "iso2": "ia"
+    },
+    {
+     "isSelected": false,
+     "languageId": 72,
+     "name": "Interlingue",
+     "iso2": "ie"
+    },
+    {
+     "isSelected": false,
+     "languageId": 73,
+     "name": "Inuktitut",
+     "iso2": "iu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 74,
+     "name": "Inupiaq",
+     "iso2": "ik"
+    },
+    {
+     "isSelected": false,
+     "languageId": 75,
+     "name": "Irish",
+     "iso2": "ga"
+    },
+    {
+     "isSelected": false,
+     "languageId": 76,
+     "name": "Italian",
+     "iso2": "it"
+    },
+    {
+     "isSelected": false,
+     "languageId": 77,
+     "name": "Japanese",
+     "iso2": "ja"
+    },
+    {
+     "isSelected": false,
+     "languageId": 78,
+     "name": "Javanese",
+     "iso2": "jv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 57,
+     "name": "Kalaallisut",
+     "iso2": "kl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 79,
+     "name": "Kannada",
+     "iso2": "kn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 80,
+     "name": "Kanuri",
+     "iso2": "kr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 81,
+     "name": "Kashmiri",
+     "iso2": "ks"
+    },
+    {
+     "isSelected": false,
+     "languageId": 82,
+     "name": "Kazakh",
+     "iso2": "kk"
+    },
+    {
+     "isSelected": false,
+     "languageId": 84,
+     "name": "Kikuyu, Gikuyu",
+     "iso2": "ki"
+    },
+    {
+     "isSelected": false,
+     "languageId": 85,
+     "name": "Kinyarwanda",
+     "iso2": "rw"
+    },
+    {
+     "isSelected": false,
+     "languageId": 86,
+     "name": "Kirghiz, Kyrgyz",
+     "iso2": "ky"
+    },
+    {
+     "isSelected": false,
+     "languageId": 87,
+     "name": "Komi",
+     "iso2": "kv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 88,
+     "name": "Kongo",
+     "iso2": "kg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 89,
+     "name": "Korean",
+     "iso2": "ko"
+    },
+    {
+     "isSelected": false,
+     "languageId": 90,
+     "name": "Kuanyama",
+     "iso2": "kj"
+    },
+    {
+     "isSelected": false,
+     "languageId": 91,
+     "name": "Kurdish",
+     "iso2": "ku"
+    },
+    {
+     "isSelected": false,
+     "languageId": 92,
+     "name": "Lao",
+     "iso2": "lo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 93,
+     "name": "Latin",
+     "iso2": "la"
+    },
+    {
+     "isSelected": false,
+     "languageId": 94,
+     "name": "Latvian",
+     "iso2": "lv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 95,
+     "name": "Limburgan",
+     "iso2": "li"
+    },
+    {
+     "isSelected": false,
+     "languageId": 96,
+     "name": "Lingala",
+     "iso2": "ln"
+    },
+    {
+     "isSelected": false,
+     "languageId": 97,
+     "name": "Lithuanian",
+     "iso2": "lt"
+    },
+    {
+     "isSelected": false,
+     "languageId": 98,
+     "name": "Luba-Katanga",
+     "iso2": "lu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 99,
+     "name": "Luxembourgish",
+     "iso2": "lb"
+    },
+    {
+     "isSelected": false,
+     "languageId": 100,
+     "name": "Macedonian",
+     "iso2": "mk"
+    },
+    {
+     "isSelected": false,
+     "languageId": 101,
+     "name": "Malagasy",
+     "iso2": "mg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 102,
+     "name": "Malay",
+     "iso2": "ms"
+    },
+    {
+     "isSelected": false,
+     "languageId": 103,
+     "name": "Malayalam",
+     "iso2": "ml"
+    },
+    {
+     "isSelected": false,
+     "languageId": 104,
+     "name": "Maltese",
+     "iso2": "mt"
+    },
+    {
+     "isSelected": false,
+     "languageId": 184,
+     "name": "Mandarin",
+     "iso2": ""
+    },
+    {
+     "isSelected": false,
+     "languageId": 105,
+     "name": "Manx",
+     "iso2": "gv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 106,
+     "name": "Maori",
+     "iso2": "mi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 107,
+     "name": "Marathi",
+     "iso2": "mr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 108,
+     "name": "Marshallese",
+     "iso2": "mh"
+    },
+    {
+     "isSelected": false,
+     "languageId": 109,
+     "name": "Mongolian",
+     "iso2": "mn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 110,
+     "name": "Nauru",
+     "iso2": "na"
+    },
+    {
+     "isSelected": false,
+     "languageId": 111,
+     "name": "Navajo, Navaho",
+     "iso2": "nv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 114,
+     "name": "Ndonga",
+     "iso2": "ng"
+    },
+    {
+     "isSelected": false,
+     "languageId": 115,
+     "name": "Nepali",
+     "iso2": "ne"
+    },
+    {
+     "isSelected": false,
+     "languageId": 112,
+     "name": "North Ndebele",
+     "iso2": "nd"
+    },
+    {
+     "isSelected": false,
+     "languageId": 136,
+     "name": "Northern Sami",
+     "iso2": "se"
+    },
+    {
+     "isSelected": false,
+     "languageId": 116,
+     "name": "Norwegian",
+     "iso2": "no"
+    },
+    {
+     "isSelected": false,
+     "languageId": 117,
+     "name": "Norwegian Bokmål",
+     "iso2": "nb"
+    },
+    {
+     "isSelected": false,
+     "languageId": 118,
+     "name": "Norwegian Nynorsk",
+     "iso2": "nn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 120,
+     "name": "Occitan",
+     "iso2": "oc"
+    },
+    {
+     "isSelected": false,
+     "languageId": 121,
+     "name": "Ojibwa",
+     "iso2": "oj"
+    },
+    {
+     "isSelected": false,
+     "languageId": 122,
+     "name": "Oriya",
+     "iso2": "or"
+    },
+    {
+     "isSelected": false,
+     "languageId": 123,
+     "name": "Oromo",
+     "iso2": "om"
+    },
+    {
+     "isSelected": false,
+     "languageId": 124,
+     "name": "Ossetian",
+     "iso2": "os"
+    },
+    {
+     "isSelected": false,
+     "languageId": 125,
+     "name": "Pali",
+     "iso2": "pi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 126,
+     "name": "Pashto",
+     "iso2": "ps"
+    },
+    {
+     "isSelected": false,
+     "languageId": 127,
+     "name": "Persian",
+     "iso2": "fa"
+    },
+    {
+     "isSelected": false,
+     "languageId": 128,
+     "name": "Polish",
+     "iso2": "pl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 129,
+     "name": "Portuguese",
+     "iso2": "pt"
+    },
+    {
+     "isSelected": false,
+     "languageId": 130,
+     "name": "Punjabi",
+     "iso2": "pa"
+    },
+    {
+     "isSelected": false,
+     "languageId": 131,
+     "name": "Quechua",
+     "iso2": "qu"
+    },
+    {
+     "isSelected": false,
+     "languageId": 132,
+     "name": "Romanian",
+     "iso2": "ro"
+    },
+    {
+     "isSelected": false,
+     "languageId": 133,
+     "name": "Romansh",
+     "iso2": "rm"
+    },
+    {
+     "isSelected": false,
+     "languageId": 134,
+     "name": "Rundi",
+     "iso2": "rn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 135,
+     "name": "Russian",
+     "iso2": "ru"
+    },
+    {
+     "isSelected": false,
+     "languageId": 137,
+     "name": "Samoan",
+     "iso2": "sm"
+    },
+    {
+     "isSelected": false,
+     "languageId": 138,
+     "name": "Sango",
+     "iso2": "sg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 139,
+     "name": "Sanskrit",
+     "iso2": "sa"
+    },
+    {
+     "isSelected": false,
+     "languageId": 140,
+     "name": "Sardinian",
+     "iso2": "sc"
+    },
+    {
+     "isSelected": false,
+     "languageId": 141,
+     "name": "Serbian",
+     "iso2": "sr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 142,
+     "name": "Shona",
+     "iso2": "sn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 119,
+     "name": "Sichuan Yi, Nuosu",
+     "iso2": "ii"
+    },
+    {
+     "isSelected": false,
+     "languageId": 186,
+     "name": "Sign Language",
+     "iso2": ""
+    },
+    {
+     "isSelected": false,
+     "languageId": 143,
+     "name": "Sindhi",
+     "iso2": "sd"
+    },
+    {
+     "isSelected": false,
+     "languageId": 144,
+     "name": "Sinhala",
+     "iso2": "si"
+    },
+    {
+     "isSelected": false,
+     "languageId": 145,
+     "name": "Slovak",
+     "iso2": "sk"
+    },
+    {
+     "isSelected": false,
+     "languageId": 146,
+     "name": "Slovenian",
+     "iso2": "sl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 147,
+     "name": "Somali",
+     "iso2": "so"
+    },
+    {
+     "isSelected": false,
+     "languageId": 113,
+     "name": "South Ndebele",
+     "iso2": "nr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 148,
+     "name": "Southern Sotho",
+     "iso2": "st"
+    },
+    {
+     "isSelected": false,
+     "languageId": 149,
+     "name": "Spanish",
+     "iso2": "es"
+    },
+    {
+     "isSelected": false,
+     "languageId": 150,
+     "name": "Sundanese",
+     "iso2": "su"
+    },
+    {
+     "isSelected": false,
+     "languageId": 151,
+     "name": "Swahili",
+     "iso2": "sw"
+    },
+    {
+     "isSelected": false,
+     "languageId": 152,
+     "name": "Swati",
+     "iso2": "ss"
+    },
+    {
+     "isSelected": false,
+     "languageId": 153,
+     "name": "Swedish",
+     "iso2": "sv"
+    },
+    {
+     "isSelected": false,
+     "languageId": 154,
+     "name": "Tagalog",
+     "iso2": "tl"
+    },
+    {
+     "isSelected": false,
+     "languageId": 155,
+     "name": "Tahitian",
+     "iso2": "ty"
+    },
+    {
+     "isSelected": false,
+     "languageId": 156,
+     "name": "Tajik",
+     "iso2": "tg"
+    },
+    {
+     "isSelected": false,
+     "languageId": 157,
+     "name": "Tamil",
+     "iso2": "ta"
+    },
+    {
+     "isSelected": false,
+     "languageId": 158,
+     "name": "Tatar",
+     "iso2": "tt"
+    },
+    {
+     "isSelected": false,
+     "languageId": 159,
+     "name": "Telugu",
+     "iso2": "te"
+    },
+    {
+     "isSelected": false,
+     "languageId": 160,
+     "name": "Thai",
+     "iso2": "th"
+    },
+    {
+     "isSelected": false,
+     "languageId": 161,
+     "name": "Tibetan",
+     "iso2": "bo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 162,
+     "name": "Tigrinya",
+     "iso2": "ti"
+    },
+    {
+     "isSelected": false,
+     "languageId": 163,
+     "name": "Tonga",
+     "iso2": "to"
+    },
+    {
+     "isSelected": false,
+     "languageId": 164,
+     "name": "Tsonga",
+     "iso2": "ts"
+    },
+    {
+     "isSelected": false,
+     "languageId": 165,
+     "name": "Tswana",
+     "iso2": "tn"
+    },
+    {
+     "isSelected": false,
+     "languageId": 166,
+     "name": "Turkish",
+     "iso2": "tr"
+    },
+    {
+     "isSelected": false,
+     "languageId": 167,
+     "name": "Turkmen",
+     "iso2": "tk"
+    },
+    {
+     "isSelected": false,
+     "languageId": 168,
+     "name": "Twi",
+     "iso2": "tw"
+    },
+    {
+     "isSelected": false,
+     "languageId": 169,
+     "name": "Uighur",
+     "iso2": "ug"
+    },
+    {
+     "isSelected": false,
+     "languageId": 170,
+     "name": "Ukrainian",
+     "iso2": "uk"
+    },
+    {
+     "isSelected": false,
+     "languageId": 171,
+     "name": "Urdu",
+     "iso2": "ur"
+    },
+    {
+     "isSelected": false,
+     "languageId": 172,
+     "name": "Uzbek",
+     "iso2": "uz"
+    },
+    {
+     "isSelected": false,
+     "languageId": 173,
+     "name": "Venda",
+     "iso2": "ve"
+    },
+    {
+     "isSelected": false,
+     "languageId": 174,
+     "name": "Vietnamese",
+     "iso2": "vi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 175,
+     "name": "Volapük",
+     "iso2": "vo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 176,
+     "name": "Walloon",
+     "iso2": "wa"
+    },
+    {
+     "isSelected": false,
+     "languageId": 177,
+     "name": "Welsh",
+     "iso2": "cy"
+    },
+    {
+     "isSelected": false,
+     "languageId": 49,
+     "name": "Western Frisian",
+     "iso2": "fy"
+    },
+    {
+     "isSelected": false,
+     "languageId": 178,
+     "name": "Wolof",
+     "iso2": "wo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 179,
+     "name": "Xhosa",
+     "iso2": "xh"
+    },
+    {
+     "isSelected": false,
+     "languageId": 180,
+     "name": "Yiddish",
+     "iso2": "yi"
+    },
+    {
+     "isSelected": false,
+     "languageId": 181,
+     "name": "Yoruba",
+     "iso2": "yo"
+    },
+    {
+     "isSelected": false,
+     "languageId": 182,
+     "name": "Zhuang",
+     "iso2": "za"
+    },
+    {
+     "isSelected": false,
+     "languageId": 183,
+     "name": "Zulu",
+     "iso2": "zu"
+    }
+   ]
+  },
+  "breadCrumbs": [
+   {
+    "title": "Business Brokers",
+    "titleShort": "Business Brokers",
+    "metaTitle": "Business Brokers",
+    "link": "/business-brokers/",
+    "linkCount": 0
+   }
+  ],
+  "browseBrokersCardText": "Browse Brokers by State/Region",
+  "browseBrokersByStateRegions": [
+   {
+    "title": "Alabama",
+    "link": "/business-brokers/alabama/",
+    "linkCount": 0
+   },
+   {
+    "title": "Alaska",
+    "link": "/business-brokers/alaska/",
+    "linkCount": 0
+   },
+   {
+    "title": "Arizona",
+    "link": "/business-brokers/arizona/",
+    "linkCount": 0
+   },
+   {
+    "title": "Arkansas",
+    "link": "/business-brokers/arkansas/",
+    "linkCount": 0
+   },
+   {
+    "title": "California",
+    "link": "/business-brokers/california/",
+    "linkCount": 0
+   },
+   {
+    "title": "Colorado",
+    "link": "/business-brokers/colorado/",
+    "linkCount": 0
+   },
+   {
+    "title": "Connecticut",
+    "link": "/business-brokers/connecticut/",
+    "linkCount": 0
+   },
+   {
+    "title": "Delaware",
+    "link": "/business-brokers/delaware/",
+    "linkCount": 0
+   },
+   {
+    "title": "District of Columbia",
+    "link": "/business-brokers/district-of-columbia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Florida",
+    "link": "/business-brokers/florida/",
+    "linkCount": 0
+   },
+   {
+    "title": "Georgia",
+    "link": "/business-brokers/georgia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Hawaii",
+    "link": "/business-brokers/hawaii/",
+    "linkCount": 0
+   },
+   {
+    "title": "Idaho",
+    "link": "/business-brokers/idaho/",
+    "linkCount": 0
+   },
+   {
+    "title": "Illinois",
+    "link": "/business-brokers/illinois/",
+    "linkCount": 0
+   },
+   {
+    "title": "Indiana",
+    "link": "/business-brokers/indiana/",
+    "linkCount": 0
+   },
+   {
+    "title": "Iowa",
+    "link": "/business-brokers/iowa/",
+    "linkCount": 0
+   },
+   {
+    "title": "Kansas",
+    "link": "/business-brokers/kansas/",
+    "linkCount": 0
+   },
+   {
+    "title": "Kentucky",
+    "link": "/business-brokers/kentucky/",
+    "linkCount": 0
+   },
+   {
+    "title": "Louisiana",
+    "link": "/business-brokers/louisiana/",
+    "linkCount": 0
+   },
+   {
+    "title": "Maine",
+    "link": "/business-brokers/maine/",
+    "linkCount": 0
+   },
+   {
+    "title": "Maryland",
+    "link": "/business-brokers/maryland/",
+    "linkCount": 0
+   },
+   {
+    "title": "Massachusetts",
+    "link": "/business-brokers/massachusetts/",
+    "linkCount": 0
+   },
+   {
+    "title": "Michigan",
+    "link": "/business-brokers/michigan/",
+    "linkCount": 0
+   },
+   {
+    "title": "Minnesota",
+    "link": "/business-brokers/minnesota/",
+    "linkCount": 0
+   },
+   {
+    "title": "Mississippi",
+    "link": "/business-brokers/mississippi/",
+    "linkCount": 0
+   },
+   {
+    "title": "Missouri",
+    "link": "/business-brokers/missouri/",
+    "linkCount": 0
+   },
+   {
+    "title": "Montana",
+    "link": "/business-brokers/montana/",
+    "linkCount": 0
+   },
+   {
+    "title": "Nebraska",
+    "link": "/business-brokers/nebraska/",
+    "linkCount": 0
+   },
+   {
+    "title": "Nevada",
+    "link": "/business-brokers/nevada/",
+    "linkCount": 0
+   },
+   {
+    "title": "New Hampshire",
+    "link": "/business-brokers/new-hampshire/",
+    "linkCount": 0
+   },
+   {
+    "title": "New Jersey",
+    "link": "/business-brokers/new-jersey/",
+    "linkCount": 0
+   },
+   {
+    "title": "New Mexico",
+    "link": "/business-brokers/new-mexico/",
+    "linkCount": 0
+   },
+   {
+    "title": "New York",
+    "link": "/business-brokers/new-york/",
+    "linkCount": 0
+   },
+   {
+    "title": "North Carolina",
+    "link": "/business-brokers/north-carolina/",
+    "linkCount": 0
+   },
+   {
+    "title": "North Dakota",
+    "link": "/business-brokers/north-dakota/",
+    "linkCount": 0
+   },
+   {
+    "title": "Ohio",
+    "link": "/business-brokers/ohio/",
+    "linkCount": 0
+   },
+   {
+    "title": "Oklahoma",
+    "link": "/business-brokers/oklahoma/",
+    "linkCount": 0
+   },
+   {
+    "title": "Oregon",
+    "link": "/business-brokers/oregon/",
+    "linkCount": 0
+   },
+   {
+    "title": "Pennsylvania",
+    "link": "/business-brokers/pennsylvania/",
+    "linkCount": 0
+   },
+   {
+    "title": "Rhode Island",
+    "link": "/business-brokers/rhode-island/",
+    "linkCount": 0
+   },
+   {
+    "title": "South Carolina",
+    "link": "/business-brokers/south-carolina/",
+    "linkCount": 0
+   },
+   {
+    "title": "South Dakota",
+    "link": "/business-brokers/south-dakota/",
+    "linkCount": 0
+   },
+   {
+    "title": "Tennessee",
+    "link": "/business-brokers/tennessee/",
+    "linkCount": 0
+   },
+   {
+    "title": "Texas",
+    "link": "/business-brokers/texas/",
+    "linkCount": 0
+   },
+   {
+    "title": "Utah",
+    "link": "/business-brokers/utah/",
+    "linkCount": 0
+   },
+   {
+    "title": "Vermont",
+    "link": "/business-brokers/vermont/",
+    "linkCount": 0
+   },
+   {
+    "title": "Virginia",
+    "link": "/business-brokers/virginia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Washington",
+    "link": "/business-brokers/washington/",
+    "linkCount": 0
+   },
+   {
+    "title": "West Virginia",
+    "link": "/business-brokers/west-virginia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Wisconsin",
+    "link": "/business-brokers/wisconsin/",
+    "linkCount": 0
+   },
+   {
+    "title": "Wyoming",
+    "link": "/business-brokers/wyoming/",
+    "linkCount": 0
+   }
+  ],
+  "browseBrokersByExtraCountryRegions": [
+   {
+    "title": "Argentina",
+    "link": "/business-brokers/argentina/",
+    "linkCount": 0
+   },
+   {
+    "title": "Australia",
+    "link": "/business-brokers/australia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Belize",
+    "link": "/business-brokers/belize/",
+    "linkCount": 0
+   },
+   {
+    "title": "Brazil",
+    "link": "/business-brokers/brazil/",
+    "linkCount": 0
+   },
+   {
+    "title": "Canada",
+    "link": "/business-brokers/canada/",
+    "linkCount": 0
+   },
+   {
+    "title": "Caribbean Islands",
+    "link": "/business-brokers/caribbean-islands/",
+    "linkCount": 0
+   },
+   {
+    "title": "Chile",
+    "link": "/business-brokers/chile/",
+    "linkCount": 0
+   },
+   {
+    "title": "Colombia",
+    "link": "/business-brokers/colombia/",
+    "linkCount": 0
+   },
+   {
+    "title": "France",
+    "link": "/business-brokers/france/",
+    "linkCount": 0
+   },
+   {
+    "title": "Germany",
+    "link": "/business-brokers/germany/",
+    "linkCount": 0
+   },
+   {
+    "title": "Japan",
+    "link": "/business-brokers/japan/",
+    "linkCount": 0
+   },
+   {
+    "title": "Mexico",
+    "link": "/business-brokers/mexico/",
+    "linkCount": 0
+   },
+   {
+    "title": "Netherlands",
+    "link": "/business-brokers/netherlands/",
+    "linkCount": 0
+   },
+   {
+    "title": "Puerto Rico",
+    "link": "/business-brokers/puerto-rico/",
+    "linkCount": 0
+   },
+   {
+    "title": "South Africa",
+    "link": "/business-brokers/south-africa/",
+    "linkCount": 0
+   },
+   {
+    "title": "Spain",
+    "link": "/business-brokers/spain/",
+    "linkCount": 0
+   },
+   {
+    "title": "United Kingdom",
+    "link": "/business-brokers/united-kingdom/",
+    "linkCount": 0
+   },
+   {
+    "title": "Virgin Islands",
+    "link": "/business-brokers/virgin-islands/",
+    "linkCount": 0
+   }
+  ],
+  "seeTopBrokersCardText": "See Brokers in Top Cities",
+  "brokersInTopCities": [
+   {
+    "title": "Phoenix, AZ",
+    "link": "/business-brokers/arizona/phoenix/",
+    "linkCount": 0
+   },
+   {
+    "title": "Scottsdale, AZ",
+    "link": "/business-brokers/arizona/scottsdale/",
+    "linkCount": 0
+   },
+   {
+    "title": "Los Angeles, CA",
+    "link": "/business-brokers/california/los-angeles/",
+    "linkCount": 0
+   },
+   {
+    "title": "Sacramento, CA",
+    "link": "/business-brokers/california/sacramento/",
+    "linkCount": 0
+   },
+   {
+    "title": "San Diego, CA",
+    "link": "/business-brokers/california/san-diego/",
+    "linkCount": 0
+   },
+   {
+    "title": "San Francisco, CA",
+    "link": "/business-brokers/california/san-francisco/",
+    "linkCount": 0
+   },
+   {
+    "title": "San Jose, CA",
+    "link": "/business-brokers/california/san-jose/",
+    "linkCount": 0
+   },
+   {
+    "title": "Colorado Springs, CO",
+    "link": "/business-brokers/colorado/colorado-springs/",
+    "linkCount": 0
+   },
+   {
+    "title": "Denver, CO",
+    "link": "/business-brokers/colorado/denver/",
+    "linkCount": 0
+   },
+   {
+    "title": "Fort Lauderdale, FL",
+    "link": "/business-brokers/florida/fort-lauderdale/",
+    "linkCount": 0
+   },
+   {
+    "title": "Miami, FL",
+    "link": "/business-brokers/florida/miami/",
+    "linkCount": 0
+   },
+   {
+    "title": "Orlando, FL",
+    "link": "/business-brokers/florida/orlando/",
+    "linkCount": 0
+   },
+   {
+    "title": "Sarasota, FL",
+    "link": "/business-brokers/florida/sarasota/",
+    "linkCount": 0
+   },
+   {
+    "title": "Tampa, FL",
+    "link": "/business-brokers/florida/tampa/",
+    "linkCount": 0
+   },
+   {
+    "title": "Atlanta, GA",
+    "link": "/business-brokers/georgia/atlanta/",
+    "linkCount": 0
+   },
+   {
+    "title": "Duluth, GA",
+    "link": "/business-brokers/georgia/duluth/",
+    "linkCount": 0
+   },
+   {
+    "title": "Marietta, GA",
+    "link": "/business-brokers/georgia/marietta/",
+    "linkCount": 0
+   },
+   {
+    "title": "Boise, ID",
+    "link": "/business-brokers/idaho/boise/",
+    "linkCount": 0
+   },
+   {
+    "title": "Chicago, IL",
+    "link": "/business-brokers/illinois/chicago/",
+    "linkCount": 0
+   },
+   {
+    "title": "Fort Wayne, IN",
+    "link": "/business-brokers/indiana/fort-wayne/",
+    "linkCount": 0
+   },
+   {
+    "title": "Indianapolis, IN",
+    "link": "/business-brokers/indiana/indianapolis/",
+    "linkCount": 0
+   },
+   {
+    "title": "Overland Park, KS",
+    "link": "/business-brokers/kansas/overland-park/",
+    "linkCount": 0
+   },
+   {
+    "title": "Louisville, KY",
+    "link": "/business-brokers/kentucky/louisville/",
+    "linkCount": 0
+   },
+   {
+    "title": "Portland, ME",
+    "link": "/business-brokers/maine/portland/",
+    "linkCount": 0
+   },
+   {
+    "title": "Baltimore, MD",
+    "link": "/business-brokers/maryland/baltimore/",
+    "linkCount": 0
+   },
+   {
+    "title": "Boston, MA",
+    "link": "/business-brokers/massachusetts/boston/",
+    "linkCount": 0
+   },
+   {
+    "title": "Minneapolis, MN",
+    "link": "/business-brokers/minnesota/minneapolis/",
+    "linkCount": 0
+   },
+   {
+    "title": "Kansas City, MO",
+    "link": "/business-brokers/missouri/kansas-city/",
+    "linkCount": 0
+   },
+   {
+    "title": "Omaha, NE",
+    "link": "/business-brokers/nebraska/omaha/",
+    "linkCount": 0
+   },
+   {
+    "title": "Las Vegas, NV",
+    "link": "/business-brokers/nevada/las-vegas/",
+    "linkCount": 0
+   },
+   {
+    "title": "Brooklyn, NY",
+    "link": "/business-brokers/new-york/brooklyn/",
+    "linkCount": 0
+   },
+   {
+    "title": "New York, NY",
+    "link": "/business-brokers/new-york/new-york/",
+    "linkCount": 0
+   },
+   {
+    "title": "Rochester, NY",
+    "link": "/business-brokers/new-york/rochester/",
+    "linkCount": 0
+   },
+   {
+    "title": "Charlotte, NC",
+    "link": "/business-brokers/north-carolina/charlotte/",
+    "linkCount": 0
+   },
+   {
+    "title": "Raleigh, NC",
+    "link": "/business-brokers/north-carolina/raleigh/",
+    "linkCount": 0
+   },
+   {
+    "title": "Cleveland, OH",
+    "link": "/business-brokers/ohio/cleveland/",
+    "linkCount": 0
+   },
+   {
+    "title": "Columbus, OH",
+    "link": "/business-brokers/ohio/columbus/",
+    "linkCount": 0
+   },
+   {
+    "title": "Oklahoma City, OK",
+    "link": "/business-brokers/oklahoma/oklahoma-city/",
+    "linkCount": 0
+   },
+   {
+    "title": "Portland, OR",
+    "link": "/business-brokers/oregon/portland/",
+    "linkCount": 0
+   },
+   {
+    "title": "Philadelphia, PA",
+    "link": "/business-brokers/pennsylvania/philadelphia/",
+    "linkCount": 0
+   },
+   {
+    "title": "Pittsburgh, PA",
+    "link": "/business-brokers/pennsylvania/pittsburgh/",
+    "linkCount": 0
+   },
+   {
+    "title": "Charleston, SC",
+    "link": "/business-brokers/south-carolina/charleston/",
+    "linkCount": 0
+   },
+   {
+    "title": "Nashville, TN",
+    "link": "/business-brokers/tennessee/nashville/",
+    "linkCount": 0
+   },
+   {
+    "title": "Austin, TX",
+    "link": "/business-brokers/texas/austin/",
+    "linkCount": 0
+   },
+   {
+    "title": "Dallas, TX",
+    "link": "/business-brokers/texas/dallas/",
+    "linkCount": 0
+   },
+   {
+    "title": "Fort Worth, TX",
+    "link": "/business-brokers/texas/fort-worth/",
+    "linkCount": 0
+   },
+   {
+    "title": "Houston, TX",
+    "link": "/business-brokers/texas/houston/",
+    "linkCount": 0
+   },
+   {
+    "title": "San Antonio, TX",
+    "link": "/business-brokers/texas/san-antonio/",
+    "linkCount": 0
+   },
+   {
+    "title": "Bellevue, WA",
+    "link": "/business-brokers/washington/bellevue/",
+    "linkCount": 0
+   },
+   {
+    "title": "Seattle, WA",
+    "link": "/business-brokers/washington/seattle/",
+    "linkCount": 0
+   }
+  ],
+  "brokerSchemaResponse": {
+   "metaTitle": "Business Brokers - BizBuySell",
+   "metaDescription": "Find a Business Broker in your area to help you buy or sell a business. Our Broker network provides brokers near you in your area that offer skills to help with your investment and future.",
+   "personSchemas": [
+    {
+     "@type": "ListItem",
+     "position": 0,
+     "item": {
+      "@type": "Person",
+      "name": "Prabhjot Randhawa",
+      "description": null,
+      "url": "https://www.bizbuysell.com/business-broker/prabhjot-randhawa/liberty-business-advisors-of-s-f-inc/15309/",
+      "jobTitle": "Business Broker",
+      "image": "https://www.bizbuysell.com/shared/brokerdirectory/images/21978/pf_prs_pic1.jpg",
+      "address": [
+       {
+        "@type": "PostalAddress",
+        "addressLocality": "Alameda County",
+        "addressRegion": "California"
+       }
+      ],
+      "worksFor": {
+       "@type": "Organization",
+       "name": "Liberty Business Advisors of S. F Inc",
+       "description": null,
+       "logo": "https://www.bizbuysell.com"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "message": null
+}

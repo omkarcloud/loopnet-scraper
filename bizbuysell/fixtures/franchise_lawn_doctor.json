@@ -1,0 +1,442 @@
+{
+ "status": 1,
+ "timeMs": 0,
+ "value": {
+  "advertiserId": 216,
+  "franchiseId": 216,
+  "bbsFranchiseId": 2017,
+  "advertiserPlacementId": 216,
+  "advertiserStatusId": 20,
+  "sponsorLevelId": 20,
+  "labelTypeId": 10,
+  "placementTypeId": 10,
+  "name": "Lawn Doctor",
+  "h1Header": "Lawn Doctor Franchise",
+  "metaTitle": null,
+  "metaDescription": null,
+  "franchiseFee": 45000.0,
+  "franchisedUnits": 672.0,
+  "cashRequired": 60000.0,
+  "franchisingSince": 1967,
+  "corporateHeadquaters": "Holmdel, NJ",
+  "ceoName": "Scott Frith",
+  "franchiseUnitLst": [
+   {
+    "year": 2021,
+    "franchisedUnits": 613,
+    "companyOwnedUnits": 0
+   },
+   {
+    "year": 2022,
+    "franchisedUnits": 624,
+    "companyOwnedUnits": 0
+   },
+   {
+    "year": 2023,
+    "franchisedUnits": 630,
+    "companyOwnedUnits": 0
+   },
+   {
+    "year": 2024,
+    "franchisedUnits": 653,
+    "companyOwnedUnits": 0
+   },
+   {
+    "year": 2025,
+    "franchisedUnits": 672,
+    "companyOwnedUnits": 3
+   }
+  ],
+  "totalNumberOfUnits": 675,
+  "newUnitsOpened": 27,
+  "latestCompanyOwnedUnits": 3,
+  "latestDataYear": 2025,
+  "averageUnitRevenue": 1170356.0,
+  "vmFranchiseFeeLst": [
+   {
+    "feeTypeId": 10,
+    "feeValue": "$50,000",
+    "feePercent": null,
+    "feeBase": ""
+   },
+   {
+    "feeTypeId": 30,
+    "feeValue": null,
+    "feePercent": "2.0% - 5.0%",
+    "feeBase": "Net Revenues"
+   },
+   {
+    "feeTypeId": 20,
+    "feeValue": null,
+    "feePercent": "10.0%",
+    "feeBase": "Net Revenues"
+   },
+   {
+    "feeTypeId": 40,
+    "feeValue": "$45,000",
+    "feePercent": "10.0%",
+    "feeBase": ""
+   }
+  ],
+  "images": [
+   {
+    "imageTypeId": 10,
+    "extension": ".png",
+    "url": "/fnw/images/216/216/c53168a7-38c9-4d6e-bb68-bdae6e2d87d4.png",
+    "title": null,
+    "caption": null
+   }
+  ],
+  "netWorthRequired": 200000.0,
+  "totalInvestmentMin": 133000.0,
+  "totalInvestmentMax": 149000.0,
+  "capitalFilterMin": 0.0,
+  "locationFilters": [
+   "AL",
+   "AR",
+   "FL",
+   "GA",
+   "ID",
+   "IL",
+   "IN",
+   "IA",
+   "KS",
+   "LA",
+   "ME",
+   "MI",
+   "MN",
+   "MS",
+   "MO",
+   "NC",
+   "OH",
+   "OK",
+   "OR",
+   "PA",
+   "SD",
+   "TX",
+   "VT",
+   "VA",
+   "WA",
+   "WV",
+   "WI",
+   "WY",
+   "AK",
+   "AZ",
+   "CA",
+   "CO",
+   "CT",
+   "DE",
+   "KY",
+   "MD",
+   "MA",
+   "MT",
+   "NE",
+   "NV",
+   "NH",
+   "NJ",
+   "NM",
+   "NY",
+   "ND",
+   "RI",
+   "SC",
+   "TN",
+   "UT",
+   "DC",
+   "HI"
+  ],
+  "additionalClassificationLst": [
+   "Training and Support",
+   "Financing Available",
+   "Mobile",
+   "Multi Units"
+  ],
+  "generalDescription": "Entrepreneur Magazine Franchise 500 #1 In Category! Don’t Wait Contact Us Today and Be Ready to Launch Your Business by Spring.",
+  "tagLine": null,
+  "displayComponents": [
+   {
+    "rowId": 0,
+    "displayId": 11030,
+    "componentTypeId": 10,
+    "content": "<p>Lawn Doctor was founded in 1967, with a focus on bringing advanced technology and superior service to the business of lawn care. Since that time, Lawn Doctor has grown to be a leading brand in the $80+ billion lawn care industry. Today Lawn Doctor supports over 640 franchise locations that bring Lawn Doctor’s in-demand services such as fertilization, weed control, grub control, power seeding, aeration, tree and shrub care, and pest control services for both residential communities and commercial clients across America. </p>\n<br/>\n<p>Home services are one of the fastest growing business segments in the country, with 75% of U.S. households currently hiring at least one type of lawn and landscape service – and Lawn Doctor franchisees lead the industry with an 80% retention rate. Lawn Doctor has single and multi-territory opportunities in key markets nationwide. Lawn Doctor is a simple business model that is easy to implement, and Lawn Doctor’s low startup cost model makes the transition to business ownership easy.</p>\n<br/>\n<p>We have now added the opportunity for franchisees to offer holiday lighting through the service line Holiday Lighting Heroes. In addition to an already powerful and proven model, owners can now elect to have an annual revenue business, regardless of climate.</p>"
+   },
+   {
+    "rowId": 0,
+    "displayId": 11030,
+    "componentTypeId": 20,
+    "content": "<p>The Top Reasons to Consider Lawn Doctor</p>\n\n<ul>\n<li> #1 Lawn Care Franchise in U.S.</li>\n<li> #1 in Customer Satisfaction</li>\n<li> 1 of 5 Brands on Entrepreneur Magazine’s Franchise 500 for All 43 Years Published</li>\n<li> Top 5% of All Franchise Brands (~ 600 Locations)</li>\n<li> Best in Class Proprietary Application Equipment</li>\n<li> Renewable Revenue, Each year Builds Upon the Last</li>\n<li> In-house Marketing, Corporate Managed, Data-Driven</li>\n<li> National Sales Center Closes New Customers for Franchisees –No Cold Calling</li>\n<li> Fast Growing Home Services: $600 Billion Dollar Space Driven by Home Formations that are Expected to Double Over the Next Decade</li>\n<li> Plenty of White Space Primarily in the South, Midwest and the West</li>\n</ul>"
+   },
+   {
+    "rowId": 0,
+    "displayId": 11030,
+    "componentTypeId": 30,
+    "content": "<p>Desired background of prospects and Ideal candidate we are not looking for people that want to work on customers’ lawns! Multi-unit ambitions and marketing and sales experience are a plus. We want an owner who is personable, great with follow-up, communication and believes in customer satisfaction. We seek candidates who have an empire builder mentality.</p>"
+   },
+   {
+    "rowId": 0,
+    "displayId": 11030,
+    "componentTypeId": 50,
+    "content": "<p>Lawn Doctor Franchisees receive a comprehensive eight-day training program with complete marketing and customer management support. Our in-house training includes classroom and hands-on instruction on all aspects of the business including business planning, technology, agronomy, equipment, accounting, labor force, marketing, and sales.</p>\n\n<ul>\n<li> Additional on-going support is provided by a field representative’s </li>\n<li> On-going training in sales and equipment. </li>\n<li> Lawn Doctor’s intranet provides franchisees with manuals and bulletins with news and information; monthly e-newsletters and emails are also sent to franchisees. </li>\n<li> Regional meetings and an annual conference are also held. </li>\n<li> Lawn Doctor provides ongoing marketing support to help grow your business with proven tactics. Our fully integrated consumer marketing campaigns have multiple layers to provide broad reach, while maximizing the efficiency of available funds. </li>\n<li> Separate training program held in August for holiday lighting</li>\n</ul>"
+   }
+  ],
+  "website": "http://www.lawndoctor.com/",
+  "stockTicker": null,
+  "financialAssistTypeId": 10,
+  "trainingProvided": true,
+  "wantsCanadianLeads": false,
+  "franchisedInCanada": false,
+  "criteria": {
+   "regionData": [],
+   "categoryData": [
+    {
+     "categoryId": 17,
+     "parentCategoryId": null,
+     "siteCategoryId": 9,
+     "name": "Home Services",
+     "urlStub": "home-services-franchise",
+     "seoPlural": "Home Services Franchises",
+     "seoSingular": "Home Services Franchise",
+     "seoDescription": null,
+     "seoValuationPageUrl": null,
+     "fbrSeoPageDescription": null,
+     "driversOfGrossProfit": null,
+     "driversOfPreTaxNetProfit": null,
+     "driversOfCogsAndOpex": null,
+     "driversOfOperatingExpenses": null,
+     "profitabilityAndEfficiencySectionContent": null,
+     "naicsCodes": null,
+     "isDisplayable": true,
+     "priority": 2
+    }
+   ],
+   "countries": null,
+   "regions": null,
+   "categories": null,
+   "bbsFdCategoryIds": null,
+   "bbsCategories": [
+    9
+   ],
+   "sponsorLevel": 0,
+   "sponsorLevels": [
+    20,
+    10
+   ],
+   "advertiserStatusIds": [
+    20,
+    10,
+    40
+   ],
+   "investmentMax": 0,
+   "investmentMin": 0,
+   "seoName": "lawn-doctor-home-services-franchise",
+   "queryString": null,
+   "displayId": 0,
+   "omitHtmlContent": false,
+   "boostVeteransFranchises": false,
+   "onlySemProducts": false,
+   "franchiseIds": null,
+   "accountIds": null,
+   "excludeFranchiseIds": null,
+   "pageNumber": 1,
+   "siteId": 20,
+   "languageId": 10,
+   "keyword": null,
+   "offset": 0,
+   "howMany": 50,
+   "excludeList": null,
+   "sortList": null
+  },
+  "canonicalUrl": "/franchise-for-sale/lawn-doctor-home-services-franchise/",
+  "breadCrumbs": [
+   {
+    "title": "Home Services Franchises For Sale",
+    "titleShort": "Home Services Franchises For Sale",
+    "link": "/franchise-for-sale/home-services-franchise/",
+    "linkCount": 0
+   }
+  ],
+  "breadCrumbSchemaStructures": [
+   {
+    "schemaCommonProp": {
+     "@type": "BreadcrumbList",
+     "position": 1
+    },
+    "id": "/franchise-for-sale/home-services-franchise/",
+    "name": "Home Services Franchises For Sale"
+   }
+  ],
+  "productSchemaStructures": [
+   {
+    "@type": "Product",
+    "name": "Lawn Doctor",
+    "logo": "/fnw/images/216/216/c53168a7-38c9-4d6e-bb68-bdae6e2d87d4.png",
+    "image": null,
+    "description": "Entrepreneur Magazine Franchise 500 #1 In Category! Don’t Wait Contact Us Today and Be Ready to Launch Your Business by Spring.",
+    "url": "lawn-doctor-home-services-franchise",
+    "productId": null,
+    "offers": {
+     "@type": "Offer",
+     "price": 0.0,
+     "priceCurrency": "USD",
+     "availability": "http://schema.org/InStock",
+     "url": null,
+     "image": null,
+     "priceSpecification": {
+      "@type": "PriceSpecification",
+      "maxPrice": 149000.0,
+      "minPrice": 133000.0,
+      "price": null,
+      "priceCurrency": "USD"
+     },
+     "availableAtOrFrom": null
+    }
+   }
+  ],
+  "relatedFranchiseSections": [],
+  "urlStub": "franchise-for-sale/lawn-doctor-home-services-franchise",
+  "categoryDetails": [
+   {
+    "categoryId": 17,
+    "parentCategoryId": null,
+    "siteCategoryId": 9,
+    "name": "Home Services",
+    "urlStub": "home-services-franchise",
+    "seoPlural": "Home Services Franchises",
+    "seoSingular": "Home Services Franchise",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 2
+   },
+   {
+    "categoryId": 20,
+    "parentCategoryId": null,
+    "siteCategoryId": 25,
+    "name": "Mobile",
+    "urlStub": "mobile-franchise",
+    "seoPlural": "Mobile Franchises",
+    "seoSingular": "Mobile Franchise",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   },
+   {
+    "categoryId": 430,
+    "parentCategoryId": null,
+    "siteCategoryId": 28,
+    "name": "Multi-Unit",
+    "urlStub": "multi-unit-franchises",
+    "seoPlural": "Multi Unit",
+    "seoSingular": "Multi Unit",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   },
+   {
+    "categoryId": 13,
+    "parentCategoryId": null,
+    "siteCategoryId": 23,
+    "name": "Green",
+    "urlStub": "green-franchise",
+    "seoPlural": "Green Franchises",
+    "seoSingular": "Green Franchise",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   },
+   {
+    "categoryId": 429,
+    "parentCategoryId": null,
+    "siteCategoryId": 29,
+    "name": "Master Franchise",
+    "urlStub": "master-franchises",
+    "seoPlural": "Master Franchises",
+    "seoSingular": "Master Franchises",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   },
+   {
+    "categoryId": 23,
+    "parentCategoryId": null,
+    "siteCategoryId": 27,
+    "name": "SBA Approved",
+    "urlStub": "sba-approved-franchise",
+    "seoPlural": "SBA Approved Franchises",
+    "seoSingular": "SBA Approved Franchise",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   },
+   {
+    "categoryId": 27,
+    "parentCategoryId": null,
+    "siteCategoryId": 20,
+    "name": "Veteran's Franchises",
+    "urlStub": "veterans-franchise",
+    "seoPlural": "Veteran's Franchises",
+    "seoSingular": "Veteran's Franchise",
+    "seoDescription": null,
+    "seoValuationPageUrl": null,
+    "fbrSeoPageDescription": null,
+    "driversOfGrossProfit": null,
+    "driversOfPreTaxNetProfit": null,
+    "driversOfCogsAndOpex": null,
+    "driversOfOperatingExpenses": null,
+    "profitabilityAndEfficiencySectionContent": null,
+    "naicsCodes": null,
+    "isDisplayable": true,
+    "priority": 3
+   }
+  ],
+  "bqFranchiseId": 0,
+  "franchiseBrandListingsResult": null
+ },
+ "message": null
+}

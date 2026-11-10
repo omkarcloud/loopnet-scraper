@@ -1,0 +1,29 @@
+{
+ "status": 1,
+ "timeMs": 35,
+ "value": {
+  "resultCounts": [
+   {
+    "listingTypeId": 40,
+    "resultCount": 830,
+    "resultCountDisplay": "830"
+   },
+   {
+    "listingTypeId": 30,
+    "resultCount": 83,
+    "resultCountDisplay": "83"
+   },
+   {
+    "listingTypeId": 80,
+    "resultCount": 29,
+    "resultCountDisplay": "29"
+   },
+   {
+    "listingTypeId": 20,
+    "resultCount": 8,
+    "resultCountDisplay": "8"
+   }
+  ]
+ },
+ "message": null
+}

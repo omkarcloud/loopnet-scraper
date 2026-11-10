@@ -1,0 +1,61 @@
+{
+ "status": 1,
+ "value": [
+  {
+   "account": 49327,
+   "brokerProfileId": 40986,
+   "firstName": "Taj",
+   "lastName": "Randhawa",
+   "fullName": "Taj Randhawa",
+   "city": "Fresno",
+   "regionCode": "CA",
+   "countryCode": "US",
+   "locationDescription": "Fresno, CA",
+   "companyName": "Re/Max Gold.",
+   "url": "/business-broker/taj-randhawa/re-max-gold/40986/",
+   "brokerKeywordSearchTypeIds": [
+    10
+   ]
+  },
+  {
+   "account": 21978,
+   "brokerProfileId": 15309,
+   "firstName": "Prabhjot",
+   "lastName": "Randhawa",
+   "fullName": "Prabhjot Randhawa",
+   "city": "Dublin",
+   "regionCode": "CA",
+   "countryCode": "US",
+   "locationDescription": "Dublin, CA",
+   "companyName": "Liberty Business Advisors of S. F Inc",
+   "url": "/business-broker/prabhjot-randhawa/liberty-business-advisors-of-s-f-inc/15309/",
+   "brokerKeywordSearchTypeIds": [
+    10
+   ]
+  },
+  {
+   "account": 52474,
+   "brokerProfileId": 43971,
+   "firstName": "Gurkaran",
+   "lastName": "Randhawa",
+   "fullName": "Gurkaran Randhawa",
+   "city": "",
+   "regionCode": null,
+   "countryCode": null,
+   "locationDescription": "Unspecified",
+   "companyName": "Biz Depot Brokers",
+   "url": "/business-broker/gurkaran-randhawa/biz-depot-brokers/43971/",
+   "brokerKeywordSearchTypeIds": [
+    10
+   ]
+  }
+ ],
+ "count": 3,
+ "total": 3,
+ "timeMs": 44,
+ "pagination": {
+  "searchScrollLifetime": null,
+  "searchScrollToken": null
+ },
+ "message": ""
+}

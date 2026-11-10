@@ -1,0 +1,1746 @@
+{
+ "bbsBfsSearchResult": {
+  "status": 1,
+  "count": 5,
+  "total": 950,
+  "timeMs": 220,
+  "canonicalUrl": "/businesses-for-sale/",
+  "displayUrl": "/businesses-for-sale/",
+  "queryString": "q=az1iYWtlcnk=",
+  "value": [
+   {
+    "header": "Turnkey Legacy Banquet Hall Business with Property",
+    "location": "Illinois",
+    "locationCrumbs": null,
+    "price": 4775000.0,
+    "description": "This is a premier wedding and event services business/venue in the southwest suburbs of Chicago with an experienced leadership team and staff. They have created an established legacy in its industry...",
+    "type": 5,
+    "img": [
+     "https://images.bizbuysell.com/shared/listings/252/2525392/851ecd31-133f-4b1a-bb4e-386878c819ee-W336.webp"
+    ],
+    "logoImg": null,
+    "listNumber": 2525392,
+    "specificId": 2525392,
+    "urlStub": "/business-opportunity/turnkey-legacy-banquet-hall-business-with-property/2525392/",
+    "cashFlow": 3329.0,
+    "unitRevenue": null,
+    "listingTypeId": 40,
+    "ebitda": null,
+    "financingTypeId": 0,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": null,
+    "searchOffset": 0,
+    "adLevelId": 5,
+    "siteSpecificId": 2525392,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": {
+     "contactInfoPersonId": 412844,
+     "contactFullName": "Scott Hislop",
+     "contactPhoneNumber": {
+      "telephone": "(888) 290-5232",
+      "phoneCountryCode": null,
+      "tpnPhone": "8669714178",
+      "tpnPhoneExt": ""
+     },
+     "contactPhoto": "https://images.bizbuysell.com/shared/brokerdirectory/images/27404/lg_prs_TRANSWORLD-LOGO-2021-Icon-VF-01.png",
+     "brokerCompany": "Transworld Business Advisors NorthStar",
+     "brokerProfileUrl": "/business-broker/scott-hislop/transworld-business-advisors-northstar/20493/"
+    },
+    "detailRequests": {
+     "requestContactAvailableFunds": false,
+     "requestContactZip": false,
+     "requestContactTimeFrame": false
+    },
+    "diamondMetaData": {
+     "bbsListNumber": 2525392,
+     "headline": "Turnkey Legacy Banquet Hall Business with Property",
+     "askingPrice": 4775000.0,
+     "adLevel": 5,
+     "bbsPrimaryBizTypeId": 156,
+     "checkboxAdTagline": null,
+     "bqPrimaryBizTypeId": 206,
+     "bqListNumber": null,
+     "bqPrimaryBizTypeName": null,
+     "bbsPrimaryBizTypeName": null,
+     "location": "Illinois",
+     "locationSt": "Illinois",
+     "regionId": 28
+    },
+    "region": "IL",
+    "hotProperty": false,
+    "recentlyUpdated": true,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": true,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": 27404,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": 40,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": 20,
+    "currentLenderTypeId": 30
+   },
+   {
+    "header": "Pure Water Store & Food Service Opportunity for Sale – Milpitas, CA –",
+    "location": "Milpitas, CA",
+    "locationCrumbs": null,
+    "price": 12000.0,
+    "description": "Excellent opportunity for a food entrepreneur, caterer, restaurant owner, bakery operator, coffee vendor, or specialty food business looking to establish a presence in a high-traffic retail location...",
+    "type": 5,
+    "img": [
+     "https://images.bizbuysell.com/shared/listings/251/2511796/5d99dde0-426a-4cff-aa70-410cf5cf5894-W336.webp"
+    ],
+    "logoImg": null,
+    "listNumber": 2511796,
+    "specificId": 2511796,
+    "urlStub": "/business-opportunity/pure-water-store-and-food-service-opportunity-for-sale-milpitas-ca/2511796/",
+    "cashFlow": 108000.0,
+    "unitRevenue": null,
+    "listingTypeId": 40,
+    "ebitda": null,
+    "financingTypeId": 0,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": null,
+    "searchOffset": 1,
+    "adLevelId": 5,
+    "siteSpecificId": 2511796,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": {
+     "contactInfoPersonId": 704886,
+     "contactFullName": "raja chahal",
+     "contactPhoneNumber": {
+      "telephone": "(408) 401-2400",
+      "phoneCountryCode": null,
+      "tpnPhone": null,
+      "tpnPhoneExt": null
+     },
+     "contactPhoto": null,
+     "brokerCompany": null,
+     "brokerProfileUrl": null
+    },
+    "detailRequests": {
+     "requestContactAvailableFunds": false,
+     "requestContactZip": false,
+     "requestContactTimeFrame": false
+    },
+    "diamondMetaData": {
+     "bbsListNumber": 2511796,
+     "headline": "Pure Water Store & Food Service Opportunity for Sale – Milpitas, CA –",
+     "askingPrice": 12000.0,
+     "adLevel": 5,
+     "bbsPrimaryBizTypeId": 214,
+     "checkboxAdTagline": null,
+     "bqPrimaryBizTypeId": 225,
+     "bqListNumber": null,
+     "bqPrimaryBizTypeName": null,
+     "bbsPrimaryBizTypeName": null,
+     "location": "Milpitas, CA",
+     "locationSt": "California",
+     "regionId": 18
+    },
+    "region": "CA",
+    "hotProperty": true,
+    "recentlyUpdated": true,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": false,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": null,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": null,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": null,
+    "currentLenderTypeId": null
+   },
+   {
+    "header": "FULLY OPERATIONAL, Prime Paris Baguette Franchise, Turn-Key in PA",
+    "location": "Delaware County, PA",
+    "locationCrumbs": null,
+    "price": 1500000.0,
+    "description": "ESTABLISHED PARIS BAGUETTE FRANCHISE - PRIME PENNSYLVANIA OPPORTUNITY This exceptional Paris Baguette franchise has achieved $1.74M in annualized revenue within just 12 months of operation,...",
+    "type": 5,
+    "img": [
+     "https://images.bizbuysell.com/shared/listings/254/2545241/2746ff8e-5a7a-4311-8d95-52cb370d8c20-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/254/2545241/f904d832-b076-4881-a8f8-3f62283f7272-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/254/2545241/64e59521-148c-4311-a686-c341c16bb3bb-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/254/2545241/8303b6c9-aa4e-4b24-ae1e-7d50611fd02c-W336.webp"
+    ],
+    "logoImg": null,
+    "listNumber": 2545241,
+    "specificId": 2545241,
+    "urlStub": "/business-opportunity/fully-operational-prime-paris-baguette-franchise-turn-key-in-pa/2545241/",
+    "cashFlow": null,
+    "unitRevenue": null,
+    "listingTypeId": 40,
+    "ebitda": null,
+    "financingTypeId": 0,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": 16382.0,
+    "searchOffset": 2,
+    "adLevelId": 5,
+    "siteSpecificId": 2545241,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": {
+     "contactInfoPersonId": 1071710,
+     "contactFullName": "Kari Denton",
+     "contactPhoneNumber": {
+      "telephone": "(732) 768-2305",
+      "phoneCountryCode": null,
+      "tpnPhone": null,
+      "tpnPhoneExt": null
+     },
+     "contactPhoto": null,
+     "brokerCompany": null,
+     "brokerProfileUrl": null
+    },
+    "detailRequests": {
+     "requestContactAvailableFunds": false,
+     "requestContactZip": false,
+     "requestContactTimeFrame": false
+    },
+    "diamondMetaData": {
+     "bbsListNumber": 2545241,
+     "headline": "FULLY OPERATIONAL, Prime Paris Baguette Franchise, Turn-Key in PA",
+     "askingPrice": 1500000.0,
+     "adLevel": 5,
+     "bbsPrimaryBizTypeId": 166,
+     "checkboxAdTagline": null,
+     "bqPrimaryBizTypeId": 224,
+     "bqListNumber": null,
+     "bqPrimaryBizTypeName": null,
+     "bbsPrimaryBizTypeName": null,
+     "location": "Delaware County, PA",
+     "locationSt": "Pennsylvania",
+     "regionId": 52
+    },
+    "region": "PA",
+    "hotProperty": true,
+    "recentlyUpdated": false,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": false,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": null,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": null,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": 20,
+    "currentLenderTypeId": 30
+   },
+   {
+    "header": "Cabot Trail, NS -Restaurant/Bakery + Property / Cabin rental | Turnkey",
+    "location": "Englishtown, NS",
+    "locationCrumbs": null,
+    "price": 1100000.0,
+    "description": "The Clucking Hen is a well-established restaurant and property opportunity located along Nova Scotia's renowned Cabot Trail in Englishtown. Operating successfully since 1999, this turnkey business...",
+    "type": 5,
+    "img": [
+     "https://images.bizbuysell.com/shared/listings/246/2469521/1f2be3eb-5d88-4ff9-81e9-c3cd69df6006-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/9d48b767-303d-43ff-8223-7a67c6b50a10-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/1e2b0d64-e442-4445-a6fc-78fab5eb6b40-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/a0784b5c-09a6-469b-b8fa-a7a5571feadf-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/2851116a-f90a-4a04-9bec-2874141a98c0-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/fb8bd1c7-1fec-4e37-8940-16ea399d7920-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/31d96611-e17d-4f0e-a28e-32652a2f87ef-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/9f86051d-3ff6-4146-9efb-68814eca2455-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/217bd6c0-787d-4ce5-93cb-0acf9eb6ec72-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/8db78f96-a43c-49e7-9966-c1203739b8d0-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/3839cdd7-593c-4b74-a9a4-26094a47d63e-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/5d3121f9-271e-4518-8f05-36205d453aa2-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/eccce134-23a9-4e74-a78d-203b1a8d0e07-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/dcefc41b-015c-4d3e-aa23-5fdc88831a7a-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/e7ab8c41-7f91-42a7-ab96-09801a0cf3ae-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/84117f64-af49-4a83-a0f8-61eb69d79f76-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/658766c2-c478-433a-a547-f17af78c31df-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/b4d7ab54-910b-42b7-8505-ee262a4a4be9-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/26047f75-92dc-4974-b0c4-06cc5baf0ecd-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/4125d7dd-b0f7-48ad-907e-28eb985aed43-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/a27737bb-de02-4382-9a49-d429a6a5590a-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/59ca09dc-8fa1-46df-b95e-45501e71be24-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/515078bd-a7e5-41bc-8f0a-f588443561d6-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/b018f811-ae3c-459c-87e1-f418d405c4dd-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/7961a1dd-4052-491d-90b4-a12d95554991-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/0e9ce80f-968c-47fd-87e4-f7cf1c0a1638-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/645495e3-01a0-4e54-a9a4-67379aaedba3-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/870bf754-488a-4874-8470-3fab3d31383a-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/c9cb3176-ae66-40a0-989b-e09d371bc4aa-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/c09e13fd-1832-41de-8978-fd5547267f0f-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/4bc9e920-0054-4fa0-a78c-9a428556bb55-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/c53223fc-06d2-49e7-aef4-14ebe60d2ef0-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/d29dd6c7-2f5c-474a-8068-adb2e31100d6-W336.webp",
+     "https://images.bizbuysell.com/shared/listings/246/2469521/e2e621dd-9938-4acf-afea-032d11702917-W336.webp"
+    ],
+    "logoImg": null,
+    "listNumber": 2469521,
+    "specificId": 2469521,
+    "urlStub": "/business-opportunity/cabot-trail-ns-restaurant-bakery-property-cabin-rental-turnkey/2469521/",
+    "cashFlow": null,
+    "unitRevenue": null,
+    "listingTypeId": 40,
+    "ebitda": null,
+    "financingTypeId": 0,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": null,
+    "searchOffset": 3,
+    "adLevelId": 5,
+    "siteSpecificId": 2469521,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": {
+     "contactInfoPersonId": 1865000,
+     "contactFullName": "Glenda Ogley",
+     "contactPhoneNumber": {
+      "telephone": "(647) 801-3314",
+      "phoneCountryCode": null,
+      "tpnPhone": null,
+      "tpnPhoneExt": null
+     },
+     "contactPhoto": null,
+     "brokerCompany": null,
+     "brokerProfileUrl": null
+    },
+    "detailRequests": {
+     "requestContactAvailableFunds": false,
+     "requestContactZip": false,
+     "requestContactTimeFrame": false
+    },
+    "diamondMetaData": {
+     "bbsListNumber": 2469521,
+     "headline": "Cabot Trail, NS -Restaurant/Bakery + Property / Cabin rental | Turnkey",
+     "askingPrice": 1100000.0,
+     "adLevel": 5,
+     "bbsPrimaryBizTypeId": 214,
+     "checkboxAdTagline": null,
+     "bqPrimaryBizTypeId": 225,
+     "bqListNumber": null,
+     "bqPrimaryBizTypeName": null,
+     "bbsPrimaryBizTypeName": null,
+     "location": "Englishtown, NS",
+     "locationSt": "Nova Scotia",
+     "regionId": 71
+    },
+    "region": "NS",
+    "hotProperty": false,
+    "recentlyUpdated": false,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": false,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": null,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": null,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": null,
+    "currentLenderTypeId": null
+   },
+   {
+    "header": "Gilbert Taproom + Series 7 License | $75,000 Takes All",
+    "location": "Gilbert, AZ",
+    "locationCrumbs": null,
+    "price": 75000.0,
+    "description": "An exceptional opportunity to acquire a professionally built bar space in a premier Class A Gilbert development. Offered as a true asset sale with lease transfer, this opportunity is priced at $75,000...",
+    "type": 5,
+    "img": [
+     "https://images.bizbuysell.com/shared/listings/244/2441048/67f58a3f-cdd0-46c8-b73b-96fa73380ada-W336.webp"
+    ],
+    "logoImg": null,
+    "listNumber": 2441048,
+    "specificId": 2441048,
+    "urlStub": "/business-opportunity/gilbert-taproom-series-7-license-75-000-takes-all/2441048/",
+    "cashFlow": null,
+    "unitRevenue": null,
+    "listingTypeId": 40,
+    "ebitda": null,
+    "financingTypeId": 0,
+    "leaseRateDuration": 40,
+    "leaseRatePerSquareFoot": 5400.0,
+    "searchOffset": 4,
+    "adLevelId": 5,
+    "siteSpecificId": 2441048,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": {
+     "contactInfoPersonId": 1510155,
+     "contactFullName": "Eddy Roche",
+     "contactPhoneNumber": {
+      "telephone": "(480) 405-3200",
+      "phoneCountryCode": null,
+      "tpnPhone": "6023466251",
+      "tpnPhoneExt": ""
+     },
+     "contactPhoto": "https://images.bizbuysell.com/shared/brokerdirectory/images/50020/lg_prs_Eddy_Roche_BrokerWorks_720x960.jpg",
+     "brokerCompany": "Sunbelt Business Brokers",
+     "brokerProfileUrl": "/business-broker/eddy-roche/sunbelt-business-brokers/41633/"
+    },
+    "detailRequests": {
+     "requestContactAvailableFunds": true,
+     "requestContactZip": false,
+     "requestContactTimeFrame": false
+    },
+    "diamondMetaData": {
+     "bbsListNumber": 2441048,
+     "headline": "Gilbert Taproom + Series 7 License | $75,000 Takes All",
+     "askingPrice": 75000.0,
+     "adLevel": 5,
+     "bbsPrimaryBizTypeId": 4,
+     "checkboxAdTagline": null,
+     "bqPrimaryBizTypeId": 219,
+     "bqListNumber": null,
+     "bqPrimaryBizTypeName": null,
+     "bbsPrimaryBizTypeName": null,
+     "location": "Gilbert, AZ",
+     "locationSt": "Arizona",
+     "regionId": 17
+    },
+    "region": "AZ",
+    "hotProperty": true,
+    "recentlyUpdated": false,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": false,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": 50020,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": 40,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": null,
+    "currentLenderTypeId": null
+   },
+   {
+    "header": null,
+    "location": null,
+    "locationCrumbs": null,
+    "price": null,
+    "description": null,
+    "type": -2,
+    "img": null,
+    "logoImg": null,
+    "listNumber": null,
+    "specificId": null,
+    "urlStub": null,
+    "cashFlow": null,
+    "unitRevenue": null,
+    "listingTypeId": null,
+    "ebitda": null,
+    "financingTypeId": null,
+    "leaseRateDuration": null,
+    "leaseRatePerSquareFoot": null,
+    "searchOffset": null,
+    "adLevelId": -2,
+    "siteSpecificId": null,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": true,
+    "listingPriceReduced": null,
+    "contactInfo": null,
+    "detailRequests": null,
+    "diamondMetaData": null,
+    "region": null,
+    "hotProperty": null,
+    "recentlyUpdated": null,
+    "recentlyAdded": null,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": null,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": null,
+    "auctionStartDate": null,
+    "auctionEndDate": null,
+    "auctionDateDisplay": null,
+    "auctionPlacardHighlights": null,
+    "account": null,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": null,
+    "userTypeId": null,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": null,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": null,
+    "currentLenderTypeId": null
+   },
+   {
+    "header": "Tractor Supply Retail Center | Pittsburgh MSA",
+    "location": "Waynesburg, PA",
+    "locationCrumbs": null,
+    "price": null,
+    "description": "78,400 SF Freestanding For Sale...",
+    "type": 6,
+    "img": [
+     "https://images1.loopnet.com/i2/rKfwPx6cbm0JXJF73wr0gVT9PIVigRi3k61zO8u-zRs/106/image.jpg",
+     "https://images1.loopnet.com/i2/rwqRnv5IKclkGBEbu5Dl0l2Vj3uxf2l3rAPbmw-Trcs/106/image.jpg",
+     "https://images1.loopnet.com/i2/D6ovxLsyVv0ZzoVfK7WFMmpqC5yQ8B0xz5c_RcPRmks/106/image.jpg",
+     "https://images1.loopnet.com/i2/6pEeb7uU4eLkAPY_YCo2VFOg6ekXiA_oHFo53LUMKzU/106/image.jpg",
+     "https://images1.loopnet.com/i2/uFw32B7gM-P6dNl0yT_4Hqi2kH5HwAIFaxNrPGHRYv4/106/image.jpg",
+     "https://images1.loopnet.com/i2/bVmanPxZs0zt6KZKSfJ5oNTXKc-UMm-j7eWJgZxCcmA/106/image.jpg",
+     "https://images1.loopnet.com/i2/37zsUEZ25d1mNgqHERLcn7e4F01cgk9XgeoUkkAA9Mg/106/image.jpg",
+     "https://images1.loopnet.com/i2/fuB8SiXETc_GtNT_9SoufguE1AUHyaSuiSGayO7ASsc/106/image.jpg",
+     "https://images1.loopnet.com/i2/qhNU72DcEX1mdKRhHeRL2LJ3m17Oxcz6m_sD-HZWt54/106/image.jpg",
+     "https://images1.loopnet.com/i2/uCIBsCFkUeoriqyP-QyuFKEaZlsUAEphkMNHeZGSYVc/106/image.jpg",
+     "https://images1.loopnet.com/i2/TTotno172vIhOtpd9adBUpb7ipsc3gNWoDteOY2JXVk/106/image.jpg",
+     "https://images1.loopnet.com/i2/927CVC_El87WZ4JIJq-XYAvYBRVrXXYwJ7hxPGSOmc0/106/image.jpg",
+     "https://images1.loopnet.com/i2/iJ8y_DkWcwgXsHROIjPYVJXj_WD_vCWPn97TmtPqWvI/106/image.jpg",
+     "https://images1.loopnet.com/i2/PLlwGrYiyx6hsECXjfaK7XSLPV7uaNsQndjFC_f-n3c/106/image.jpg",
+     "https://images1.loopnet.com/i2/vkE-QzC1BQXHc-SFbY5h94WPh0JI9HWEiHCbixnYRUw/106/image.jpg",
+     "https://images1.loopnet.com/i2/CABLeZAWdELDN2oCbHa7FrZfgzQxCL7-0X0ZzbmG8Ug/106/image.jpg",
+     "https://images1.loopnet.com/i2/1aWjg46tKrfh5Qjw_rl_XxlYCexXElgwentatCEjRJc/106/image.jpg",
+     "https://images1.loopnet.com/i2/jWyz3iBQjGtSZW7ZX7Brx78dNI1m6qlGr5JXc6i0DCY/106/image.jpg",
+     "https://images1.loopnet.com/i2/Q0n6PPDtMa_zJWWQa6eCqLFxH9X0XR2SmE8KpSbTe0Q/106/image.jpg",
+     "https://images1.loopnet.com/i2/-TCst3MnGqeuwyYatLzo_S6W5ociDm8GQeZEPauPimM/106/image.jpg",
+     "https://images1.loopnet.com/i2/EFk1_1FdBWT02H1bc1n8YQEm3FW2MnnCIoxEmfkgsEg/106/image.jpg",
+     "https://images1.loopnet.com/i2/JR_RaI6dF_g6EbijB6j4xx1Sj33qnugKi9GXyJAeO1o/106/image.jpg",
+     "https://images1.loopnet.com/i2/-jTVdfK90jbR0l6WK_NiCTgDXngbcuo4IvfEjVs2sBo/106/image.jpg",
+     "https://images1.loopnet.com/i2/lPvMVjedRn1BB7X92V3GsU4nhtlLfONHgxUV1gXpDHU/106/image.svg",
+     "https://images1.loopnet.com/i2/qQKF_FThoJMxRWvzUZzxqM_HqWt8g5REMiAzj4E1p-Q/106/image.svg",
+     "https://images1.loopnet.com/i2/tfsn_UBFWUBCMRaCKDdM48u3tXgrpb4UvBkL9NH1m0Y/106/image.svg",
+     "https://images1.loopnet.com/i2/47z5jRdDiU_46qTokDAw9BE0JiIVX2wP11vCqmXAfmY/106/image.svg",
+     "https://images1.loopnet.com/i2/bAiWi4GZpcF42PDOk35BIa8p7qW-u5mvmn2adD2iI_w/106/image.jpg",
+     "https://images1.loopnet.com/i2/tjsqZdRXff20DGdLX9XOo1sjTq1VpxcwOORW73ulzCo/106/image.jpg",
+     "https://images1.loopnet.com/i2/IkaBblRDFSnsCXtDen9bSKxO9fj-19-lm5aA7Upp_Q4/106/image.jpg",
+     "https://images1.loopnet.com/i2/nFelrHchskSrpwBE9h1FHOVqukAB1Qdf_-NGy8DOXPM/106/image.jpg",
+     "https://images1.loopnet.com/i2/fzXYsZQ8DiuYNTATG83EcmDAdolhCcti1ECWm8GCv64/106/image.jpg"
+    ],
+    "logoImg": null,
+    "listNumber": 42055616,
+    "specificId": 42055616,
+    "urlStub": "/business-auction/tractor-supply-retail-center-pittsburgh-msa/42055616/",
+    "cashFlow": null,
+    "unitRevenue": null,
+    "listingTypeId": 90,
+    "ebitda": null,
+    "financingTypeId": null,
+    "leaseRateDuration": null,
+    "leaseRatePerSquareFoot": null,
+    "searchOffset": 0,
+    "adLevelId": 5,
+    "siteSpecificId": 42055616,
+    "isDiamondReinforcement": null,
+    "brokerCompany": null,
+    "brokerIntroduction": null,
+    "brokerContactPhoto": null,
+    "brokerContactFullName": null,
+    "isInlineAd": null,
+    "listingPriceReduced": false,
+    "contactInfo": null,
+    "detailRequests": null,
+    "diamondMetaData": null,
+    "region": "PA",
+    "hotProperty": false,
+    "recentlyUpdated": false,
+    "recentlyAdded": false,
+    "isInlineBroker": null,
+    "brokerCompanyPhoto": null,
+    "brokerCertifications": null,
+    "realEstateIncludedInAskingPrice": true,
+    "initialFee": null,
+    "initialCapital": null,
+    "externalUrl": "https://www.ten-x.com/listing/55-sugar-run-rd-waynesburg-pa-15370/42055616/?utm_source=BizBuySell&utm_medium=DigitalPublisher&utm_campaign=SRPPlacardRegToBid-AssetMarketing-NA-NA&utm_content=SIID0000-PID0002-NON-0000-NA-TID0000",
+    "auctionStartDate": "11/16/2026 12:00:00 PM",
+    "auctionEndDate": null,
+    "auctionDateDisplay": "November 16-18, 2026",
+    "auctionPlacardHighlights": null,
+    "account": null,
+    "activeListingsCount": 0,
+    "sbaEligibleListingsCount": 0,
+    "soldListingsCount": 0,
+    "isFdResale": 0,
+    "userTypeId": null,
+    "relatedSearchUrlStub": null,
+    "expirationTypeId": 0,
+    "advertiserId": null,
+    "placementTypeId": null,
+    "sponsorLevelId": null,
+    "categoryDetails": null,
+    "bbsLenderStatusTypeId": null,
+    "currentLenderTypeId": null
+   }
+  ],
+  "autoExpandedGeography": null,
+  "relatedBusinessListings": null,
+  "relatedBusinessListingsHeader": null,
+  "relatedDiamondListings": null,
+  "relatedAuctions": null,
+  "relatedFranchises": null,
+  "franchiseOpportunitiesUrl": "/fd/SearchResultsMulti.aspx?f_seo=true",
+  "relatedBrokerProfiles": null,
+  "relatedSearches": [
+   {
+    "relatedSearchText": "View More Businesses For Sale in Popular Categories",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Agriculture",
+      "titleShort": "Agriculture",
+      "metaTitle": "Agriculture Businesses For Sale",
+      "link": "/agriculture-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Automotive & Boat",
+      "titleShort": "Automotive & Boat",
+      "metaTitle": "Automotive and Boat Businesses For Sale",
+      "link": "/automotive-and-boat-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Beauty & Personal Care",
+      "titleShort": "Beauty & Personal Care",
+      "metaTitle": "Beauty and Personal Care Businesses For Sale",
+      "link": "/beauty-and-personal-care-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Building & Construction",
+      "titleShort": "Building & Construction",
+      "metaTitle": "Building and Construction Businesses For Sale",
+      "link": "/building-and-construction-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Communication & Media",
+      "titleShort": "Communication & Media",
+      "metaTitle": "Communication and Media Businesses For Sale",
+      "link": "/communication-and-media-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Education & Children",
+      "titleShort": "Education & Children",
+      "metaTitle": "Education and Child Related Businesses For Sale",
+      "link": "/education-and-child-related-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Entertainment & Recreation",
+      "titleShort": "Entertainment & Recreation",
+      "metaTitle": "Entertainment and Recreation Businesses For Sale",
+      "link": "/entertainment-and-recreation-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Financial Services",
+      "titleShort": "Financial Services",
+      "metaTitle": "Financial Services Businesses For Sale",
+      "link": "/financial-services-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Health Care & Fitness",
+      "titleShort": "Health Care & Fitness",
+      "metaTitle": "Health Care and Fitness Businesses For Sale",
+      "link": "/health-care-and-fitness-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Manufacturing",
+      "titleShort": "Manufacturing",
+      "metaTitle": "Manufacturing Businesses For Sale",
+      "link": "/manufacturing-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Non-Classifiable Establishments",
+      "titleShort": "Non-Classifiable Establishments",
+      "metaTitle": "All Non-Classifiable Establishments Businesses For Sale",
+      "link": "/all-non-classifiable-establishments-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Online & Technology",
+      "titleShort": "Online & Technology",
+      "metaTitle": "Online and Technology Businesses For Sale",
+      "link": "/online-and-technology-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pet Services",
+      "titleShort": "Pet Services",
+      "metaTitle": "Pet Service Businesses For Sale",
+      "link": "/pet-service-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Restaurants & Food",
+      "titleShort": "Restaurants & Food",
+      "metaTitle": "Restaurants and Food Businesses For Sale",
+      "link": "/restaurants-and-food-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Retail",
+      "titleShort": "Retail",
+      "metaTitle": "Retail Businesses For Sale",
+      "link": "/retail-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Service Businesses",
+      "titleShort": "Service Businesses",
+      "metaTitle": "Service Businesses For Sale",
+      "link": "/service-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Transportation & Storage",
+      "titleShort": "Transportation & Storage",
+      "metaTitle": "Transportation and Storage Businesses For Sale",
+      "link": "/transportation-and-storage-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Travel",
+      "titleShort": "Travel",
+      "metaTitle": "Travel Businesses For Sale",
+      "link": "/travel-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wholesale & Distributors",
+      "titleShort": "Wholesale & Distributors",
+      "metaTitle": "Wholesale and Distribution Businesses For Sale",
+      "link": "/wholesale-and-distribution-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "Businesses For Sale in Popular Markets",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Arizona",
+      "titleShort": "Arizona",
+      "metaTitle": "Businesses For Sale in Arizona",
+      "link": "/arizona-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "Businesses For Sale in California",
+      "link": "/california-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Florida",
+      "titleShort": "Florida",
+      "metaTitle": "Businesses For Sale in Florida",
+      "link": "/florida-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Georgia",
+      "titleShort": "Georgia",
+      "metaTitle": "Businesses For Sale in Georgia",
+      "link": "/georgia-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Jersey",
+      "titleShort": "New Jersey",
+      "metaTitle": "Businesses For Sale in New Jersey",
+      "link": "/new-jersey-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "New York",
+      "titleShort": "New York",
+      "metaTitle": "Businesses For Sale in New York",
+      "link": "/new-york-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pennsylvania",
+      "titleShort": "Pennsylvania",
+      "metaTitle": "Businesses For Sale in Pennsylvania",
+      "link": "/pennsylvania-businesses-for-sale/",
+      "linkCount": 0
+     },
+     {
+      "title": "Texas",
+      "titleShort": "Texas",
+      "metaTitle": "Businesses For Sale in Texas",
+      "link": "/texas-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "View Franchises in United States",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "Alabama",
+      "titleShort": "Alabama",
+      "metaTitle": "Alabama Franchises For Sale",
+      "link": "/franchise-for-sale/alabama/",
+      "linkCount": 0
+     },
+     {
+      "title": "Alaska",
+      "titleShort": "Alaska",
+      "metaTitle": "Alaska Franchises For Sale",
+      "link": "/franchise-for-sale/alaska/",
+      "linkCount": 0
+     },
+     {
+      "title": "Arizona",
+      "titleShort": "Arizona",
+      "metaTitle": "Arizona Franchises For Sale",
+      "link": "/franchise-for-sale/arizona/",
+      "linkCount": 0
+     },
+     {
+      "title": "Arkansas",
+      "titleShort": "Arkansas",
+      "metaTitle": "Arkansas Franchises For Sale",
+      "link": "/franchise-for-sale/arkansas/",
+      "linkCount": 0
+     },
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "California Franchises For Sale",
+      "link": "/franchise-for-sale/california/",
+      "linkCount": 0
+     },
+     {
+      "title": "Colorado",
+      "titleShort": "Colorado",
+      "metaTitle": "Colorado Franchises For Sale",
+      "link": "/franchise-for-sale/colorado/",
+      "linkCount": 0
+     },
+     {
+      "title": "Connecticut",
+      "titleShort": "Connecticut",
+      "metaTitle": "Connecticut Franchises For Sale",
+      "link": "/franchise-for-sale/connecticut/",
+      "linkCount": 0
+     },
+     {
+      "title": "Delaware",
+      "titleShort": "Delaware",
+      "metaTitle": "Delaware Franchises For Sale",
+      "link": "/franchise-for-sale/delaware/",
+      "linkCount": 0
+     },
+     {
+      "title": "District of Columbia",
+      "titleShort": "District of Columbia",
+      "metaTitle": "District of Columbia Franchises For Sale",
+      "link": "/franchise-for-sale/district-of-columbia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Florida",
+      "titleShort": "Florida",
+      "metaTitle": "Florida Franchises For Sale",
+      "link": "/franchise-for-sale/florida/",
+      "linkCount": 0
+     },
+     {
+      "title": "Georgia",
+      "titleShort": "Georgia",
+      "metaTitle": "Georgia Franchises For Sale",
+      "link": "/franchise-for-sale/georgia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Hawaii",
+      "titleShort": "Hawaii",
+      "metaTitle": "Hawaii Franchises For Sale",
+      "link": "/franchise-for-sale/hawaii/",
+      "linkCount": 0
+     },
+     {
+      "title": "Idaho",
+      "titleShort": "Idaho",
+      "metaTitle": "Idaho Franchises For Sale",
+      "link": "/franchise-for-sale/idaho/",
+      "linkCount": 0
+     },
+     {
+      "title": "Illinois",
+      "titleShort": "Illinois",
+      "metaTitle": "Illinois Franchises For Sale",
+      "link": "/franchise-for-sale/illinois/",
+      "linkCount": 0
+     },
+     {
+      "title": "Indiana",
+      "titleShort": "Indiana",
+      "metaTitle": "Indiana Franchises For Sale",
+      "link": "/franchise-for-sale/indiana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Iowa",
+      "titleShort": "Iowa",
+      "metaTitle": "Iowa Franchises For Sale",
+      "link": "/franchise-for-sale/iowa/",
+      "linkCount": 0
+     },
+     {
+      "title": "Kansas",
+      "titleShort": "Kansas",
+      "metaTitle": "Kansas Franchises For Sale",
+      "link": "/franchise-for-sale/kansas/",
+      "linkCount": 0
+     },
+     {
+      "title": "Kentucky",
+      "titleShort": "Kentucky",
+      "metaTitle": "Kentucky Franchises For Sale",
+      "link": "/franchise-for-sale/kentucky/",
+      "linkCount": 0
+     },
+     {
+      "title": "Louisiana",
+      "titleShort": "Louisiana",
+      "metaTitle": "Louisiana Franchises For Sale",
+      "link": "/franchise-for-sale/louisiana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Maine",
+      "titleShort": "Maine",
+      "metaTitle": "Maine Franchises For Sale",
+      "link": "/franchise-for-sale/maine/",
+      "linkCount": 0
+     },
+     {
+      "title": "Maryland",
+      "titleShort": "Maryland",
+      "metaTitle": "Maryland Franchises For Sale",
+      "link": "/franchise-for-sale/maryland/",
+      "linkCount": 0
+     },
+     {
+      "title": "Massachusetts",
+      "titleShort": "Massachusetts",
+      "metaTitle": "Massachusetts Franchises For Sale",
+      "link": "/franchise-for-sale/massachusetts/",
+      "linkCount": 0
+     },
+     {
+      "title": "Michigan",
+      "titleShort": "Michigan",
+      "metaTitle": "Michigan Franchises For Sale",
+      "link": "/franchise-for-sale/michigan/",
+      "linkCount": 0
+     },
+     {
+      "title": "Minnesota",
+      "titleShort": "Minnesota",
+      "metaTitle": "Minnesota Franchises For Sale",
+      "link": "/franchise-for-sale/minnesota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Mississippi",
+      "titleShort": "Mississippi",
+      "metaTitle": "Mississippi Franchises For Sale",
+      "link": "/franchise-for-sale/mississippi/",
+      "linkCount": 0
+     },
+     {
+      "title": "Missouri",
+      "titleShort": "Missouri",
+      "metaTitle": "Missouri Franchises For Sale",
+      "link": "/franchise-for-sale/missouri/",
+      "linkCount": 0
+     },
+     {
+      "title": "Montana",
+      "titleShort": "Montana",
+      "metaTitle": "Montana Franchises For Sale",
+      "link": "/franchise-for-sale/montana/",
+      "linkCount": 0
+     },
+     {
+      "title": "Nebraska",
+      "titleShort": "Nebraska",
+      "metaTitle": "Nebraska Franchises For Sale",
+      "link": "/franchise-for-sale/nebraska/",
+      "linkCount": 0
+     },
+     {
+      "title": "Nevada",
+      "titleShort": "Nevada",
+      "metaTitle": "Nevada Franchises For Sale",
+      "link": "/franchise-for-sale/nevada/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Hampshire",
+      "titleShort": "New Hampshire",
+      "metaTitle": "New Hampshire Franchises For Sale",
+      "link": "/franchise-for-sale/new-hampshire/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Jersey",
+      "titleShort": "New Jersey",
+      "metaTitle": "New Jersey Franchises For Sale",
+      "link": "/franchise-for-sale/new-jersey/",
+      "linkCount": 0
+     },
+     {
+      "title": "New Mexico",
+      "titleShort": "New Mexico",
+      "metaTitle": "New Mexico Franchises For Sale",
+      "link": "/franchise-for-sale/new-mexico/",
+      "linkCount": 0
+     },
+     {
+      "title": "New York",
+      "titleShort": "New York",
+      "metaTitle": "New York Franchises For Sale",
+      "link": "/franchise-for-sale/new-york/",
+      "linkCount": 0
+     },
+     {
+      "title": "North Carolina",
+      "titleShort": "North Carolina",
+      "metaTitle": "North Carolina Franchises For Sale",
+      "link": "/franchise-for-sale/north-carolina/",
+      "linkCount": 0
+     },
+     {
+      "title": "North Dakota",
+      "titleShort": "North Dakota",
+      "metaTitle": "North Dakota Franchises For Sale",
+      "link": "/franchise-for-sale/north-dakota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Ohio",
+      "titleShort": "Ohio",
+      "metaTitle": "Ohio Franchises For Sale",
+      "link": "/franchise-for-sale/ohio/",
+      "linkCount": 0
+     },
+     {
+      "title": "Oklahoma",
+      "titleShort": "Oklahoma",
+      "metaTitle": "Oklahoma Franchises For Sale",
+      "link": "/franchise-for-sale/oklahoma/",
+      "linkCount": 0
+     },
+     {
+      "title": "Oregon",
+      "titleShort": "Oregon",
+      "metaTitle": "Oregon Franchises For Sale",
+      "link": "/franchise-for-sale/oregon/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pennsylvania",
+      "titleShort": "Pennsylvania",
+      "metaTitle": "Pennsylvania Franchises For Sale",
+      "link": "/franchise-for-sale/pennsylvania/",
+      "linkCount": 0
+     },
+     {
+      "title": "Rhode Island",
+      "titleShort": "Rhode Island",
+      "metaTitle": "Rhode Island Franchises For Sale",
+      "link": "/franchise-for-sale/rhode-island/",
+      "linkCount": 0
+     },
+     {
+      "title": "South Carolina",
+      "titleShort": "South Carolina",
+      "metaTitle": "South Carolina Franchises For Sale",
+      "link": "/franchise-for-sale/south-carolina/",
+      "linkCount": 0
+     },
+     {
+      "title": "South Dakota",
+      "titleShort": "South Dakota",
+      "metaTitle": "South Dakota Franchises For Sale",
+      "link": "/franchise-for-sale/south-dakota/",
+      "linkCount": 0
+     },
+     {
+      "title": "Tennessee",
+      "titleShort": "Tennessee",
+      "metaTitle": "Tennessee Franchises For Sale",
+      "link": "/franchise-for-sale/tennessee/",
+      "linkCount": 0
+     },
+     {
+      "title": "Texas",
+      "titleShort": "Texas",
+      "metaTitle": "Texas Franchises For Sale",
+      "link": "/franchise-for-sale/texas/",
+      "linkCount": 0
+     },
+     {
+      "title": "Utah",
+      "titleShort": "Utah",
+      "metaTitle": "Utah Franchises For Sale",
+      "link": "/franchise-for-sale/utah/",
+      "linkCount": 0
+     },
+     {
+      "title": "Vermont",
+      "titleShort": "Vermont",
+      "metaTitle": "Vermont Franchises For Sale",
+      "link": "/franchise-for-sale/vermont/",
+      "linkCount": 0
+     },
+     {
+      "title": "Virginia",
+      "titleShort": "Virginia",
+      "metaTitle": "Virginia Franchises For Sale",
+      "link": "/franchise-for-sale/virginia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Washington",
+      "titleShort": "Washington",
+      "metaTitle": "Washington Franchises For Sale",
+      "link": "/franchise-for-sale/washington/",
+      "linkCount": 0
+     },
+     {
+      "title": "West Virginia",
+      "titleShort": "West Virginia",
+      "metaTitle": "West Virginia Franchises For Sale",
+      "link": "/franchise-for-sale/west-virginia/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wisconsin",
+      "titleShort": "Wisconsin",
+      "metaTitle": "Wisconsin Franchises For Sale",
+      "link": "/franchise-for-sale/wisconsin/",
+      "linkCount": 0
+     },
+     {
+      "title": "Wyoming",
+      "titleShort": "Wyoming",
+      "metaTitle": "Wyoming Franchises For Sale",
+      "link": "/franchise-for-sale/wyoming/",
+      "linkCount": 0
+     },
+     {
+      "title": "-",
+      "titleShort": "-",
+      "metaTitle": "Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "All US States",
+      "titleShort": "All US States",
+      "metaTitle": "United States Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "Canada",
+      "titleShort": "Canada",
+      "metaTitle": "Canada Franchises For Sale",
+      "link": "/franchise-for-sale/canada/",
+      "linkCount": 0
+     }
+    ]
+   },
+   {
+    "relatedSearchText": "View Franchise For Sale Categories",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "All Categories",
+      "titleShort": "All Categories",
+      "metaTitle": "United States Franchises For Sale",
+      "link": "/fd/searchresultsmulti.aspx?f_seo=true",
+      "linkCount": 0
+     },
+     {
+      "title": "Automotive",
+      "titleShort": "Automotive",
+      "metaTitle": "Auto Franchises For Sale",
+      "link": "/franchise-for-sale/automotive-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Beauty and Fitness",
+      "titleShort": "Beauty and Fitness",
+      "metaTitle": "Health, Beauty & Fitness Franchises For Sale",
+      "link": "/franchise-for-sale/beauty-and-fitness-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Business Opportunities",
+      "titleShort": "Business Opportunities",
+      "metaTitle": "Business Franchises For Sale",
+      "link": "/franchise-for-sale/business-opportunities-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Business Services",
+      "titleShort": "Business Services",
+      "metaTitle": "Business Services Franchises For Sale",
+      "link": "/franchise-for-sale/business-services-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Child Related",
+      "titleShort": "Child Related",
+      "metaTitle": "Child & Kid Franchises For Sale",
+      "link": "/franchise-for-sale/child-related-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Cleaning and Maintenance",
+      "titleShort": "Cleaning and Maintenance",
+      "metaTitle": "Cleaning & Maintenance Franchises For Sale",
+      "link": "/franchise-for-sale/cleaning-and-maintenance-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Computer and Internet",
+      "titleShort": "Computer and Internet",
+      "metaTitle": "Computer & Internet Franchises For Sale",
+      "link": "/franchise-for-sale/computer-and-internet-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Education",
+      "titleShort": "Education",
+      "metaTitle": "Education Franchises For Sale",
+      "link": "/franchise-for-sale/education-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Green",
+      "titleShort": "Green",
+      "metaTitle": "Green Franchises For Sale",
+      "link": "/franchise-for-sale/green-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Health and Senior Care",
+      "titleShort": "Health and Senior Care",
+      "metaTitle": "Health and Senior Care Franchises For Sale",
+      "link": "/franchise-for-sale/health-and-senior-care-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "High Capital Franchises",
+      "titleShort": "High Capital Franchises",
+      "metaTitle": "High Capital Franchises For Sale",
+      "link": "/franchise-for-sale/high-capital-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Home Based Businesses",
+      "titleShort": "Home Based Businesses",
+      "metaTitle": "Home Based Franchises For Sale",
+      "link": "/franchise-for-sale/home-based-businesses-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Home Services",
+      "titleShort": "Home Services",
+      "metaTitle": "Home Services Franchises For Sale",
+      "link": "/franchise-for-sale/home-services-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Hot Franchises",
+      "titleShort": "Hot Franchises",
+      "metaTitle": "Hot Franchises For Sale",
+      "link": "/franchise-for-sale/hot-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Low Cost Franchises",
+      "titleShort": "Low Cost Franchises",
+      "metaTitle": "Low Cost Franchises For Sale",
+      "link": "/franchise-for-sale/low-cost-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Master Franchise",
+      "titleShort": "Master Franchise",
+      "metaTitle": "Master Franchises For Sale",
+      "link": "/franchise-for-sale/master-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Mobile",
+      "titleShort": "Mobile",
+      "metaTitle": "Mobile Franchises For Sale",
+      "link": "/franchise-for-sale/mobile-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Multi-Unit",
+      "titleShort": "Multi-Unit",
+      "metaTitle": "Multi Unit For Sale",
+      "link": "/franchise-for-sale/multi-unit-franchises/",
+      "linkCount": 0
+     },
+     {
+      "title": "Pet",
+      "titleShort": "Pet",
+      "metaTitle": "Pet Franchises For Sale",
+      "link": "/franchise-for-sale/pet-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Restaurant and Food",
+      "titleShort": "Restaurant and Food",
+      "metaTitle": "Restaurant & Food Franchises For Sale",
+      "link": "/franchise-for-sale/food-and-restaurant-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Retail Franchises",
+      "titleShort": "Retail Franchises",
+      "metaTitle": "Retail Franchises For Sale",
+      "link": "/franchise-for-sale/retail-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "SBA Approved",
+      "titleShort": "SBA Approved",
+      "metaTitle": "SBA Approved Franchises For Sale",
+      "link": "/franchise-for-sale/sba-approved-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Sports and Recreation",
+      "titleShort": "Sports and Recreation",
+      "metaTitle": "Sports & Recreation Franchises For Sale",
+      "link": "/franchise-for-sale/sports-and-recreation-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Travel and Lodging",
+      "titleShort": "Travel and Lodging",
+      "metaTitle": "Travel & Lodging Franchises For Sale",
+      "link": "/franchise-for-sale/travel-and-lodging-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Veteran's Franchises",
+      "titleShort": "Veteran's Franchises",
+      "metaTitle": "Veteran's Franchises For Sale",
+      "link": "/franchise-for-sale/veterans-franchise/",
+      "linkCount": 0
+     },
+     {
+      "title": "Franchise Directory (A-Z)",
+      "titleShort": "Franchise Directory (A-Z)",
+      "metaTitle": "Franchise Directory (A-Z)",
+      "link": "/franchise-directory/a/",
+      "linkCount": 0
+     }
+    ]
+   }
+  ],
+  "relatedFranchiseSearches": null,
+  "widerSearches": [
+   {
+    "relatedSearchText": "See more results when you broaden your search from the selected region to ",
+    "directLink": null,
+    "isWiderSearchToAustralia": false,
+    "breadCrumbs": [
+     {
+      "title": "California",
+      "titleShort": "California",
+      "metaTitle": "Businesses For Sale in California",
+      "link": "/california-businesses-for-sale/",
+      "linkCount": 0
+     }
+    ]
+   }
+  ],
+  "breadCrumbs": [
+   {
+    "title": "Businesses For Sale",
+    "titleShort": "Businesses For Sale",
+    "metaTitle": "Businesses For Sale",
+    "link": "/businesses-for-sale/",
+    "linkCount": 0
+   },
+   {
+    "title": "950 results",
+    "titleShort": "950 results",
+    "metaTitle": "950 results"
+   }
+  ],
+  "breadCrumbSchemaStructures": [
+   {
+    "schemaCommonProp": {
+     "@type": "BreadcrumbList",
+     "position": 1
+    },
+    "id": "/businesses-for-sale/",
+    "name": "Businesses For Sale"
+   },
+   {
+    "schemaCommonProp": {
+     "@type": "BreadcrumbList",
+     "position": 2
+    },
+    "id": "",
+    "name": "950 results"
+   }
+  ],
+  "h1Header": "Businesses For Sale",
+  "metaImageUrl": null,
+  "metaTitle": "Businesses For Sale - BizBuySell",
+  "metaDescription": "Browse 950 businesses available for sale on BizBuySell - the Internet's largest Business For Sale Marketplace. View opportunities from small home based businesses to established high cash flow businesses for sale.",
+  "criteria": {
+   "pageNumber": 1,
+   "keywordPhrases": [
+    "bakery"
+   ],
+   "listingVisibilityTypeIds": [
+    1,
+    3,
+    5,
+    2
+   ],
+   "askingPriceMin": 0.0,
+   "askingPriceMax": 0.0,
+   "cashFlowMin": 0.0,
+   "cashFlowMax": 0.0,
+   "grossIncomeMin": 0.0,
+   "grossIncomeMax": 0.0,
+   "realEstateMin": 0.0,
+   "realEstateMax": 0.0,
+   "searchMethod": 0,
+   "listingOwnerPersonId": 0,
+   "daysListedAgo": 0,
+   "daysModifiedAgo": 0,
+   "establishedAfterYear": 0,
+   "listingsWithNoAskingPrice": 0,
+   "homeBasedListings": 0,
+   "listingsWithSellerFinancing": 0,
+   "realEstateIncluded": 0,
+   "inventoryIncludedInAsking": 0,
+   "franchiseResales": 0,
+   "relatedFranchises": 0,
+   "relatedAuctions": 0,
+   "relatedBrokerProfiles": 0,
+   "relatedDiamondListings": 0,
+   "relatedListings": 0,
+   "brokerListings": 0,
+   "listingsWithoutImage": 0,
+   "coBrokering": 0,
+   "includeRealEstateForLease": 0,
+   "absenteeOwnerListings": 0,
+   "showRelocatableListings": false,
+   "includeSbaEligible": 0,
+   "includeSbaApproved": 0,
+   "coBrandsIncluded": 0,
+   "shouldAskingPriceMin": 0.0,
+   "shouldAskingPriceMax": 0.0,
+   "excludeMultipleOver": null,
+   "listingsWithPriceReduced": 0,
+   "listingsRecentlyUpdated": 0,
+   "franchiseBrandConfidential": 0,
+   "regionConfidential": 0,
+   "siteId": 20,
+   "languageId": 10,
+   "keyword": "bakery",
+   "offset": 0,
+   "howMany": 5,
+   "excludeList": null,
+   "sortList": null
+  },
+  "message": "",
+  "dfpAdvertiserParams": {
+   "stateCode": null,
+   "zipCode": null,
+   "bizType": null
+  },
+  "marketStatsData": null
+ },
+ "schemaElements": {
+  "listProductItemSchema": [
+   {
+    "@type": "ListItem",
+    "position": 0,
+    "item": {
+     "@type": "Product",
+     "name": "Turnkey Legacy Banquet Hall Business with Property",
+     "logo": "https://images.bizbuysell.com/xcommon/images/header/BBS_logo.svg",
+     "image": "https://images.bizbuysell.com/shared/listings/252/2525392/851ecd31-133f-4b1a-bb4e-386878c819ee-W336.webp",
+     "description": "This is a premier wedding and event services business/venue in the southwest suburbs of Chicago with an experienced leadership team and staff. They have created an established legacy in its industry...",
+     "url": "/business-opportunity/turnkey-legacy-banquet-hall-business-with-property/2525392/",
+     "productId": "2525392",
+     "offers": {
+      "@type": "Offer",
+      "price": 4775000.0,
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "url": "/business-opportunity/turnkey-legacy-banquet-hall-business-with-property/2525392/",
+      "image": "https://images.bizbuysell.com/shared/listings/252/2525392/851ecd31-133f-4b1a-bb4e-386878c819ee-W336.webp",
+      "priceSpecification": null,
+      "availableAtOrFrom": {
+       "@type": "Place",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": null,
+        "addressRegion": "Illinois"
+       }
+      }
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "Product",
+     "name": "Pure Water Store & Food Service Opportunity for Sale – Milpitas, CA –",
+     "logo": "https://images.bizbuysell.com/xcommon/images/header/BBS_logo.svg",
+     "image": "https://images.bizbuysell.com/shared/listings/251/2511796/5d99dde0-426a-4cff-aa70-410cf5cf5894-W336.webp",
+     "description": "Excellent opportunity for a food entrepreneur, caterer, restaurant owner, bakery operator, coffee vendor, or specialty food business looking to establish a presence in a high-traffic retail location...",
+     "url": "/business-opportunity/pure-water-store-and-food-service-opportunity-for-sale-milpitas-ca/2511796/",
+     "productId": "2511796",
+     "offers": {
+      "@type": "Offer",
+      "price": 12000.0,
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "url": "/business-opportunity/pure-water-store-and-food-service-opportunity-for-sale-milpitas-ca/2511796/",
+      "image": "https://images.bizbuysell.com/shared/listings/251/2511796/5d99dde0-426a-4cff-aa70-410cf5cf5894-W336.webp",
+      "priceSpecification": null,
+      "availableAtOrFrom": {
+       "@type": "Place",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Milpitas",
+        "addressRegion": " CA"
+       }
+      }
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "Product",
+     "name": "FULLY OPERATIONAL, Prime Paris Baguette Franchise, Turn-Key in PA",
+     "logo": "https://images.bizbuysell.com/xcommon/images/header/BBS_logo.svg",
+     "image": "https://images.bizbuysell.com/shared/listings/254/2545241/2746ff8e-5a7a-4311-8d95-52cb370d8c20-W336.webp",
+     "description": "ESTABLISHED PARIS BAGUETTE FRANCHISE - PRIME PENNSYLVANIA OPPORTUNITY This exceptional Paris Baguette franchise has achieved $1.74M in annualized revenue within just 12 months of operation,...",
+     "url": "/business-opportunity/fully-operational-prime-paris-baguette-franchise-turn-key-in-pa/2545241/",
+     "productId": "2545241",
+     "offers": {
+      "@type": "Offer",
+      "price": 1500000.0,
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "url": "/business-opportunity/fully-operational-prime-paris-baguette-franchise-turn-key-in-pa/2545241/",
+      "image": "https://images.bizbuysell.com/shared/listings/254/2545241/2746ff8e-5a7a-4311-8d95-52cb370d8c20-W336.webp",
+      "priceSpecification": null,
+      "availableAtOrFrom": {
+       "@type": "Place",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delaware County",
+        "addressRegion": " PA"
+       }
+      }
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "Product",
+     "name": "Cabot Trail, NS -Restaurant/Bakery + Property / Cabin rental | Turnkey",
+     "logo": "https://images.bizbuysell.com/xcommon/images/header/BBS_logo.svg",
+     "image": "https://images.bizbuysell.com/shared/listings/246/2469521/1f2be3eb-5d88-4ff9-81e9-c3cd69df6006-W336.webp",
+     "description": "The Clucking Hen is a well-established restaurant and property opportunity located along Nova Scotia's renowned Cabot Trail in Englishtown. Operating successfully since 1999, this turnkey business...",
+     "url": "/business-opportunity/cabot-trail-ns-restaurant-bakery-property-cabin-rental-turnkey/2469521/",
+     "productId": "2469521",
+     "offers": {
+      "@type": "Offer",
+      "price": 1100000.0,
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "url": "/business-opportunity/cabot-trail-ns-restaurant-bakery-property-cabin-rental-turnkey/2469521/",
+      "image": "https://images.bizbuysell.com/shared/listings/246/2469521/1f2be3eb-5d88-4ff9-81e9-c3cd69df6006-W336.webp",
+      "priceSpecification": null,
+      "availableAtOrFrom": {
+       "@type": "Place",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Englishtown",
+        "addressRegion": " NS"
+       }
+      }
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "Product",
+     "name": "Gilbert Taproom + Series 7 License | $75,000 Takes All",
+     "logo": "https://images.bizbuysell.com/xcommon/images/header/BBS_logo.svg",
+     "image": "https://images.bizbuysell.com/shared/listings/244/2441048/67f58a3f-cdd0-46c8-b73b-96fa73380ada-W336.webp",
+     "description": "An exceptional opportunity to acquire a professionally built bar space in a premier Class A Gilbert development. Offered as a true asset sale with lease transfer, this opportunity is priced at $75,000...",
+     "url": "/business-opportunity/gilbert-taproom-series-7-license-75-000-takes-all/2441048/",
+     "productId": "2441048",
+     "offers": {
+      "@type": "Offer",
+      "price": 75000.0,
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "url": "/business-opportunity/gilbert-taproom-series-7-license-75-000-takes-all/2441048/",
+      "image": "https://images.bizbuysell.com/shared/listings/244/2441048/67f58a3f-cdd0-46c8-b73b-96fa73380ada-W336.webp",
+      "priceSpecification": null,
+      "availableAtOrFrom": {
+       "@type": "Place",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gilbert",
+        "addressRegion": " AZ"
+       }
+      }
+     }
+    }
+   }
+  ],
+  "listPersonItemSchema": null
+ },
+ "message": "unexpected error using BbsSearchListingsLive ex=System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at BizBuySell.Api.BusinessLogic.Implementations.SearchBl.<BbsSearchListingsLive>d__10.MoveNext() in G:\\azdo-default-2\\_work\\1280\\s\\BizBuySell\\Maint\\BizBuySell.Api\\BusinessLogic\\Implementations\\SearchBl.cs:line 0",
+ "status": 3
+}

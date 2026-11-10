@@ -1,0 +1,12 @@
+services:
+  loopnet-scraper:
+    build: .
+    restart: unless-stopped
+    shm_size: "1gb"
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — only if LoopNet refuses your server's IP. Use a STICKY proxy
+      # (same exit IP for the session): LoopNet ties its cookies to the IP.
+      # - LOOPNET_PROXY=http://user:pass@host:port

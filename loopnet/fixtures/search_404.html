@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>404 Page Not Found</title>
+<style>
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/assets/fonts/Outfit-Variable.woff2') format('woff2 supports variations'),
+             url('/assets/fonts/Outfit-Variable.woff2') format('woff2-variations');
+        font-weight: 200 600;
+        font-display: swap;
+    }
+
+    *, *:before, *:after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-family: 'Outfit', sans-serif;
+        background-color: #FFF;
+        color: #63666a;
+    }
+
+    body {
+        min-width: 0;
+        overflow-x: hidden;
+    }
+
+    .error-header {
+        border-bottom: 1px solid #dddddd;
+        box-shadow: 0 12px 12px rgba(0, 0, 0, 0.03);
+        padding: 16px 24px;
+    }
+
+    .error-header .logo img {
+        height: 32px;
+        display: block;
+    }
+</style>
+    <style>
+        .error-404 .wrap {
+            max-width: 560px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 48px 16px;
+        }
+
+        /*
+            The sign image flows in the box and so sets its height; the tumbleweed and
+            wind are pinned to it in percentages. Everything therefore scales together,
+            so the scene never overflows onto the headings on narrow viewports.
+        */
+        .error-404 .main-image {
+            position: relative;
+            max-width: 419px;
+            width: 75%;
+            display: block;
+            margin: 0 auto 24px;
+        }
+
+        .error-404 .not-found {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .error-404 .weed, .error-404 .wind {
+            position: absolute;
+            height: auto;
+        }
+
+        .error-404 .weed {
+            width: 18.3%;
+            bottom: 21.9%;
+            right: 4.8%;
+            animation: errorTumbleweed 4s infinite 2s;
+            opacity: .3;
+        }
+
+        .error-404 .wind {
+            width: 18%;
+            bottom: 15.3%;
+            right: -14.4%;
+        }
+
+        .error-404 h1, .error-404 h2 {
+            color: #63666a;
+            font-weight: 100;
+        }
+
+        .error-404 h1 {
+            font-size: 36px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #DDD;
+            margin-bottom: 24px;
+        }
+
+        .error-404 h2 {
+            font-size: 26px;
+            margin-bottom: 24px;
+        }
+
+        .error-404 p {
+            margin-bottom: 24px;
+            /* 200 is the floor of the Outfit variable range declared in _ErrorPageStyles; a lighter
+               value clamps to 200 there but renders true Thin in the sans-serif fallback. */
+            font-weight: 200;
+        }
+
+        .error-404 .assistance {
+            margin-top: 32px;
+            font-size: 14px;
+        }
+
+        /*
+            Hex literals rather than styleguide variables: this view is Layout = null with inline
+            CSS so it still renders when the asset pipeline is degraded. These are the
+            loopnet-styleguide light-mode $text-link / $text-link-pressed values verbatim —
+            6.8:1 and 10.2:1 on white, both clearing the WCAG AA 4.5:1 minimum for 14px text.
+
+            Underlined by default, not only on hover: the link sits mid-sentence and reaches just
+            1.18:1 against the surrounding body text, so colour alone would not mark it as a link.
+        */
+        .error-404 .assistance a {
+            color: #0559B3;
+            text-decoration: underline;
+        }
+
+        .error-404 .assistance a:hover, .error-404 .assistance a:active {
+            color: #034082;
+        }
+
+        .error-404 .assistance a:focus-visible {
+            outline: 2px solid #0559B3;
+            outline-offset: 2px;
+        }
+
+        .error-404 .button {
+            display: inline-block;
+            padding: 0.7rem 1.875rem 0.8rem 1.875rem;
+            background-color: #cf0000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+            border-radius: 2px;
+            transition: background-color 0.13s ease-in-out;
+        }
+
+        .error-404 .button:hover {
+            background-color: #961e00;
+        }
+
+        .error-404 .button:active {
+            background-color: #721700;
+        }
+
+        @keyframes errorTumbleweed {
+            0% {
+                transform: translate(0, 0) rotate(360deg);
+                opacity: .3;
+            }
+
+            25% {
+                transform: translate(0, 0) rotate(360deg);
+                opacity: 1;
+            }
+
+            100% {
+                /* Relative to the tumbleweed's own width so the roll scales with the scene. */
+                transform: translate(-171%, 0) rotate(0deg);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .error-404 .wrap {
+                padding: 24px 8px;
+            }
+
+            .error-404 .main-image {
+                max-width: 291px;
+            }
+
+            .error-404 h1 {
+                font-size: 24px;
+            }
+
+            .error-404 h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="error-header">
+        <a href="/" class="logo" title="LoopNet">
+            <img alt="LoopNet" src="/assets/images/logo-loopnet-red.svg" />
+        </a>
+    </header>
+    <main class="error-404">
+        <div class="wrap">
+            <figure class="main-image">
+                <img src="/assets/images/error/not-found.png" class="not-found" alt="" />
+                <img src="/assets/images/error/tumbleweed.png" class="weed" alt="" />
+                <img src="/assets/images/error/wind.png" class="wind" alt="" />
+            </figure>
+            <h1>Sorry, we can’t find what you’re looking for.</h1>
+            <h2>The file or page that you’re trying to access might have been moved.</h2>
+            <p>
+                <a href="/" class="button" title="Return to Homepage">Return to Homepage</a>
+            </p>
+            <div class="assistance">
+                <p>
+                    If you need assistance, contact <a href="/solutions/contact-us" title="Customer Support">Customer Support</a>
+ and include ticket #LN-9cbf14ab-9300-44cf-8511-33db3cc187c1                </p>
+            </div>
+        </div>
+    </main>
+    <script>
+        window.esc = false;window.el = false;
+        window.gState = "~%dv%=~%dvd%=~%huuruFrgh%=%737%/%sdjhqdph%=%huuru%/%xvhuNh|%=%9fzeu{u%/%ylvlwruLg%=%yu0[VWQYeh5.3Ve.iqSUS;XPD%/%xvhuW|sh%=%frqvxphu%/%phpehubw|sh%=%qrq0phpehu%/%yluwxdobxuo%=%2vhdufk2frpphufldo0uhdo0hvwdwh2qrzkhuh0}}2iru0vdoh2%!/%gqvs%=wuxh/%ozy%=idovh/%uweKrxvhFrqwh{w%=~%lvUweKrxvhFdpsdljq%=idovh/%kdvkhgHpdlo%=%yu{vwqyeh5.3ve.iqsus;xpd%/%lvDxfwlrq%=idovh!!/%uv%=~%f%=%hq0XV%/%g%=%ghvnwrs%/%ho%=idovh/%hof%=wuxh/%rw%=%pdfrv%/%ew%=%fkurph%/%wv%=idovh/%i%=^%heevdks%/%vv%/%ogsvw%`/%fxu%=%XVG%/%jpu%=%XV%/%sk%=~!!/%xv%=~%ylvlwLg%=%yw0Z\u003CWu;\u003C5y9XZt\u003COVSD3UJLT%!/%zdv%=~%oqXqltxhYlvlwru%=%yu0[VWQYeh5.3Ve.iqSUS;XPD%/%folhqwLS%=%841479154:167%/%frqwdfwLg%=%%/%orfdwlrqLg%=%%/%xvhuLg%=%%/%xvhuKdvFrVwduVxevfulswlrq%=%Idovh%/%lvSdlgXvhu%=%Idovh%/%xvhuLvSuhplxpOlvwhu%=%Idovh%!/%e%=%uhohdvh045;%/%w%=%JWP0ZF\u003COEE%/%p%=%DL}dV|FdMOQ:MIxfHxItbuNgg|6uMO3]nH8x8tX%/%du%=%kwwsv=22zzz1orrsqhw1frp%/%pdu%=%%/%ddu%=%%/%dsu%=%kwwsv=22zzz1orrsqhw1frp%/%dus%=%2urxwhv2oq%/%sxfw%=%suhvhqfh0xvhu0~3!%/%huh%=wuxh/%uhn%=%9OgYGEzwDDDDDKmgoJ[\\Z:\u003C9DUxN36wKtRmtyZuM%/%uhtn%=%9OgvLUzwDDDDDE6sL6ZSgJ73[iVmdX\u003CT\u003CdkjRy]\u003C%/%kvex%=%^Wr#Uhsodfh`%/%vvex%=%kwwsv=22vkdshv1orrsqhw1frp%/%fvx%=%kwwsv=22vhfxuh1frvwdujurxs1frp2frqqhfw2fkhfnvhvvlrq%/%yuw%=%kwwsv=22ydsl1orrsqhw1frp%/%jpf%=%orrsqhw%/%ho%=idovh/%sn%=%\u003C\u003Ch7\u003C8:94f;86\u003C5ehe89%/%sf%=%pw4%/%fpgx%=%kwwsv=22dffrxqw1orrsqhw1frp%/%orf%=~%ow%=6\u003C1377/%oq%=0::17;;!/%uj%=^%%/%vhdufk%/%frpphufldo0uhdo0hvwdwh%/%iru0vdoh%`/%eh%=^%osu%`/%pv%=~%ploolrqXvhuvVhdufkKrph%=%433%/%dyhudjhKrphEx|huvUhdfkhg%=%45/333%/%dyhudjhPrqwko|YlvlwruXsgdwhGdwh%=%Pdufk#64/#5358%!/%zvh%=%^Wr#Uhsodfh`%/%whq{%=%kwwsv=22zzz1whq0{1frp%/%ofv%=~%odqjxdjhGldorjWlwoh%=%Odqjxdjh#dqg#Uhjlrq%/%fxuuhqf|GldorjWlwoh%=%Fxuuhqf|%/%ylhzSuhihuhqfhvOdeho%=%Ylhz#P|#Suhihuhqfhv%/%ylhzSuhihuhqfhvWrrowls%=%Ylhz#P|#Suhihuhqfhv%/%ylhzSuhihuhqfhvXuo%=%2p|suhihuhqfhv2%/%odqjxdjhv%=^~%frgh%=%hq0FD%/%odqjxdjhOdeho%=%Hqjolvk%/%frxqwu|Odeho%=%Fdqdgd%/%grpdlq%=%orrsqhw1fd%/%ghvljqdwlrq%=%FD%!/~%frgh%=%hq0JE%/%odqjxdjhOdeho%=%Hqjolvk%/%frxqwu|Odeho%=%Xqlwhg#Nlqjgrp%/%grpdlq%=%orrsqhw1fr1xn%/%ghvljqdwlrq%=%XN%!/~%frgh%=%hq0XV%/%odqjxdjhOdeho%=%Hqjolvk%/%frxqwu|Odeho%=%Xqlwhg#Vwdwhv%/%grpdlq%=%orrsqhw1frp%/%ghvljqdwlrq%=%XV%!/~%frgh%=%hv0HV%/%odqjxdjhOdeho%=%Hvsdñro%/%frxqwu|Odeho%=%Hvsdñd%/%grpdlq%=%orrsqhw1hv%/%ghvljqdwlrq%=%HV%!/~%frgh%=%iu0FD%/%odqjxdjhOdeho%=%Iudqçdlv%/%frxqwu|Odeho%=%Fdqdgd%/%grpdlq%=%orrsqhw1fd%/%ghvljqdwlrq%=%FD%!/~%frgh%=%iu0IU%/%odqjxdjhOdeho%=%Iudqçdlv%/%frxqwu|Odeho%=%Iudqfh%/%grpdlq%=%orrsqhw1iu%/%ghvljqdwlrq%=%IU%!`/%fxuuhqflhv%=^~%frgh%=%XVG%/%qdph%=%XV#Groodu%/%v|pero%=%'%!/~%frgh%=%DXG%/%qdph%=%Dxvwudoldq#Groodu%/%v|pero%=%'%!/~%frgh%=%FDG%/%qdph%=%Fdqdgldq#Groodu%/%v|pero%=%'%!/~%frgh%=%JES%/%qdph%=%Srxqg#Vwhuolqj%/%v|pero%=%£%!/~%frgh%=%HXU%/%qdph%=%Hxur%/%v|pero%=%€%!`!/%qgi%=%P*2*g*2*||||%/%dgi%=%PPP#g/#||||%/%igz%=%Vxqgd|%/%qgk%=%\\PG%/%dgql%=%55;7::\u003C;;48%/%dgtd%=%Q%/%hvf%=idovh/%hfu%=idovh/%ldh%=wuxh!";
+    </script>
+        <script type="module" fetchpriority="low" src="/js/_shared.DASYWfqt.js"></script>
+        <script type="module" fetchpriority="low" src="/js/error.B7S0kQLi.js"></script>
+        <script type="module" fetchpriority="low" src="/js/suusqSXJ.js"></script>
+        <script type="module" fetchpriority="low" src="/js/chunk-common.CLnKvF32.js"></script>
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC9LBB" title="Google Tag Manager" width="0" height="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+    <div csgp-webAnalytics hidden></div>
+    <script async defer src="https://lib.csgpmarketplace.com/cdn/web-analytics/v1/web-analytics.bundle.min.js"></script>
+<script type="text/javascript"  src="/Bc0d52/3WsG/nGYdO/0H1G/VH7km/zVhupL5c/EQJOYExPAQ/IBlY/E1UtPQQd?v=ae7d750a-ef57-63d4-b8d4-7949935a0214" defer></script></body>
+</html>
