@@ -45,13 +45,8 @@ def _resolve_query(query):
     link = refs.parse_search_link(query)
     if link:
         return None, link["geo_slug"], link
-    pair = refs.parse_lat_lng(query)
-    if pair:
-        rows = parsers.parse_geography_lookup(fetch_geography(f"{pair[0]:.5f}, {pair[1]:.5f}"))
-        places = [row for row in rows if row["type"] in refs.SEARCHABLE_GEO_TYPES and row["slug"]]
-        if not places:
-            raise LoopNetNotFound(f"no LoopNet place around {pair[0]},{pair[1]}")
-        return places[0], places[0]["slug"], None
+    # a latitude,longitude point never gets here: the schema rejects it (the
+    # site's place lookup has no reverse geocoding)
     place = _place_slug(query)
     return place, place["slug"], None
 

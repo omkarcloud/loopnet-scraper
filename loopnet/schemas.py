@@ -15,7 +15,7 @@ ONE param per input (tripadvisor QueryOrIdField convention, never a sibling
     location   (brokers/search) a US state, a "City, ST" pair or a
                directory link
 """
-from marshmallow import ValidationError, missing, validates_schema
+from marshmallow import ValidationError, missing, validates, validates_schema
 
 from schema_fields import (BaseSchema, ChoiceField, Flag, NonNegativeNumber, PageField, PositiveInt, QueryField,
                            RefField, StrippedString)
@@ -68,8 +68,10 @@ def _money(desc):
 class ListingsSearchSchema(BaseSchema):
     query = QueryField(max_length=300, metadata={
         "description": "where to search: a city (Austin, TX), state (Texas), ZIP (90064), county (Los Angeles "
-                       "County, CA) or neighborhood as typed in the site's search box, a latitude,longitude pair, "
-                       "or a pasted loopnet.com search link (its property type, listing type, page and filters are reused)"})
+                       "County, CA) or neighborhood as typed in the site's search box, or a pasted loopnet.com "
+                       "search link (its property type, listing type, page and filters are reused). A "
+                       "latitude,longitude point is rejected: the site's place lookup has no reverse geocoding "
+                       "(it reads the digits as an address, 2026-11-10)"})
     listing_type = ChoiceField(list(refs.LISTING_TYPES), load_default="sale", metadata={
         "description": "sale (default), lease or auction"})
     property_type = ChoiceField(list(refs.PROPERTY_TYPES), load_default="all", metadata={
@@ -94,6 +96,13 @@ class ListingsSearchSchema(BaseSchema):
     page = PageField(max_page=refs.MAX_SEARCH_PAGE, metadata={
         "description": f"1-based page of 40 results; the site caps every search at {refs.MAX_RESULTS} results "
                        f"({refs.MAX_SEARCH_PAGE} pages)"})
+
+    @validates("query")
+    def _not_a_point(self, value, **kwargs):
+        if refs.parse_lat_lng(value) is not None:
+            raise ValidationError("LoopNet searches by place: give a city (Beverly Hills, CA), state, ZIP or "
+                                  "county, or paste a loopnet.com search link. A latitude,longitude point is "
+                                  "not a LoopNet place.")
 
     @validates_schema
     def _bounds(self, data, **kwargs):

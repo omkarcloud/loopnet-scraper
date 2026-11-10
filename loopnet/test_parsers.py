@@ -421,6 +421,20 @@ def test_whole_building_sale_takes_type_and_size_from_the_headline():
     assert r["spaces"] == [] and r["demographics"] == []
 
 
+def test_cap_rate_and_leased_share_come_from_the_header_kpis():
+    # the facts table of this listing has no Cap Rate row; the header KPIs read
+    # "Retail for Sale · 1,700 SF · 56% Leased · 5.75% Cap Rate"
+    r = P.parse_listing(fixture("listing_sale_cap_rate.html"))
+    assert r["id"] == 42371065
+    assert "cap_rate" not in r["property_facts"]
+    assert r["cap_rate"] == 5.75 and r["percent_leased"] == 56
+    # "$3,495,000 ($2,055.88/SF)": min / max are the total price, so no per-SF basis
+    assert r["price"]["min"] == 3495000 and r["price"]["basis"] is None
+    assert r["price_per_sf"]["min"] == 2055.88
+    assert P.parse_price("$10,495,000 ($2,116.35/SF)")["basis"] is None
+    assert P.parse_price("$41.40 SF/YR")["basis"] == "sf_year"
+
+
 def test_headline_size_is_not_the_building_when_the_page_does_not_prove_it(auction_listing, sale_listing):
     # condo units: the headline shows the unit sizes, the facts the building
     assert auction_listing["building_size"]["min"] == 61173
@@ -462,6 +476,8 @@ def test_broker_directory_page():
     assert mobile["mobile_phone"].startswith("+1")
     no_title = next(r for r in results if r["title"] is None)
     assert no_title["company"]
+    # a broker without a photo carries the site's relative no-photo placeholder
+    assert next(r for r in results if r["id"] == "xdfcgcpb")["photo"] is None
 
 
 def test_broker_search_results():
@@ -488,8 +504,18 @@ def test_broker_profile():
     assert r["markets"] == ["Los Angeles"] and r["languages"] == ["English"]
     assert r["bio"].startswith("Keith Fielding is a Principal")
     assert r["listings_count"] == 20 and len(r["listings"]) == 20
-    assert r["listings"][0]["id"] == 29122043 and r["listings"][0]["summary"] == "901 - 15,746 SF / Office"
-    assert r["listings"][0]["postal_code"] == "90064"
+    first = r["listings"][0]
+    assert first["id"] == 29122043 and first["summary"] == "901 - 15,746 SF / Office"
+    assert first["name"] == "CPLA" and first["address"] == "11340 W Olympic Blvd"
+    assert first["property_type"] == "Office" and first["size"]["min"] == 901 and first["size"]["max"] == 15746
+    assert first["postal_code"] == "90064"
+    # a listing without a name reads "| 12600 Chadron Ave": the address becomes its name
+    unnamed = next(l for l in r["listings"] if l["address"] == "12600 Chadron Ave")
+    assert unnamed["name"] == "12600 Chadron Ave" and unnamed["summary"] == "10,000 SF / Industrial"
+    assert not any((l["name"] or "").startswith("|") or (l["summary"] or "").startswith("/") for l in r["listings"])
+    # a listing without a size reads "/ Retail"
+    assert P._size_and_type("/ Retail") == ("Retail", None, "Retail")
+    assert P._name_and_address("| 8925 W Olympic Blvd") == ("8925 W Olympic Blvd", "8925 W Olympic Blvd")
     assert r["breadcrumbs"] == ["Broker Search", "United States", "California", "Santa Monica"]
 
 

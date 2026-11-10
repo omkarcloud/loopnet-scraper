@@ -240,9 +240,11 @@ def parse_price(value):
             continue
         amount *= {"k": 1e3, "m": 1e6, "b": 1e9}.get((suffix or "").lower(), 1)
         amounts.append(amount)
+    # the basis is the primary figure's: "$10,495,000 ($2,116.35/SF)" is a total
+    # price, its "/SF" belongs to the parenthesised secondary figure
     basis = None
     for pattern, name in _BASIS:
-        if re.search(pattern, text, re.I):
+        if re.search(pattern, primary, re.I):
             basis = name
             break
     currency = "USD" if "$" in text else None
@@ -1006,6 +1008,17 @@ _LISTING_TYPE_LABEL = {"ForSale": "sale", "ForLease": "lease", "ForAuction": "au
 
 
 _HEADLINE_TYPE = re.compile(r"^(.+?)\s+for\s+(?:sale|lease|auction)\b", re.I)
+_KPI_PERCENT = re.compile(r"^\s*([\d.,]+)\s*%\s*(.+?)\s*$")
+
+
+def _kpi_percent(kpis, label):
+    """A header KPI "5.75% Cap Rate" / "56% Leased" -> 5.75 / 56 for `label`
+    ("cap rate" / "leased"); the facts table does not always repeat them."""
+    for kpi in kpis or []:
+        match = _KPI_PERCENT.match(kpi or "")
+        if match and match.group(2).lower() == label:
+            return _number(match.group(1))
+    return None
 
 
 def _headline_type(heading):
@@ -1079,7 +1092,8 @@ def parse_listing(html, listing_id=None, link=None):
         "summary": header["kpis"],
         "price": price if not starting_bid else None,
         "rates": header["rates"],
-        "cap_rate": _percent(facts.get("cap_rate")),
+        "cap_rate": _percent(facts.get("cap_rate")) or _kpi_percent(header["kpis"], "cap rate"),
+        "percent_leased": _percent(facts.get("percent_leased")) or _kpi_percent(header["kpis"], "leased"),
         "price_per_sf": price_per_sf,
         "net_operating_income": parse_price(facts.get("net_operating_income") or facts.get("noi")) if (facts.get("net_operating_income") or facts.get("noi")) else None,
         "sale_type": sale_type,
@@ -1134,6 +1148,48 @@ def parse_listing(html, listing_id=None, link=None):
 
 # ---- broker directory + search -------------------------------------------------------------
 
+def _photo(src):
+    """A broker photo -> its absolute link; None for the site's relative
+    no-photo placeholder (/modules/brokerdirectory/.../no-photo.svg)."""
+    src = _clean(src)
+    if not src or "no-photo" in src:
+        return None
+    return _link(src)
+
+
+def _name_and_address(text):
+    """"The Baker Building | 2256 Barry Ave" -> (name, address); a listing
+    without a name reads "| 8925 W Olympic Blvd" and takes the address as
+    its name, like the listing page does."""
+    text = _clean(text)
+    if not text:
+        return None, None
+    if "|" not in text:
+        return text, None
+    name, _, address = text.partition("|")
+    name, address = _clean(name), _clean(address)
+    return name or address, address
+
+
+def _size_and_type(text):
+    """"5,000 SF / Office" -> ("5,000 SF / Office", size, "Office"); a
+    listing without a size reads "/ Retail" -> ("Retail", None, "Retail")."""
+    text = _clean(text)
+    if not text:
+        return None, None, None
+    if text.startswith("/"):
+        size_text, kind = "", text[1:]
+    elif " / " in text:
+        size_text, _, kind = text.partition(" / ")
+    elif re.search(r"\d", text):
+        size_text, kind = text, ""
+    else:
+        size_text, kind = "", text
+    size_text, kind = size_text.strip(), kind.strip()
+    summary = " / ".join(part for part in (size_text, kind) if part) or None
+    return summary, (parse_size(size_text) if size_text else None), (kind or None)
+
+
 def parse_broker_card(card):
     name_link = card.select_one(".broker-detail h4 a")
     href = _link(name_link.get("ng-href") or name_link.get("href")) if name_link else None
@@ -1164,7 +1220,7 @@ def parse_broker_card(card):
         "mobile_phone": phones.get("mobile"),
         "phones": phones or None,
         "has_email_form": card.select_one("a.broker-email") is not None,
-        "photo": _clean(photo.get("src")) if photo else None,
+        "photo": _photo(photo.get("src")) if photo else None,
         "company_logo": _clean(logo.get("src")) if logo else None,
     }
 
@@ -1223,8 +1279,10 @@ def parse_broker_profile(html, broker_id=None):
             continue
         address = ((item.get("contentLocation") or {}).get("address") or {})
         link = _clean(item.get("url")) or (item.get("@id") or "").split("#")[0] or None
-        listings.append({"id": _listing_id(link), "name": _clean(item.get("name")), "link": link,
-                         "summary": _clean(item.get("description")),
+        listing_name, listing_address = _name_and_address(item.get("name"))
+        summary, size, kind = _size_and_type(item.get("description"))
+        listings.append({"id": _listing_id(link), "name": listing_name, "address": listing_address, "link": link,
+                         "summary": summary, "property_type": kind, "size": size,
                          "image": (item.get("image") or {}).get("url") if isinstance(item.get("image"), dict) else None,
                          "city": _clean(address.get("addressLocality")), "state": _clean(address.get("addressRegion")),
                          "postal_code": _clean(address.get("postalCode")), "country": _clean(address.get("addressCountry"))})
@@ -1247,7 +1305,7 @@ def parse_broker_profile(html, broker_id=None):
         "tagline": _clean(_text(soup.select_one(".bd-content-tagline"))),
         "phone": phone,
         "phones": [_phone(p) for p in phones] or ([phone] if phone else []),
-        "photo": _clean(photo.get("src")) if photo else None,
+        "photo": _photo(photo.get("src")) if photo else None,
         "specialties": skills.get("specialties") or [],
         "property_types": skills.get("property_types") or [],
         "markets": skills.get("markets") or [],

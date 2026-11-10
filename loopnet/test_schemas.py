@@ -29,11 +29,11 @@ def test_search_defaults():
     assert loaded["min_price"] is None and loaded["keyword"] is None
 
 
-def test_search_accepts_link_latlng_and_filters():
+def test_search_accepts_link_and_filters():
     link = "https://www.loopnet.com/search/office-space/los-angeles-ca/for-lease/2/?min-rent=20"
     assert schemas.ListingsSearchSchema().load({"query": link})["query"] == link
     loaded = schemas.ListingsSearchSchema().load({
-        "query": "34.04,-118.44", "listing_type": "LEASE", "property_type": "Office", "sort": "newest",
+        "query": "Los Angeles, CA", "listing_type": "LEASE", "property_type": "Office", "sort": "newest",
         "price_per_sf": "yes", "min_rent": "20", "max_rent": "40.5", "min_size": "1000", "max_size": "5000",
         "min_cap_rate": "6", "max_cap_rate": "9", "min_year_built": "2000", "keyword": " creative ", "page": "19"})
     assert loaded["listing_type"] == "lease" and loaded["property_type"] == "office"
@@ -44,6 +44,7 @@ def test_search_accepts_link_latlng_and_filters():
 @pytest.mark.parametrize("data,field", [
     ({}, "query"),
     ({"query": ""}, "query"),
+    ({"query": "34.04,-118.44"}, "query"),        # no reverse geocoding on the site: a point is not a place
     ({"query": "Austin", "listing_type": "rent"}, "listing_type"),
     ({"query": "Austin", "property_type": "castle"}, "property_type"),
     ({"query": "Austin", "page": "20"}, "page"),
