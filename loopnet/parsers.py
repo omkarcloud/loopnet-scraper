@@ -1076,6 +1076,8 @@ def parse_listing(html, listing_id=None, link=None):
                      or _headline_building_size(header["kpis"], spaces, price, price_per_sf))
     canonical = soup.select_one('link[rel="canonical"]') or soup.select_one('meta[property="og:url"]')
     page_link = _clean(canonical.get("href") or canonical.get("content")) if canonical else None
+    # the facts table's own figure wins, a "0%" included (a vacant building is 0 % leased)
+    cap_rate, percent_leased = _percent(facts.get("cap_rate")), _percent(facts.get("percent_leased"))
     return {
         "id": _int(as_state.get("listingId")) or stamps["listing_id"] or listing_id,
         "link": page_link or link,
@@ -1092,8 +1094,8 @@ def parse_listing(html, listing_id=None, link=None):
         "summary": header["kpis"],
         "price": price if not starting_bid else None,
         "rates": header["rates"],
-        "cap_rate": _percent(facts.get("cap_rate")) or _kpi_percent(header["kpis"], "cap rate"),
-        "percent_leased": _percent(facts.get("percent_leased")) or _kpi_percent(header["kpis"], "leased"),
+        "cap_rate": cap_rate if cap_rate is not None else _kpi_percent(header["kpis"], "cap rate"),
+        "percent_leased": percent_leased if percent_leased is not None else _kpi_percent(header["kpis"], "leased"),
         "price_per_sf": price_per_sf,
         "net_operating_income": parse_price(facts.get("net_operating_income") or facts.get("noi")) if (facts.get("net_operating_income") or facts.get("noi")) else None,
         "sale_type": sale_type,
@@ -1173,12 +1175,15 @@ def _name_and_address(text):
 
 def _size_and_type(text):
     """"5,000 SF / Office" -> ("5,000 SF / Office", size, "Office"); a
-    listing without a size reads "/ Retail" -> ("Retail", None, "Retail")."""
+    listing without a size reads "/ Retail" -> ("Retail", None, "Retail"),
+    one without a type "460 - 33,199 SF /" -> ("460 - 33,199 SF", size, None)."""
     text = _clean(text)
     if not text:
         return None, None, None
     if text.startswith("/"):
         size_text, kind = "", text[1:]
+    elif text.endswith("/"):
+        size_text, kind = text[:-1], ""
     elif " / " in text:
         size_text, _, kind = text.partition(" / ")
     elif re.search(r"\d", text):

@@ -435,6 +435,20 @@ def test_cap_rate_and_leased_share_come_from_the_header_kpis():
     assert P.parse_price("$41.40 SF/YR")["basis"] == "sf_year"
 
 
+def test_a_zero_percent_fact_is_a_value_not_a_missing_one():
+    # a facts row reading "0%" wins over the header KPIs and is not dropped to null without them
+    html = fixture("listing_sale_cap_rate.html")
+    row = ('<li class="property-facts__item"><span class="property-facts__text">'
+           '<span class="property-facts__label">{}:</span><span class="property-facts__value">0%</span></span></li>')
+    column = '<ul class="property-facts__column">'
+    assert column in html
+    html = html.replace(column, column + row.format("Cap Rate") + row.format("Percent Leased"), 1)
+    r = P.parse_listing(html)
+    assert r["cap_rate"] == 0 and r["percent_leased"] == 0
+    r = P.parse_listing(html.replace("56% Leased", "Corner Lot").replace("5.75% Cap Rate", "Renovated"))
+    assert r["cap_rate"] == 0 and r["percent_leased"] == 0
+
+
 def test_headline_size_is_not_the_building_when_the_page_does_not_prove_it(auction_listing, sale_listing):
     # condo units: the headline shows the unit sizes, the facts the building
     assert auction_listing["building_size"]["min"] == 61173
@@ -515,6 +529,10 @@ def test_broker_profile():
     assert not any((l["name"] or "").startswith("|") or (l["summary"] or "").startswith("/") for l in r["listings"])
     # a listing without a size reads "/ Retail"
     assert P._size_and_type("/ Retail") == ("Retail", None, "Retail")
+    # a listing without a type reads "460 - 33,199 SF / ": no dangling slash in the summary or the size text
+    untyped = next(l for l in r["listings"] if l["address"] == "5601 W Slauson Ave")
+    assert untyped["summary"] == "460 - 33,199 SF" and untyped["property_type"] is None
+    assert untyped["size"] == {"text": "460 - 33,199 SF", "min": 460, "max": 33199, "unit": "sf"}
     assert P._name_and_address("| 8925 W Olympic Blvd") == ("8925 W Olympic Blvd", "8925 W Olympic Blvd")
     assert r["breadcrumbs"] == ["Broker Search", "United States", "California", "Santa Monica"]
 
