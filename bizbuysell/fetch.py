@@ -72,6 +72,7 @@ import config
 import egress
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
 from bizbuysell.refs import LANGUAGE_ID, SITE, SITE_ID
+from scraper_utils import responses, sessions
 
 IMPERSONATE = "chrome"
 PAGE_TIMEOUT = 40     # listing pages are ~400 KB
@@ -160,11 +161,7 @@ def _drop_session(blocked=False):
     on_gateway = _on_gateway()
     sess = getattr(_local, "session", None)
     _local.session = None
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions.close_quietly(sess)
     if blocked and config.bizbuysell_proxy() is None:
         until = time.time() + config.BIZBUYSELL_BLOCK_COOLDOWN
         with _fallback_lock:
@@ -231,15 +228,7 @@ def _looks_challenged(text):
 
 
 def _classify(resp, label):
-    if resp.status_code == 404:
-        raise BizBuySellNotFound(f"{label} not found")
-    if resp.status_code == 400:
-        raise BizBuySellBadRequest(resp.text[:200])
-    if resp.status_code in (401, 403, 429):
-        raise BizBuySellBlocked(f"HTTP {resp.status_code} for {label}")
-    if resp.status_code != 200:
-        raise BizBuySellUpstreamError(f"HTTP {resp.status_code} for {label}")
-    return resp.text
+    return responses.classify(resp, label, BizBuySellNotFound, BizBuySellBadRequest, BizBuySellBlocked, BizBuySellUpstreamError)
 
 
 def _post_json(path, body, label, method="POST"):

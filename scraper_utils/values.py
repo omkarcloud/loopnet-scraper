@@ -107,3 +107,38 @@ def first_int(value):
         return value
     out = first_float(value)
     return int(out) if out is not None else None
+
+
+# ---- numbers with a meaning ----------------------------------------------------------------
+
+def rounded(value, digits=2):
+    out = num(value)
+    return round(out, digits) if out is not None else None
+
+
+def amount(value):
+    """A money amount: whole numbers as int, others rounded to cents."""
+    out = num(value)
+    if out is None:
+        return None
+    return int(out) if float(out).is_integer() else round(out, 2)
+
+
+def rating(value):
+    """A 0-5 star rating rounded to 2 places; 0 / missing -> None."""
+    out = num(value)
+    return round(out, 2) if out else None
+
+
+def count(value):
+    """A non-negative count; negatives -> 0."""
+    out = to_int_round(value)
+    if out is None:
+        return None
+    return out if out >= 0 else 0
+
+
+def year(value):
+    """A founding year: 4-digit int, else None (the site stores 0 for unknown)."""
+    out = to_int_round(value)
+    return out if out and 1000 <= out <= 2100 else None

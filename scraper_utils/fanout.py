@@ -91,3 +91,37 @@ def gather_optional(run_parallel, mapping, optional, errors):
     keys = list(mapping)
     results = run_parallel([soft(mapping[k], None, errors) if k in optional else mapping[k] for k in keys])
     return dict(zip(keys, results))
+
+
+def per_call_map(fns, workers):
+    """per_call(), through Executor.map: after a failure the callables not yet
+    started are cancelled instead of run."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    with ThreadPoolExecutor(max_workers=min(workers, len(fns))) as pool:
+        return list(pool.map(lambda f: f(), fns))
+
+
+def on_pool(pool, fns):
+    """Run zero-arg callables on the site's own long-lived pool; results align
+    with `fns`. A single callable runs on the caller's thread."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    futures = [pool.submit(fn) for fn in fns]
+    return [f.result() for f in futures]
+
+
+def on_pool_caller_first(pool, fns):
+    """on_pool(), with the first callable run on the caller's thread while the
+    rest are on the pool (one worker fewer per call)."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    futures = [pool.submit(fn) for fn in fns[1:]]
+    first = fns[0]()
+    return [first] + [f.result() for f in futures]

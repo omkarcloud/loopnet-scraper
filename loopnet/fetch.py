@@ -52,6 +52,7 @@ import config
 import fastjson
 from loopnet.refs import SITE
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
+from scraper_utils import sessions as sessions_utils
 
 BOX_SITE = "loopnet"             # recipes/loopnet.py
 PAGE_TIMEOUT = 60                # search pages run 0.5-0.9 MB
@@ -206,11 +207,7 @@ def _drop_session(ident):
     sessions = getattr(_local, "sessions", None) or {}
     key = (ident.get("proxy"), browser_client.impersonation_for(ident, "chrome"))
     sess = sessions.pop(key, None)
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions_utils.close_quietly(sess)
 
 
 def _headers(ident, accept, referer=None, extra=None):
@@ -346,11 +343,7 @@ def _open_session():
 def _drop_open_session():
     sess = getattr(_open_local, "session", None)
     _open_local.session = None
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions_utils.close_quietly(sess)
 
 
 def _open_json(method, url, body, label):

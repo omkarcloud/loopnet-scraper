@@ -48,3 +48,33 @@ def keyed(store, key, build, cap):
     else:
         store.move_to_end(key)
     return sess
+
+
+def curl_session(impersonate, proxy=None, proxy_fn=None, accept_language=None):
+    """A new curl_cffi session. `proxy` is a URL the caller already has;
+    `proxy_fn` is asked for one after the session exists (the order some sites
+    count on). `accept_language(proxy)` names the language the session sends."""
+    from curl_cffi import requests as curl_requests
+    sess = curl_requests.Session(impersonate=impersonate)
+    if proxy_fn is not None:
+        proxy = proxy_fn()
+    if proxy:
+        sess.proxies = {"http": proxy, "https": proxy}
+    if accept_language is not None:
+        sess.headers["accept-language"] = accept_language(proxy)
+    return sess
+
+
+def speaking(sess, language):
+    """The session, announcing `language` as its Accept-Language."""
+    sess.headers["accept-language"] = language
+    return sess
+
+
+def thread_session(local, build):
+    """The thread's session, built on first use."""
+    sess = getattr(local, "session", None)
+    if sess is None:
+        sess = build()
+        local.session = sess
+    return sess

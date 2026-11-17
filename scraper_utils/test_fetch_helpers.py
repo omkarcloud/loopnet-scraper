@@ -99,7 +99,7 @@ def _trace(loop, script, retries, monkeypatch):
 @pytest.mark.parametrize("script", SCRIPTS)
 def test_run_is_the_plain_loop(script, retries, monkeypatch):
     def shared(fn, config, local, drop):
-        return retry.run(fn, config, Boom, drop)
+        return retry.run(fn, config, Boom, lambda e: drop())
     expected = _trace(_plain, script, retries, monkeypatch)
     assert _trace(shared, script, retries, monkeypatch) == expected
     assert _trace(_sleep_after_handler, script, retries, monkeypatch) == expected
@@ -109,7 +109,7 @@ def test_run_is_the_plain_loop(script, retries, monkeypatch):
 @pytest.mark.parametrize("script", SCRIPTS)
 def test_run_flagged_is_the_ladder_loop(script, retries, monkeypatch):
     def shared(fn, config, local, drop):
-        return retry.run_flagged(fn, config, Boom, drop, local)
+        return retry.run_flagged(fn, config, Boom, lambda e: drop(), local)
     assert _trace(shared, script, retries, monkeypatch) == _trace(_ladder, script, retries, monkeypatch)
 
 
@@ -123,7 +123,7 @@ def test_run_reads_the_config_on_every_pass(monkeypatch):
         raise Boom("x")
 
     with pytest.raises(Boom):
-        retry.run(fn, config, Boom, lambda: None)
+        retry.run(fn, config, Boom, None)
     assert slept == [1]
 
 
@@ -312,3 +312,92 @@ def test_dump(tmp_path, monkeypatch):
     monkeypatch.setenv("X_DEBUG_DIR", str(tmp_path / "a-file"))
     (tmp_path / "a-file").write_text("in the way")
     debug.dump("X_DEBUG_DIR", "c", "body")                # cannot create the folder: swallowed
+
+
+# ---- session builders, response classification, the exit ladder, the shared payload cache -------
+
+class _Curl:
+    def __init__(self, impersonate=None):
+        self.impersonate, self.headers, self.proxies = impersonate, {}, None
+
+
+def test_curl_session_and_thread_session(monkeypatch):
+    import curl_cffi.requests
+    monkeypatch.setattr(curl_cffi.requests, "Session", _Curl)
+    order = []
+    sess = sessions.curl_session("chrome", proxy_fn=lambda: order.append("proxy asked") or "http://p",
+                                 accept_language=lambda proxy: f"lang({proxy})")
+    assert (sess.impersonate, sess.proxies, sess.headers) == ("chrome", {"http": "http://p", "https": "http://p"},
+                                                             {"accept-language": "lang(http://p)"})
+    direct = sessions.curl_session("chrome", None)
+    assert direct.proxies is None and direct.headers == {}
+    assert sessions.speaking(direct, "en-AU").headers == {"accept-language": "en-AU"}
+    local = threading.local()
+    built = []
+    first = sessions.thread_session(local, lambda: built.append(1) or _Curl())
+    assert sessions.thread_session(local, lambda: built.append(1) or _Curl()) is first and built == [1] and local.session is first
+
+
+def test_classify():
+    from scraper_utils import responses
+
+    class NotFound(Exception): pass
+    class BadRequest(Exception): pass
+    class Blocked(Exception): pass
+    class Upstream(Exception): pass
+
+    def read(status):
+        resp = SimpleNamespace(status_code=status, text="x" * 500)
+        return responses.classify(resp, "the page", NotFound, BadRequest, Blocked, Upstream)
+
+    assert read(200) == "x" * 500
+    for status, error, message in [(404, NotFound, "the page not found"), (400, BadRequest, "x" * 200),
+                                   (401, Blocked, "HTTP 401 for the page"), (403, Blocked, "HTTP 403 for the page"),
+                                   (429, Blocked, "HTTP 429 for the page"), (500, Upstream, "HTTP 500 for the page"),
+                                   (204, Upstream, "HTTP 204 for the page")]:
+        with pytest.raises(error) as caught:
+            read(status)
+        assert str(caught.value) == message
+
+
+def test_current_step(monkeypatch):
+    from scraper_utils import ladder
+    monkeypatch.setattr(time, "time", lambda: 1000.0)
+    local = threading.local()
+    assert ladder.current_step(2, 2000.0, local, lambda step: True) == 2          # cooling down, flag unset
+    assert ladder.current_step(2, 500.0, local, lambda step: True) == 0           # cooldown over
+    local.past_gateway = True
+    assert ladder.current_step(1, 2000.0, local, lambda step: step == 1) == 2     # last retry passes the gateway
+    assert ladder.current_step(2, 2000.0, local, lambda step: step == 1) == 2     # not a gateway step: stays
+
+
+def test_more_fan_out_shapes():
+    with ThreadPoolExecutor(2) as pool:
+        for run in (lambda fns: fanout.on_pool(pool, fns), lambda fns: fanout.on_pool_caller_first(pool, fns),
+                    lambda fns: fanout.per_call_map(fns, 2)):
+            assert run([]) == [] and run([lambda: 1]) == [1] and run([lambda: 1, lambda: 2, lambda: 3]) == [1, 2, 3]
+            with pytest.raises(Boom):
+                run([lambda: 1, _fail, lambda: 3])
+        main = threading.current_thread().name
+        names = fanout.on_pool_caller_first(pool, [lambda: threading.current_thread().name] * 2)
+        assert names[0] == main and names[1] != main
+
+
+def test_shared_raw_uses_the_response_cache_when_there_is_one(monkeypatch):
+    import sys
+    import types
+    calls = []
+
+    def memoized(key, build, ttl=None):
+        calls.append(("memo", key, ttl))
+        return build()
+
+    monkeypatch.setitem(sys.modules, "cache", None)                              # no cache module: memo alone
+    assert memo.shared_raw(memoized, "site.raw.", 600, "page", {"b": 2, "a": 1}, lambda: "built", 30) == "built"
+    assert calls == [("memo", ("page", '{"a": 1, "b": 2}'), 30)]
+    fake = types.ModuleType("cache")
+    fake.cached_call = lambda ns, params, impl, ttl: calls.append(("cache", ns, params, ttl)) or impl()
+    monkeypatch.setitem(sys.modules, "cache", fake)
+    del calls[:]
+    assert memo.shared_raw(memoized, "site.raw.", 600, "page", {"a": 1}, lambda: "built", 5000) == "built"
+    assert calls == [("memo", ("page", '{"a": 1}'), 600), ("cache", "site.raw.page", {"a": 1}, 5000)]

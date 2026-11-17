@@ -74,3 +74,11 @@ def test_num_and_to_int_round_match_the_code_they_replaced():
         assert _old_to_int(value) == V.to_int_round(value), value
     # the one deliberate difference: infinity is junk, not a number
     assert _old_num("inf") == math.inf and V.num("inf") is None
+
+
+def test_numbers_with_a_meaning():
+    assert V.rounded("3.14159") == 3.14 and V.rounded("3.14159", 3) == 3.142 and V.rounded("x") is None
+    assert V.amount("1,200") == 1200 and isinstance(V.amount("1,200.0"), int) and V.amount("12.345") == 12.35
+    assert V.rating("4.456") == 4.46 and V.rating(0) is None and V.rating(None) is None
+    assert V.count("12") == 12 and V.count(-3) == 0 and V.count("x") is None
+    assert V.year("1999") == 1999 and V.year(0) is None and V.year(99999) is None

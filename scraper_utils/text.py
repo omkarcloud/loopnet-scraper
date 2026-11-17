@@ -14,6 +14,8 @@ import html as html_lib
 import re
 from html.parser import HTMLParser
 
+from scraper_utils.values import as_list
+
 # ---- short strings -------------------------------------------------------------------------
 
 def stripped(value):
@@ -77,6 +79,16 @@ def lower_snake(value):
     if not value:
         return None
     return re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_") or None
+
+
+def text_list(values):
+    """A list of strings, trimmed, deduped, empties dropped."""
+    out = []
+    for value in as_list(values):
+        item = clean(value)
+        if item and item not in out:
+            out.append(item)
+    return out
 
 
 # ---- HTML ----------------------------------------------------------------------------------
