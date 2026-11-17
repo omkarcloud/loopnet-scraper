@@ -17,19 +17,11 @@ from marshmallow import ValidationError, validates_schema
 from schema_fields import (BaseSchema, ChoiceField, CommaListField, Flag, PageField, PageSizeField,
                            PositiveInt, RefField, StrippedString)
 from bizbuysell import refs
+from scraper_utils.schema import max_length as _max_length
 
 MAX_SEARCH_PAGE_SIZE = 200     # the site serves up to 500 per call; 200 keeps a page under ~1 MB
 MAX_BROKER_PAGE_SIZE = 100     # the directory's own ceiling
 MAX_FRANCHISE_PAGE_SIZE = 200  # the franchise search's own ceiling
-
-
-def _max_length(n):
-    """validate.Length(max=n) that tolerates the None StrippedString returns
-    for an empty value (marshmallow runs validators on it; len(None) is a 500)."""
-    def check(value):
-        if value is not None and len(value) > n:
-            raise ValidationError(f"Longer than maximum length {n}.")
-    return check
 
 
 def _optional_query(description, n=200):

@@ -60,3 +60,15 @@ def bizbuysell_proxy():
 def bizbuysell_fallback_proxy():
     """The proxy a blocked direct businesses-for-sale session moves to (None = no fallback)."""
     return os.environ.get("BIZBUYSELL_FALLBACK_PROXY") or None
+
+
+# ---- added by the sync: defaults for a direct run ----
+BIZBUYSELL_FALLBACK_EXIT = None
+BIZBUYSELL_LAST_EXIT = None
+def bizbuysell_last_proxy():
+    return None
+
+
+def gateway_exit(exit=None):
+    return None
+

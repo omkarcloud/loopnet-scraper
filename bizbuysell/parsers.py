@@ -46,6 +46,7 @@ from bs4 import BeautifulSoup
 
 from bizbuysell import refs
 from bizbuysell.refs import IMAGE_HOST, SITE
+from scraper_utils.values import to_int as _int
 
 _NOT_DISCLOSED = {"", "not disclosed", "n/a", "na", "-", "none", "null"}
 _NUMBER_RE = re.compile(r"-?\d[\d,]*\.?\d*")
@@ -89,13 +90,6 @@ def _money(value):
     """A non-positive amount is the site's "not disclosed" placeholder."""
     number = _number(value)
     return number if number is not None and number > 0 else None
-
-
-def _int(value):
-    try:
-        return int(value) if value is not None and not isinstance(value, bool) else None
-    except (TypeError, ValueError):
-        return None
 
 
 def _bool(value):

@@ -11,3 +11,16 @@ def site_accept_language(site=None):
 
 def accept_language(proxy=None, country=None):
     return ACCEPT_LANGUAGE
+
+
+def exit_proxy(exit=None):
+    return exit if exit and "://" in str(exit) else None
+
+
+def new_session(exit=None, impersonate="chrome", **kw):
+    from curl_cffi import requests as curl
+    sess = curl.Session(impersonate=impersonate, **kw)
+    proxy = exit_proxy(exit)
+    if proxy:
+        sess.proxies = {"http": proxy, "https": proxy}
+    return sess
